@@ -21,3 +21,5 @@ alias dirbox='cd ~/Dropbox'
 alias project='cd ~/Dropbox/Projects'
 alias downloads='cd ~/Downloads'
 alias neo4jmanager='/home/tom/MEGA/Neo4j/neo4j-desktop-1.0.4-x86_64.AppImage'
+alias kraken="/usr/share/gitkraken/gitkraken %U"
+alias rambox="/home/tom/Rambox-0.5.13-x64.AppImage %U"

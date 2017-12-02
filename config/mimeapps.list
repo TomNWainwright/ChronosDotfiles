@@ -1,2 +1,4 @@
 [Added Associations]
 text/plain=mousepad.desktop;libreoffice-writer.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-iso9660-appimage=org.gnome.FileRoller.desktop;
