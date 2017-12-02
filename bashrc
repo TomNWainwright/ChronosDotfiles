@@ -137,3 +137,7 @@ export LD_LIBRARY_PATH=~/anaconda3/lib/python3.6/site-packages/wx:$LD_LIBRARY_PA
 
 export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
+
+
+alias kraken="/usr/share/gitkraken/gitkraken %U"
+setxkbmap -layout gb
