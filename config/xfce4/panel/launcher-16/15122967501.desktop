@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rambox
+Comment=Rambox
+Exec="/home/tom/apps/Rambox-0.5.13-x64.AppImage" %U
+Icon=appimagekit-rambox
+Path=
+Terminal=false
+StartupNotify=false

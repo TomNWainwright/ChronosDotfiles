@@ -29,9 +29,13 @@
         <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
-        <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
+        <value type="int" value="20"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
       </property>
     </property>
   </property>
@@ -47,9 +51,11 @@
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
+        <value type="string" value="rambox"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="megasync"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="thunar"/>
         <value type="string" value="update-notifier"/>
       </property>
     </property>
@@ -70,14 +76,26 @@
         <value type="string" value="15122061343.desktop"/>
       </property>
     </property>
-    <property name="plugin-12" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15122061344.desktop"/>
-      </property>
-    </property>
     <property name="plugin-13" type="string" value="separator"/>
     <property name="plugin-14" type="string" value="directorymenu">
       <property name="base-directory" type="string" value="/home/tom"/>
     </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15122967501.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15122968242.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15122968783.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher"/>
+    <property name="plugin-20" type="string" value="whiskermenu"/>
   </property>
 </channel>
