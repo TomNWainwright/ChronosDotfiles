@@ -17,8 +17,8 @@
 	"enable_hidpi_support": false,
 	"default_service": "ramboxTab",
 	"x": 0,
-	"y": 18,
+	"y": 0,
 	"width": 1920,
-	"height": 1029,
-	"maximized": false
+	"height": 1047,
+	"maximized": true
 }

@@ -1,3 +1,6 @@
 alias kraken="/usr/share/gitkraken/gitkraken %U"
 alias rambox="/home/tom/apps/Rambox-0.5.13-x64.AppImage %U"
-setxkbmap -layout gbxiwi
+setxkbmap -layout gb
+setxkbmap -option caps:super
+
+

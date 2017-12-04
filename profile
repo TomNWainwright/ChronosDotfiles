@@ -21,3 +21,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 setxkbmap -layout gb
+
+setxkbmap -option caps:super

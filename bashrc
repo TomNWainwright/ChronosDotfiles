@@ -141,3 +141,4 @@ export LANG=C.UTF-8
 
 
 setxkbmap -layout gb
+setxkbmap -option caps:super
