@@ -4,7 +4,8 @@ rofi.kb-mode-next:                   Alt+Tab,Control+Tab
 "Switch to the previous mode." Set from: Default
 rofi.kb-mode-previous:               Shift+Alt+Tab,Control+Shift+Tab
 "Go to the previous column" Set from: Default
-
+"Window Format. w (desktop name), t (title), n (name), r (role), c (class)" Set from: Default
+rofi.window-format:                     {c}   {t}  {w:20}
 
 
 ! "Enabled modi" Set from: Default

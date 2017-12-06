@@ -3,6 +3,6 @@ Type=Application
 Version=1.0
 Name=rambox
 Comment=ramboxstartup script
-Exec=/tmp/.mount_MlkYkA/usr/bin/rambox
+Exec=/tmp/.mount_dpPplf/usr/bin/rambox
 StartupNotify=false
 Terminal=false

@@ -34,7 +34,7 @@
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Alt&gt;Tab" type="string" value="rofi -modi &quot;window,drun,run,dmenu&quot; -show window -sidebar-mode "/>
+      <property name="&lt;Alt&gt;Tab" type="string" value="rofi -modi &quot;window,drun,run,dmenu,notes:~/.config/rofi/notes.sh&quot; -show window -sidebar-mode "/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
