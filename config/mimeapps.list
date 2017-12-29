@@ -5,3 +5,7 @@ application/x-iso9660-appimage=org.gnome.FileRoller.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 application/x-shellscript=mousepad.desktop;
 text/x-python=mousepad.desktop;
+application/json=mousepad.desktop;
+application/x-ipynb+json=mousepad.desktop;
+image/png=ristretto.desktop;
+text/x-bibtex=mousepad.desktop;

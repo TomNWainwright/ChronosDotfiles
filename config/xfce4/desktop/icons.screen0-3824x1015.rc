@@ -1,20 +1,32 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[4.1 KB Volume]
-row=2
+[/home/tom/Desktop/Opera Snapshot_2017-12-15_172447_twitter.com.png]
+row=5
+col=1
+
+[/home/tom/Desktop/clinical depression.png]
+row=6
+col=1
+
+[ROOT-A]
+row=6
 col=0
 
 [416 MB Volume]
 row=4
 col=1
 
-[ROOT-A]
-row=1
+[74743dbc-f8b3-48d2-b0f4-068a514e8228]
+row=7
 col=0
 
-[d6203b03-4f69-43e1-8b6a-12a5f3145ab3]
-row=4
+[4.1 KB Volume]
+row=0
+col=0
+
+[6107-4EB4]
+row=3
 col=0
 
 [39aa3f15-278e-4d2c-a0e1-55ece8eb2c00]
@@ -25,12 +37,8 @@ col=1
 row=8
 col=0
 
-[74743dbc-f8b3-48d2-b0f4-068a514e8228]
-row=7
-col=0
-
-[6107-4EB4]
-row=3
+[d6203b03-4f69-43e1-8b6a-12a5f3145ab3]
+row=4
 col=0
 
 [Trash]

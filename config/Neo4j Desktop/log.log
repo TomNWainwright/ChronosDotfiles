@@ -1,0 +1,72 @@
+[2017-12-11 10:19:15:0223] [warn] auth is not initialised yet
+[2017-12-12 11:15:45:0320] [error] Error: Error: net::ERR_NAME_RESOLUTION_FAILED
+    at CancellationToken.createPromise (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/builder-util-runtime/src/CancellationToken.ts:51:5)
+    at ElectronHttpExecutor.doApiRequest (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/builder-util-runtime/src/httpExecutor.ts:69:30)
+    at ElectronHttpExecutor.request (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/builder-util-runtime/src/httpExecutor.ts:61:17)
+    at /tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/src/GenericProvider.ts:29:46
+    at Generator.next (<anonymous>)
+From previous event:
+    at GenericProvider.getLatestVersion (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/out/GenericProvider.js:72:11)
+    at /tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/src/AppUpdater.ts:248:38
+From previous event:
+    at AppImageUpdater.doCheckForUpdates (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:324:11)
+    at /tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/src/AppUpdater.ts:225:25
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at AppImageUpdater._checkForUpdates (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:277:11)
+    at AppImageUpdater.checkForUpdates (/tmp/.mount_neo4j-irwCqx/app/resources/app.asar/node_modules/electron-updater/src/AppUpdater.ts:174:35)
+    at callFunction (/tmp/.mount_neo4j-irwCqx/app/resources/electron.asar/browser/rpc-server.js:249:18)
+    at EventEmitter.<anonymous> (/tmp/.mount_neo4j-irwCqx/app/resources/electron.asar/browser/rpc-server.js:357:5)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+    at WebContents.<anonymous> (/tmp/.mount_neo4j-irwCqx/app/resources/electron.asar/browser/api/web-contents.js:256:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+[2017-12-19 16:54:42:0432] [error] Cannot download differentially, fallback to full download: Error: Server doesn't support Accept-Ranges
+    at ClientRequest.request.httpExecutor.doRequest.response (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/differentialPackage.ts:301:20)
+    at Object.onceWrapper (events.js:293:19)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at URLRequest.ClientRequest.urlRequest.on (/tmp/.mount_neo4j-hwA5Gr/app/resources/electron.asar/browser/api/net.js:207:12)
+    at emitOne (events.js:96:13)
+    at URLRequest.emit (events.js:191:7)
+From previous event:
+    at DifferentialDownloader.request (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/differentialPackage.ts:291:5)
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/differentialPackage.ts:283:16
+    at Generator.next (<anonymous>)
+From previous event:
+    at DifferentialDownloader.readRemoteBytes (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/out/differentialPackage.js:301:11)
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/differentialPackage.ts:73:42
+    at Generator.next (<anonymous>)
+From previous event:
+    at DifferentialDownloader.downloadAppImage (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/out/differentialPackage.js:107:11)
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/AppImageUpdater.ts:62:12
+    at Generator.next (<anonymous>)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:132:33
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/BaseUpdater.ts:43:13
+    at Generator.next (<anonymous>)
+    at FSReqWrap.oncomplete (fs.js:114:15)
+From previous event:
+    at AppImageUpdater.executeDownload (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:95:11)
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/AppImageUpdater.ts:46:16
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.doDownloadUpdate (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:139:11)
+    at /tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/src/AppUpdater.ts:304:25
+    at Generator.next (<anonymous>)
+From previous event:
+    at AppImageUpdater.downloadUpdate (/tmp/.mount_neo4j-hwA5Gr/app/resources/app.asar/node_modules/electron-updater/out/AppUpdater.js:352:11)
+    at callFunction (/tmp/.mount_neo4j-hwA5Gr/app/resources/electron.asar/browser/rpc-server.js:249:18)
+    at EventEmitter.<anonymous> (/tmp/.mount_neo4j-hwA5Gr/app/resources/electron.asar/browser/rpc-server.js:357:5)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+    at WebContents.<anonymous> (/tmp/.mount_neo4j-hwA5Gr/app/resources/electron.asar/browser/api/web-contents.js:256:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)

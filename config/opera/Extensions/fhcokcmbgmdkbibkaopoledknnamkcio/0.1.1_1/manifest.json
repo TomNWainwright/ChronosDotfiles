@@ -1,0 +1,26 @@
+{
+   "description": "Minimalistic todo extension for your sidebar",
+   "developer": {
+      "name": "lammmas"
+   },
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvhTqwTewy4UFjCWB9MhXwO2TW+/8zgYi4FLpDZTcRzStAtwK36fufsBis1mTBKvmavnftOdaE5W3/ZTdIUN4xvS/WCRAdWhyHO9d2b33nbp0UjI5vmGCh8TxZaI7AP0IIo/nYirGYN/ZeqitLku5nRUAqxvEQGfcNG5Hqro1Keu+jy08aHptrd/uNwNyJ0cHlsynqTJpG6cFwRYNtbjEFD4rrTvD8mgF21Pt/uaqTS6qit27XOucOwn3OIEaEaeV/W3X9OMu1+EAfZe4FI+1ZQf7QBheC64y1wMCtrJPmJxew50D49lbFD5GDUoGRz/+qfXxhiF7bFOKiKW5bRdzMQIDAQAB",
+   "manifest_version": 2,
+   "name": "Sidebar Todo",
+   "permissions": [  ],
+   "sidebar_action": {
+      "default_icon": {
+         "128": "icons/128.png",
+         "16": "icons/16.png",
+         "48": "icons/48.png"
+      },
+      "default_panel": "sidebar.html",
+      "default_title": "Todo"
+   },
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "0.1.1"
+}

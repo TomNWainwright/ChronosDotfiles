@@ -1,9 +1,10 @@
 #!/bin/bash
 
-
+cd ~/
 rm .bash_aliases .profile .bash_logout .bashrc .profile .xiwirc .xscreensaver
 rm -R .config
-cd ~/Dotfiles
+
+cd Dotfiles
 
 ln -s ~/Dotfiles/profile ~/.profile 
 ln -s ~/Dotfiles/bash_aliases ~/.bash_aliases

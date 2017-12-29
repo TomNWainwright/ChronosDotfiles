@@ -1,3 +1,9 @@
-2017/12/06-11:27:05.368 19398 Reusing MANIFEST /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2017/12/06-11:27:05.370 19398 Recovering log #21
-2017/12/06-11:27:05.408 19398 Reusing old log /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/000021.log 
+2017/12/24-17:34:32.929 25999 Reusing MANIFEST /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/12/24-17:34:32.930 25999 Recovering log #284
+2017/12/24-17:34:32.942 25999 Reusing old log /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/000284.log 
+2017/12/24-17:37:04.249 29591 Level-0 table #288: started
+2017/12/24-17:37:04.294 29591 Level-0 table #288: 2050082 bytes OK
+2017/12/24-17:37:04.297 29591 Delete type=0 #284
+2017/12/24-18:43:19.421 29591 Level-0 table #290: started
+2017/12/24-18:43:19.672 29591 Level-0 table #290: 2072075 bytes OK
+2017/12/24-18:43:19.674 29591 Delete type=0 #287

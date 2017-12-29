@@ -1,0 +1,15 @@
+2017/12/29-10:43:22.535 6051 Reusing MANIFEST /home/tom/.config/opera/IndexedDB/https_game283144.konggames.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/12/29-10:43:22.535 6051 Recovering log #3
+2017/12/29-10:43:22.535 6051 Reusing old log /home/tom/.config/opera/IndexedDB/https_game283144.konggames.com_0.indexeddb.leveldb/000003.log 
+2017/12/29-11:17:56.023 31656 Level-0 table #5: started
+2017/12/29-11:17:56.546 31656 Level-0 table #5: 2209814 bytes OK
+2017/12/29-11:17:56.550 31656 Delete type=0 #3
+2017/12/29-12:13:47.313 31656 Level-0 table #7: started
+2017/12/29-12:13:47.861 31656 Level-0 table #7: 2233362 bytes OK
+2017/12/29-12:13:47.871 31656 Delete type=0 #4
+2017/12/29-12:18:28.379 31656 Compacting 1@1 + 1@2 files
+2017/12/29-12:18:28.420 31656 Generated table #8@1: 51 keys, 20738 bytes
+2017/12/29-12:18:28.420 31656 Compacted 1@1 + 1@2 files => 20738 bytes
+2017/12/29-12:18:28.422 31656 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/12/29-12:18:28.422 31656 Delete type=2 #5
+2017/12/29-12:18:28.425 31656 Delete type=2 #7

@@ -1,0 +1,29 @@
+2017/12/20-16:12:22.243 31543 Reusing MANIFEST /home/tom/.config/opera/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/12/20-16:13:08.182 32751 Level-0 table #5: started
+2017/12/20-16:13:08.292 32751 Level-0 table #5: 8625818 bytes OK
+2017/12/20-16:13:08.294 32751 Delete type=0 #3
+2017/12/20-16:13:10.381 32751 Level-0 table #7: started
+2017/12/20-16:13:11.514 32751 Level-0 table #7: 8076297 bytes OK
+2017/12/20-16:13:11.520 32751 Delete type=0 #4
+2017/12/20-17:12:40.008 32751 Level-0 table #9: started
+2017/12/20-17:12:40.106 32751 Level-0 table #9: 8076247 bytes OK
+2017/12/20-17:12:40.110 32751 Delete type=0 #6
+2017/12/20-18:12:45.849 32751 Level-0 table #11: started
+2017/12/20-18:12:45.930 32751 Level-0 table #11: 8076248 bytes OK
+2017/12/20-18:12:45.933 32751 Delete type=0 #8
+2017/12/20-20:51:15.223 32751 Level-0 table #13: started
+2017/12/20-20:51:15.379 32751 Level-0 table #13: 8525355 bytes OK
+2017/12/20-20:51:15.388 32751 Delete type=0 #10
+2017/12/20-21:00:30.570 32751 Level-0 table #15: started
+2017/12/20-21:00:30.672 32751 Level-0 table #15: 8230224 bytes OK
+2017/12/20-21:00:30.676 32751 Delete type=0 #12
+2017/12/20-21:00:30.684 32751 Compacting 4@0 + 1@1 files
+2017/12/20-21:00:30.955 32751 Generated table #16@0: 3 keys, 8075779 bytes
+2017/12/20-21:00:30.965 32751 Generated table #17@0: 12 keys, 154568 bytes
+2017/12/20-21:00:30.965 32751 Compacted 4@0 + 1@1 files => 8230347 bytes
+2017/12/20-21:00:30.966 32751 compacted to: files[ 0 2 1 0 0 0 0 ]
+2017/12/20-21:00:30.966 32751 Delete type=2 #9
+2017/12/20-21:00:30.967 32751 Delete type=2 #15
+2017/12/20-21:00:30.969 32751 Delete type=2 #7
+2017/12/20-21:00:30.970 32751 Delete type=2 #13
+2017/12/20-21:00:30.972 32751 Delete type=2 #11

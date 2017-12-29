@@ -1,0 +1,138 @@
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-19 16:56:13.594+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-19 16:56:13.665+0000 INFO  Starting...
+2017-12-19 16:56:15.580+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-19 16:56:15.612+0000 INFO  Initiating metrics...
+2017-12-19 16:56:22.618+0000 INFO  Started.
+2017-12-19 16:56:23.029+0000 INFO  Mounted REST API at: /db/manage
+2017-12-19 16:56:25.338+0000 INFO  Remote interface available at http://localhost:7474/
+2017-12-19 16:56:42.330+0000 INFO  Neo4j Server shutdown initiated by request
+2017-12-19 16:56:42.395+0000 INFO  Stopping...
+2017-12-19 16:56:42.660+0000 INFO  Stopped.
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-19 16:56:49.698+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-19 16:56:49.775+0000 INFO  Starting...
+2017-12-19 16:56:51.263+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-19 16:56:51.295+0000 INFO  Initiating metrics...
+2017-12-19 16:56:56.735+0000 INFO  Started.
+2017-12-19 16:56:57.117+0000 INFO  Mounted REST API at: /db/manage
+2017-12-19 16:56:58.819+0000 INFO  Remote interface available at http://localhost:7474/
+2017-12-19 18:29:34.859+0000 INFO  Neo4j Server shutdown initiated by request
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-19 21:55:00.497+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-19 21:55:00.586+0000 INFO  Starting...
+2017-12-19 21:55:02.250+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-19 21:55:02.274+0000 INFO  Initiating metrics...
+2017-12-19 21:55:08.776+0000 INFO  Started.
+2017-12-19 21:55:09.079+0000 INFO  Mounted REST API at: /db/manage
+2017-12-19 21:55:10.916+0000 INFO  Remote interface available at http://localhost:7474/
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-20 16:13:14.404+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-20 16:13:14.512+0000 INFO  Starting...
+2017-12-20 16:13:16.683+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-20 16:13:16.712+0000 INFO  Initiating metrics...
+2017-12-20 16:13:27.482+0000 INFO  Started.
+2017-12-20 16:13:28.036+0000 INFO  Mounted REST API at: /db/manage
+2017-12-20 16:13:31.571+0000 INFO  Remote interface available at http://localhost:7474/
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-21 12:02:04.146+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-21 12:02:04.230+0000 INFO  Starting...
+2017-12-21 12:02:07.066+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-21 12:02:07.105+0000 INFO  Initiating metrics...
+2017-12-21 12:02:16.068+0000 INFO  Started.
+2017-12-21 12:02:16.519+0000 INFO  Mounted REST API at: /db/manage
+2017-12-21 12:02:18.709+0000 INFO  Remote interface available at http://localhost:7474/
+2017-12-22 10:42:07.003+0000 INFO  Neo4j Server shutdown initiated by request
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-22 16:35:09.753+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-22 16:35:10.030+0000 INFO  Starting...
+2017-12-22 16:35:14.696+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-22 16:35:14.763+0000 INFO  Initiating metrics...
+2017-12-22 16:35:33.350+0000 INFO  Started.
+2017-12-22 16:35:34.232+0000 INFO  Mounted REST API at: /db/manage
+2017-12-22 16:35:40.005+0000 INFO  Remote interface available at http://localhost:7474/
+Active database: graph.db
+Directories in use:
+  home:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1
+  config:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/conf
+  logs:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/logs
+  plugins:      /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/plugins
+  import:       /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/import
+  data:         /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/data
+  certificates: /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/certificates
+  run:          /home/tom/Dotfiles/config/Neo4j Desktop/Application/neo4jDatabases/database-f834261d-69da-4926-be41-cb2f10ba7040/installation-3.3.1/run
+Starting Neo4j.
+WARNING: Max 4096 open files allowed, minimum of 40000 recommended. See the Neo4j manual.
+2017-12-23 11:08:38.768+0000 INFO  ======== Neo4j 3.3.1 ========
+2017-12-23 11:08:38.859+0000 INFO  Starting...
+2017-12-23 11:08:40.801+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2017-12-23 11:08:40.837+0000 INFO  Initiating metrics...
+2017-12-23 11:08:48.290+0000 INFO  Started.
+2017-12-23 11:08:48.882+0000 INFO  Mounted REST API at: /db/manage
+2017-12-23 11:08:51.040+0000 INFO  Remote interface available at http://localhost:7474/

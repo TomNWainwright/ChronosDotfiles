@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "lib/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": "data/icon16.png",
+      "default_title": "App for Twitter™"
+   },
+   "description": "An easy-to-use and lite App for Twitter",
+   "developer": {
+      "name": "fernikamendez"
+   },
+   "homepage_url": "http://mybrowseraddon.com/twitter-app.html",
+   "icons": {
+      "128": "data/icon128.png",
+      "16": "data/icon16.png",
+      "32": "data/icon32.png",
+      "48": "data/icon48.png",
+      "64": "data/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo6Fhcw9pKN/g2TT9QQKMpuXHLDd86gXfrNfrob/H58Qk9vdX7nWbx7LonDLQamKB13jJX0yForUeFcQ8QGuWQNO3ssDFeXLM5uOCGqvKShIRCsjHn92OBk10E2bVyq5pmbE2hLWJKf+hD2Fp5Lya+lBrI7jS2iUWa8tDek+WTYhLVP+3Xbf8KB2qOeLVJQUHUf+X7u8rWylkalV3hf6UVTx8WFYxz/AapQwD6fQ1KqETETKXcSuMbaZGOsFUQJY9deLDw9+qKW5bvVmOK/oivbPwOUc7fzwFnGFlyBwFGwrkpUKUB6sd2l58X40Wj+iuSqjauO/WE4yrezG4pOCvZwIDAQAB",
+   "manifest_version": 2,
+   "name": "App for Twitter™",
+   "permissions": [ "storage" ],
+   "short_name": "appfortwitter",
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "0.1.0"
+}

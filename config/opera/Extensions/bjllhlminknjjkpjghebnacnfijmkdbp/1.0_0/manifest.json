@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Access Twitter Lite through Opera Sidebar. This is an UNOFFICIAL extensions.",
+   "developer": {
+      "name": "adhamsomantrie"
+   },
+   "icons": {
+      "128": "twitter128.png",
+      "16": "twitter16.png",
+      "48": "twitter48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyMEASBHuqosKNgAUGIYD+ATdTftxxIGf9p4PRTAYsaXQlEBOkmccZ8VhKjEtKUURZ/P1174zodOd+4jQH4TfNub5wpdTUvORRJRiUc/bPQjzMFsX3m0OAEw0WgHOE8MfkC3PzIX+YXp1R34AxV4LwWxTBO5++ke8J/e2v0U1yIrOuWu5Gsg0lqJ41gCApvRyjzLdjR092/8z9JXaUNl/mP2omfsrfuTSPcDFKZm4l8aIAubmyudH9sO8DovfltKLP98UtETIyImzkoNES6n4bBmALVSYqEUNiL9TuFM+7qcpDW7KhLfViF+/A6yOXXQENFzOcWti7ID+Ynpkk+uFTQIDAQAB",
+   "manifest_version": 2,
+   "name": "Twitter Lite Sidebar",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "sidebar_action": {
+      "default_icon": {
+         "19": "twitter19.png",
+         "38": "twitter38.png"
+      },
+      "default_panel": "panel.html",
+      "default_title": "Twitter Lite Sidebar"
+   },
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "1.0"
+}
