@@ -1,0 +1,14 @@
+{
+   "description": {
+      "description": "Extension description",
+      "message": "Provides link in the omnibar to where to delete account and informs you how hard it is to delete your account."
+   },
+   "name": {
+      "description": "Extension name",
+      "message": "Just Delete Me"
+   },
+   "short_name": {
+      "description": "Extension short name",
+      "message": "Just Delete Me"
+   }
+}

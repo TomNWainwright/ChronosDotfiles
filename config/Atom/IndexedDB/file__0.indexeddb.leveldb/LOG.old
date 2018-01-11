@@ -1,3 +1,24 @@
-2017/12/24-17:04:19.478 2401 Reusing MANIFEST /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2017/12/24-17:04:19.478 2401 Recovering log #284
-2017/12/24-17:04:19.487 2401 Reusing old log /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/000284.log 
+2018/01/10-22:16:27.022 9043 Reusing MANIFEST /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2018/01/10-22:16:27.022 9043 Recovering log #468
+2018/01/10-22:16:27.046 9043 Reusing old log /home/tom/Dotfiles/config/Atom/IndexedDB/file__0.indexeddb.leveldb/000468.log 
+2018/01/10-22:20:10.574 10172 Level-0 table #472: started
+2018/01/10-22:20:10.633 10172 Level-0 table #472: 2262270 bytes OK
+2018/01/10-22:20:10.635 10172 Delete type=0 #468
+2018/01/10-22:20:10.636 10172 Compacting 4@0 + 1@1 files
+2018/01/10-22:20:10.690 10172 Generated table #473@0: 10 keys, 22039 bytes
+2018/01/10-22:20:10.690 10172 Compacted 4@0 + 1@1 files => 22039 bytes
+2018/01/10-22:20:10.691 10172 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/10-22:20:10.691 10172 Delete type=2 #463
+2018/01/10-22:20:10.691 10172 Delete type=2 #469
+2018/01/10-22:20:10.692 10172 Delete type=2 #472
+2018/01/10-22:20:10.692 10172 Delete type=2 #467
+2018/01/10-22:20:10.692 10172 Delete type=2 #465
+2018/01/10-22:30:41.854 10172 Compacting 1@1 + 1@2 files
+2018/01/10-22:30:41.892 10172 Generated table #474@1: 47 keys, 59312 bytes
+2018/01/10-22:30:41.892 10172 Compacted 1@1 + 1@2 files => 59312 bytes
+2018/01/10-22:30:41.893 10172 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/01/10-22:30:41.893 10172 Delete type=2 #473
+2018/01/10-22:30:41.894 10172 Delete type=2 #461
+2018/01/11-09:11:19.712 10172 Level-0 table #476: started
+2018/01/11-09:11:20.197 10172 Level-0 table #476: 2198700 bytes OK
+2018/01/11-09:11:20.203 10172 Delete type=0 #471

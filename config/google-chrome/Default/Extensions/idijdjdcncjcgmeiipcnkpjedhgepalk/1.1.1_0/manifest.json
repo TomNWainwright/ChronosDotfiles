@@ -1,0 +1,31 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon48.png",
+      "default_popup": "browser_action/browser_action.html",
+      "default_title": "Fast Advanced Google Search"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+G",
+            "linux": "Alt+G",
+            "mac": "Alt+G",
+            "windows": "Alt+G"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Get better search results in less time with this easy to use interface for Google's advanced search parameters.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkC+YOu+7n1q6k1gbyxKShkAhAEkhaBvDolWMTHBxUz1hiR2bwEyhfHXoSvgWkuOezzmadQeSmL8tpKkq2QxDFN0BwAtqQGu/W4L6i9pDv2wj0TbYo0i7oRadD1ROT9Wu65M6FWFpvOONxRyb9tcQlRZ6Y6TVH+ZuZpHZYYR3guSKMB9aruaL3Of31F2SMZc5GZnc2FtnQZ85tIRH/EyHqp8qP5xYJW7rLKa1O7N07aO7D4IoNc537+gySr8LoUYFh2EGPZ4T7FTU75gLhaOG7sHKNdolD3+UM8BBvRKUOUmldf2jvJe2/Z4046QlOrHl1f63zWN5VpPKZBmCUqvGFQIDAQAB",
+   "manifest_version": 2,
+   "name": "Fast Advanced Google Search",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

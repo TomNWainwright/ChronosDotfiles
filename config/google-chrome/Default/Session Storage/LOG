@@ -1,0 +1,9 @@
+2018/01/11-10:19:11.048 28256 Reusing MANIFEST /home/tom/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2018/01/11-10:19:11.048 28256 Recovering log #32
+2018/01/11-10:19:11.048 28256 Reusing old log /home/tom/.config/google-chrome/Default/Session Storage/000032.log 
+2018/01/11-11:35:20.073 18038 Compacting 1@1 + 1@2 files
+2018/01/11-11:35:20.085 18038 Generated table #35@1: 71 keys, 3293 bytes
+2018/01/11-11:35:20.085 18038 Compacted 1@1 + 1@2 files => 3293 bytes
+2018/01/11-11:35:20.087 18038 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/01/11-11:35:20.087 18038 Delete type=2 #33
+2018/01/11-11:35:20.087 18038 Delete type=2 #30

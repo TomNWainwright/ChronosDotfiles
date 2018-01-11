@@ -1,0 +1,8 @@
+{
+   "ext_description": {
+      "message": "Converts data from Google Spreadsheets into a client file or in-memory sqlite database. Supports SQL query, xls, xlsx, ods, csv..."
+   },
+   "ext_name": {
+      "message": "Convert Google Sheets to SQLite"
+   }
+}

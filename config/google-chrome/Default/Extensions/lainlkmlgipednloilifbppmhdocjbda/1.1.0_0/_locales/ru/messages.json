@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "О приложении"
+   },
+   "addADomain": {
+      "message": "Добавить домен"
+   },
+   "addANewMessenger": {
+      "message": "Добавить новое приложение"
+   },
+   "addASubdomain": {
+      "message": "Добавить поддомен"
+   },
+   "addMessenger": {
+      "message": "Добавить $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Помогите улучшить приложение, отправив анонимную статистику."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Универсальное приложение, объединяющее WhatsApp, Telegram, Messenger, Skype и другие платформы для обмена сообщениями!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Универсальный мессенджер"
+   },
+   "cancel": {
+      "message": "Отменить"
+   },
+   "delete": {
+      "message": "Удалить"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Вам нравится Универсальный мессенджер?"
+   },
+   "editEnabledMessengers": {
+      "message": "Редактировать активированные приложения"
+   },
+   "editMessenger": {
+      "message": "Редактирование $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Отзыв об Универсальном мессенджере"
+   },
+   "insecureConnectionWarning": {
+      "message": "Учтите, что данное приложение не использует защищенное соединение!"
+   },
+   "later": {
+      "message": "Позже"
+   },
+   "loading": {
+      "message": "Загрузка..."
+   },
+   "messengerName": {
+      "message": "Имя"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ могут понадобиться дополнительные разрешения",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Не хотели бы вы оставить нам отзыв?"
+   },
+   "muteAllSounds": {
+      "message": "Отключить все звуки"
+   },
+   "no": {
+      "message": "Нет"
+   },
+   "ok": {
+      "message": "ОК"
+   },
+   "privacy": {
+      "message": "Конфиденциальность"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "Повторить?"
+   },
+   "promoInstallFailText": {
+      "message": "Извините, не удалось установить приложение"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "Повторить через Интернет-магазин?"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Реклама"
+   },
+   "promoPrimaryHeading": {
+      "message": "Универсальный мессенджер"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Добавить в Chrome"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "бесплатно"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Приложение доступно для Google Chrome!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "Универсальное приложение, позволяющее совместно использовать WhatsApp, Facebook Messenger, Skype\u003Cbr/> Telegram и другие платформы для общения!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "Подробнее"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "Нет, спасибо"
+   },
+   "promoSecondaryHeading": {
+      "message": "Универсальный мессенджер"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "Объедините ваши любимые приложения для общения в одном месте и всегда оставайтесь в курсе происходящего. Нескольких секунд будет достаточно, чтобы настроить мессенджеры и начать получать уведомления о новых сообщениях. Универсальный мессенджер - безопасное, бесплатное и легкое в использовании приложение."
+   },
+   "rateApp": {
+      "message": "Оценить приложение"
+   },
+   "reportAnIssue": {
+      "message": "Сообщить о проблеме"
+   },
+   "resolve": {
+      "message": "Настроить"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "sendFeedback": {
+      "message": "Отправить отзыв"
+   },
+   "shareMailText": {
+      "message": "Попробуйте Универсальный мессенджер"
+   },
+   "showNotifications": {
+      "message": "Показывать уведомления"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Звонки пока не поддерживаются."
+   },
+   "support": {
+      "message": "Поддержка"
+   },
+   "supportAppName": {
+      "message": "Поддержать приложение"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "Универсальный мессенджер - это бесплатное приложение, \u003Cbr /> пожалуйста, помогите нам, рассказав о нем друзьям!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Мы рады всякий раз, когда получаем \u003Ca href='$rateLink$' target='_blank'>оценку\u003C/a> 5 звезд в Интернет-магазине Chrome!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Поддержите нас"
+   },
+   "updateNotice": {
+      "message": "Доступна новая версия. Пожалуйста, перезапустите Google Chrome для установки обновлений."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Версия"
+   },
+   "webIndexDownloadButton": {
+      "message": "Скачать бесплатно"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>Пользуйтесь\u003C/strong> одним приложением вместо того, чтобы постоянно переключаться между несколькими."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Одновременно работайте \u003Cstrong>с несколькими аккаунтами\u003C/strong> одного и того же приложения."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Получайте все \u003Cstrong>уведомления\u003C/strong> прямо на рабочий стол. Отключите звуковые уведомления для определенных приложений, если они вас отвлекают."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Универсальное приложение для всех ваших мессенджеров"
+   },
+   "webIndexIntroLead": {
+      "message": "Универсальное приложение, позволяющее совместно использовать WhatsApp, Telegram, Messenger, Skype и другие платформы для общения!"
+   },
+   "webIndexIntroTitle": {
+      "message": "Универсальный мессенджер"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Поддерживаемые приложения"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "Универсальное приложение, позволяющее совместно использовать WhatsApp, Telegram, Messenger, Skype и другие платформы для общения!"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Подпишитесь на нашу рассылку, и вы узнаете, когда приложение будет доступно для других платформ."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "Ваш e-mail"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "Универсальный мессенджер пока доступен только для браузера Google Chrome."
+   },
+   "website": {
+      "message": "Веб-сайт"
+   },
+   "webstore": {
+      "message": "Интернет-магазин"
+   },
+   "yes": {
+      "message": "Да"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Вы не подключены к сети."
+   }
+}

@@ -1,0 +1,54 @@
+body {
+    width: 500px;
+}
+
+#list-todos {
+    border-top-style: dotted;
+    border-width: 1px;
+}
+
+.todo-container {
+    border-bottom-style: dotted;
+    border-width: 1px;
+    padding: 2px 0;
+}
+
+.todo-content {
+    display: inline-block;
+    padding: 0 3px;
+    width: 79%;
+}
+
+.todo-priority {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.todo-button-container {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.todo-button {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.todo-button:hover {
+    color: #4CAF50;
+    /* Green */
+}
+
+#create-todo {
+    padding: 2px 0;
+}
+
+#new-item-content {
+    width: 77%
+}
+
+#submit:hover {
+    color: #1E90FF;
+    /*blue*/
+}

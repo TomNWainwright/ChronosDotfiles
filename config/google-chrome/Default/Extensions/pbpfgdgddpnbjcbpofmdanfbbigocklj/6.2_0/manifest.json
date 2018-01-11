@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "extension/MTDBackground.js" ]
+   },
+   "browser_action": {
+      "default_icon": "sources/oneclick/InstaTweetDeck.png",
+      "default_popup": "extension/ITD.html",
+      "default_title": "Launch TweetDeck"
+   },
+   "content_scripts": [ {
+      "css": [ "sources/dev.css" ],
+      "js": [ "extension/MTDLoad.js" ],
+      "matches": [ "https://tweetdeck.twitter.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "TweetDeck, just more beautiful, colourful, customisable, fast, and fun than ever.",
+   "icons": {
+      "16": "AppIcon16.png",
+      "24": "AppIcon24.png",
+      "32": "AppIcon32.png",
+      "48": "AppIcon48.png",
+      "64": "AppIcon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjVmBV2xTA7TsLkrE4dKeMLWrYFmSgDmRayboNVgcr9mW+XJv5Fu3tR4Qhaxd9wqdeLOJmqymEKZy5Vz6K1T6SrPakc/7ezot5NFuAj78JTc1IE7sUma8Z829QB+ub11Nhf+8H/s4FDqLfvBHIUHh8T3IPcWhOx8pdc6Bds/DR5sK29w+Xq2PCRvZWf75dlLmhzz+jxblkBiRKhQ2U+qllqZVqcUcoCia+1ZCCZh53qsweu7wY+34rkHtPcuNl9o+VLK5H48g5XmAe1LHGozYfV2M9nYKe21KBe5RBYeQeHV3hZLcpSpWm+MRj/QrlXzT+Ov+ZE+kwLG1+ZrwwaLw6QIDAQAB",
+   "manifest_version": 2,
+   "name": "ModernDeck",
+   "permissions": [ "webRequest", "webRequestBlocking", "https://*.twitter.com/", "https://ton.twimg.com/", "contextMenus", "tabs", "storage" ],
+   "short_name": "ModernDeck",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.2",
+   "web_accessible_resources": [ "sources", "sources/*", "sources/cssextensions/*", "sources/fonts/*", "sources/libraries/*" ]
+}

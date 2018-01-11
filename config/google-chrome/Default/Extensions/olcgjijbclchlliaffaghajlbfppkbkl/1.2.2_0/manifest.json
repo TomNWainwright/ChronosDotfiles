@@ -1,0 +1,37 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "Sci-hub Links"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "style.css" ],
+      "exclude_globs": [ "*://*.google.*/*", "*://*.bing.*/*", "*://*twitter.com/*" ],
+      "js": [ "jquery.min.js", "jquery.ba-replacetext.js", "scihub_links.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_main_description__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhkQpFfPdpYpCFVL9D/KRgf2gFQRZzSWYKiSzA57uZ5RkKCQTEJ4gbJTHnJQCShcEgoq2RWj5ZN34jW/4JSLKCex3WGvWc9a3n7SZRf9/WQ9UhZDY4/D3yt65gnSxwOlWcQz1B8oGk4/z6ieMYwvNW1O0JbeTR3IGc4fFMpzqjWYuWXWVZK6l2rR3+HG/BFG6kLRu1u1b9UJVBVHewdgAULMkRIOKxvz4rJcdYKZ96WmseK3fCAqgK7wonUMbaJR7DH90UFE4rrcDG9Om1sqmux4vaDSOBN0aLRnFVEgUqp3clAP8SuA/gRRVuDc28OT+PJsC7CdIHOPezwMi3hfWEQIDAQAB",
+   "manifest_version": 2,
+   "name": "Sci-hub Links",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "storage", "contextMenus" ],
+   "short_name": "Sci-hub Links",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.2"
+}

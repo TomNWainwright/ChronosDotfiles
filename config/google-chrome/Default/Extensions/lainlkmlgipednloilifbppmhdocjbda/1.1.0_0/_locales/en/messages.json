@@ -1,0 +1,168 @@
+{
+   "about": {
+      "message": "About"
+   },
+   "addADomain": {
+      "message": "Add a domain"
+   },
+   "addANewMessenger": {
+      "message": "Add a new messenger"
+   },
+   "addASubdomain": {
+      "message": "Add a subdomain"
+   },
+   "addMessenger": {
+      "message": "Add $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Help to improve All-in-One Messenger by sending anonymous user statistics."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Use messengers like WhatsApp, Telegram, Messenger, Skype and many more in one app!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "appShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name.",
+      "message": "All-in-One"
+   },
+   "cancel": {
+      "message": "cancel"
+   },
+   "delete": {
+      "message": "delete"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Do you enjoy All-in-One Messenger?"
+   },
+   "editEnabledMessengers": {
+      "message": "Edit enabled messengers"
+   },
+   "editMessenger": {
+      "message": "Edit $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Feedback All-in-One Messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "Please note, that this messenger does not use a secure connection!"
+   },
+   "later": {
+      "message": "later"
+   },
+   "loading": {
+      "message": "loading..."
+   },
+   "messengerName": {
+      "message": "Name"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ may need additional permissions",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Mind giving us some feedback?"
+   },
+   "muteAllSounds": {
+      "message": "Mute all sounds"
+   },
+   "no": {
+      "message": "no"
+   },
+   "ok": {
+      "message": "ok"
+   },
+   "poweredByZeonfed": {
+      "message": "Powered by \u003Ca target=\"_blank\" href=\"https://zeonfed.org\">https://zeonfed.org\u003C/a>"
+   },
+   "privacy": {
+      "message": "Privacy"
+   },
+   "rateApp": {
+      "message": "Rate App"
+   },
+   "reportAnIssue": {
+      "message": "Report an Issue"
+   },
+   "resolve": {
+      "message": "resolve"
+   },
+   "save": {
+      "message": "save"
+   },
+   "sendFeedback": {
+      "message": "Send Feedback"
+   },
+   "shareMailText": {
+      "message": "Check out All-in-One Messenger"
+   },
+   "showNotifications": {
+      "message": "Show Notifications"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Skype calls are not supported yet."
+   },
+   "support": {
+      "message": "Support"
+   },
+   "supportAppName": {
+      "message": "Support All-in-One Messenger"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "All-in-One Messenger is a free app, \u003Cbr /> please help us by showing it to your friends!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Your \u003Ca href='$rateLink$' target='_blank'>rating\u003C/a> on the Chrome Web Store is appreciated too!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Support us"
+   },
+   "updateNotice": {
+      "message": "A new version is available. Please restart Google Chrome to update."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Version"
+   },
+   "website": {
+      "message": "Website"
+   },
+   "webstore": {
+      "message": "Webstore"
+   },
+   "yes": {
+      "message": "yes"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "You are currently offline."
+   }
+}

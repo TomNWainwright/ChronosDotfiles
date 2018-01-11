@@ -1,0 +1,21 @@
+2018/01/11-10:19:09.817 28197 Reusing MANIFEST /home/tom/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2018/01/11-10:19:09.818 28197 Recovering log #68
+2018/01/11-10:19:09.821 28197 Reusing old log /home/tom/.config/google-chrome/Default/Extension State/000068.log 
+2018/01/11-10:38:59.144 18038 Level-0 table #72: started
+2018/01/11-10:38:59.772 18038 Level-0 table #72: 3552054 bytes OK
+2018/01/11-10:38:59.782 18038 Delete type=0 #68
+2018/01/11-11:16:01.412 18038 Level-0 table #74: started
+2018/01/11-11:16:02.134 18038 Level-0 table #74: 3539198 bytes OK
+2018/01/11-11:16:02.138 18038 Delete type=0 #71
+2018/01/11-11:34:37.268 18038 Level-0 table #76: started
+2018/01/11-11:34:37.834 18038 Level-0 table #76: 3513124 bytes OK
+2018/01/11-11:34:37.845 18038 Delete type=0 #73
+2018/01/11-11:34:37.851 18038 Compacting 4@0 + 1@1 files
+2018/01/11-11:34:37.905 18038 Generated table #77@0: 24 keys, 26724 bytes
+2018/01/11-11:34:37.905 18038 Compacted 4@0 + 1@1 files => 26724 bytes
+2018/01/11-11:34:37.907 18038 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/11-11:34:37.907 18038 Delete type=2 #69
+2018/01/11-11:34:37.907 18038 Delete type=2 #72
+2018/01/11-11:34:37.908 18038 Delete type=2 #74
+2018/01/11-11:34:37.909 18038 Delete type=2 #66
+2018/01/11-11:34:37.909 18038 Delete type=2 #76

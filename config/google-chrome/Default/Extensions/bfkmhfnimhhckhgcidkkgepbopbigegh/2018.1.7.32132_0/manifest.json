@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#51682E",
+      "launch": {
+         "web_url": "http://localhost:8529/_db/Dissertation/_admin/aardvark/index.html#collections"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "ArangoDB Admin Web Interface",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "KayJXQ+I2ys4mK84JrSFGviQHov/EbICQm05zApquXY=",
+   "name": "ArangoDB Web Interface",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://localhost:8529/_db/Dissertation/_admin/aardvark/index.html*" ],
+         "title": "ArangoDB Web Interface"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

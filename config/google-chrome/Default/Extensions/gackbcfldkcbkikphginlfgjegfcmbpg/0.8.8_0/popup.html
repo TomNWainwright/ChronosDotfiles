@@ -1,0 +1,77 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: arial;
+      font-size: 70%;
+      margin: 0;
+      padding: 0;
+      color: #06477D;
+      width: 100px;
+      height: 100px;
+      font-family: "Lucida Grande", "Helvetica Neue", Helvetica, sans-serif;
+      text-rendering: optimizelegibility;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    ul {
+      list-style-type: none;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+    }
+
+    li.menu-item {
+      padding: 1px 10px;
+      cursor: pointer;
+      text-align: left;
+      line-height: 31px;
+      white-space: nowrap;
+      color: #737378;
+    }
+
+    li.menu-item:hover {
+      background-color: #F5F5F7;
+      color: #101112;
+    }
+    i.icon-product {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+      position: relative;
+      top: -1px;
+      opacity: 0.8;
+      float: left;
+      height: 14px;
+      width: 14px;
+      margin-top: 10px;
+      background: url(assets/images/popup/icons.png) no-repeat;
+    }
+    @media (-webkit-min-device-pixel-ratio: 1.3),
+    (min-resolution: 124.8dpi),
+    (min-resolution: 1.3dppx) {
+      i.icon-product {
+        background: url(assets/images/popup/icons@2x.png) no-repeat;
+        background-size: 28px 140px;      }
+    }
+    i.icon-product.icon-desktop { background-position: 0 -84px; }
+    i.icon-product.icon-desktop:hover,
+    i.icon-product.icon-desktop:active { background-position: -14px -84px; }
+    i.icon-product.icon-library { background-position: 0 -98px; }
+    i.icon-product.icon-library:hover,
+    i.icon-product.icon-library:active { background-position: -14px -98px; }
+    i.icon-product.icon-social { background-position: 0 -126px; }
+    i.icon-product.icon-social:hover,
+    i.icon-product.icon-social:active { background-position: -14px -126px; }
+  </style>
+</head>
+<body>
+    <ul>
+        <li class="menu-item" id="desktop"><i class="icon-product icon-desktop"></i>Desktop</li>
+        <li class="menu-item" id="social"><i class="icon-product icon-social"></i>Dashboard</li>
+        <li class="menu-item" id="library"><i class="icon-product icon-library"></i>Library</li>
+    </ul>
+</body>
+<script src="popup.js"></script>
+</html>

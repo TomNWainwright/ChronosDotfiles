@@ -1,0 +1,89 @@
+{
+   "app": {
+      "icon_color": "#68B454",
+      "launch": {
+         "web_url": "http://localhost:7474/browser/"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/favicon-16x16.png"
+      }, {
+         "size": 32,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/favicon.ico"
+      }, {
+         "size": 57,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-57x57.png"
+      }, {
+         "size": 60,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-60x60.png"
+      }, {
+         "size": 64,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-72x72.png"
+      }, {
+         "size": 72,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-72x72.png"
+      }, {
+         "size": 76,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-76x76.png"
+      }, {
+         "size": 96,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/favicon-96x96.png"
+      }, {
+         "size": 114,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-114x114.png"
+      }, {
+         "size": 120,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-120x120.png"
+      }, {
+         "size": 128,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-144x144.png"
+      }, {
+         "size": 144,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-144x144.png"
+      }, {
+         "size": 152,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-152x152.png"
+      }, {
+         "size": 180,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/apple-touch-icon-180x180.png"
+      }, {
+         "size": 192,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/android-chrome-192x192.png"
+      }, {
+         "size": 256,
+         "url": "http://localhost:7474/browser/assets/images/device-icons/android-chrome-192x192.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "114": "icons/114.png",
+      "120": "icons/120.png",
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "152": "icons/152.png",
+      "16": "icons/16.png",
+      "180": "icons/180.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "57": "icons/57.png",
+      "60": "icons/60.png",
+      "64": "icons/64.png",
+      "72": "icons/72.png",
+      "76": "icons/76.png",
+      "96": "icons/96.png"
+   },
+   "key": "E/HAD7jcIGXgbdC3bEUShsazqrk1l/AOT5/jfjvfGKQ=",
+   "name": "Neo4j Browser",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://localhost:7474/browser/*" ],
+         "title": "Neo4j Browser"
+      }
+   },
+   "version": "2018.1.7.32133"
+}

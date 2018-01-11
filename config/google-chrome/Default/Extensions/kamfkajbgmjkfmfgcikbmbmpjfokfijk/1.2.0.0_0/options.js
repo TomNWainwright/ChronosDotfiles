@@ -1,0 +1,2 @@
+var lsWindowOption="windowOption";$(document).ready(function(){ab();aa()});function aa(){$("#saveButton").click(function(){ac()});$("#closeButton").click(function(){ae()})}function ac(){localStorage[lsWindowOption]=$("#windowOption").val();$("#statusSpan").html("Saved!");setTimeout(function(){$("#statusSpan").html("")},1E3)}
+function ab(){$("input:button").button();var a=localStorage[lsWindowOption];a||(a="0");$("#saveButton").hide();$("#windowOption").val(a);$("#windowOption").change(function(){ac()})}function ae(){window.close()};

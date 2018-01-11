@@ -1,0 +1,5 @@
+/* avoid to select(highlight) plain text menu item, needed for non-chrome apps.... */
+body {
+	-webkit-user-select: none;
+	cursor: default;
+}

@@ -1,0 +1,230 @@
+/* Status dropdown */
+
+.inboxsdk__button_icon {
+  cursor: default;
+}
+
+.inboxsdk__menuContent {
+  background: none !important;
+  border: 0 !important;
+}
+
+.inboxsdk__menu {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+}
+
+.hunter_status_dropdown {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hunter_status_title {
+  padding: 12px 15px;
+  font-weight: bold;
+}
+
+.hunter_status_details {
+  padding: 0 15px 12px 15px;
+}
+
+.hunter_status_details p {
+  margin: 8px 0;
+}
+
+.hunter_status_details p:first-child {
+  margin-top: 0;
+}
+
+.hunter_status_details p:last-child {
+  margin-bottom: 0;
+}
+
+.hunter_status_device {
+  float: right;
+  color: #ddd;
+}
+
+.hunter_status_device .fa-mobile {
+  font-size: 18px;
+}
+
+.hunter_status_device .fa-tablet {
+  font-size: 16px;
+}
+
+.hunter_status_time {
+  margin-right: 40px;
+}
+
+/* Conversation sidebar */
+
+#hunter_conversation_sidebar {
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 10px;
+}
+
+#hunter_conversation_sidebar h1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+#hunter_conversation_sidebar_icon {
+  width: 15px;
+  margin-right: 3px;
+  vertical-align: baseline;
+}
+
+.inboxsdk__contentTabContainer {
+  display: none;
+}
+
+#hunter_conversation_status {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+
+.hunter_conversation_blank_status {
+  color: #888;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#hunter_conversation_content {
+  font-size: 13px;
+  padding-right: 15px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#hunter_conversation_content::-webkit-scrollbar {
+  border-radius: 3px;
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+#hunter_conversation_content::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #ddd;
+}
+
+#hunter_conversation_content::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb;
+}
+
+#hunter_conversation_content p {
+  margin: 12px 0;
+  color: #888;
+}
+
+#hunter_conversation_content p:first-child {
+  color: #333;
+}
+
+.hunter_conversation_device {
+  float: right;
+  opacity: 0.7;
+}
+
+.hunter_conversation_device .fa-mobile {
+  font-size: 18px;
+}
+
+.hunter_conversation_device .fa-tablet {
+  font-size: 16px;
+}
+
+.hunter_conversation_city {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+/* Popup to connect the Google account */
+
+#hunter_popup_container {
+  font-family: "Lato", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 40px 40px 30px 40px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#hunter_popup_close {
+  float: right;
+  color: #ccc;
+  font-size: 30px;
+  margin: -30px -20px 0 0;
+}
+
+#hunter_popup_close:hover {
+  cursor: pointer;
+  color: #aaa;
+}
+
+#hunter_popup_container img {
+  height: 22px;
+  display: block;
+  margin: 0px auto 40px auto;
+}
+
+#hunter_popup_container h1 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#hunter_popup_container a {
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 200ms ease-in-out;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 25px;
+  font-weight: 700;
+  background-color: #ff5722;
+  color: #fff;
+}
+
+#hunter_popup_container a:hover,
+#hunter_popup_container a:active,
+#hunter_popup_container a:focus {
+   background-color: #ee3900;
+}
+
+.hunter_later_links {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.hunter_later_links span {
+  margin: 0 5px;
+  color: #999;
+  transition: color 200ms ease-in-out;
+}
+
+.hunter_later_links span:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.hunter_feedback_buttons {
+  margin-top: 30px;
+  text-align: center;
+}

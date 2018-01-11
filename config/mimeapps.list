@@ -1,5 +1,5 @@
 [Added Associations]
-text/plain=mousepad.desktop;libreoffice-writer.desktop;
+text/plain=atom.desktop;mousepad.desktop;libreoffice-writer.desktop;
 application/x-compressed-tar=org.gnome.FileRoller.desktop;
 application/x-iso9660-appimage=org.gnome.FileRoller.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
@@ -9,3 +9,12 @@ application/json=mousepad.desktop;
 application/x-ipynb+json=mousepad.desktop;
 image/png=ristretto.desktop;
 text/x-bibtex=mousepad.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+text/x-makefile=mousepad.desktop;
+text/html=firefox.desktop;google-chrome.desktop;
+text/x-apt-sources-list=mousepad.desktop;software-properties-gtk.desktop;
+application/x-bzip-compressed-tar=org.gnome.FileRoller.desktop;
+text/x-log=mousepad.desktop;
+application/x-iwork-keynote-sffkey=org.gnome.FileRoller.desktop;
+text/x-matlab=mousepad.desktop;
+text/x-cmake=atom.desktop;

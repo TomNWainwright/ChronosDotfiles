@@ -1,0 +1,17 @@
+#piggyPresentCodes, #piggyDomainNotSupported, #piggySlideIn, #piggyTryCoupons, #piggyResult, #piggySimilarDeals, #piggyPromptTryCodes {
+    border: 0px !important;
+    position: fixed !important;
+    top: 0px !important;
+    right: 0px !important;
+    bottom: initial !important;
+    left: initial !important;
+    overflow: hidden !important;
+    z-index: 2147483647 !important;
+    background: transparent !important;
+}
+
+.piggyComponents {
+    z-index: 2147483647 !important;
+    background: transparent !important;
+    border: 0px !important;
+}

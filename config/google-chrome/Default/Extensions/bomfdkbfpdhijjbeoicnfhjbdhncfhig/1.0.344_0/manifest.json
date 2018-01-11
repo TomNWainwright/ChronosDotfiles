@@ -1,0 +1,39 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "Paperpile"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "dist/pp-cb.js" ],
+      "matches": [ "*://127.0.0.1/resources/tests/*", "*://127.0.0.1/templates/app_tests" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "dist/pp-cb.js" ],
+      "matches": [ "*://127.0.0.1/app", "*://127.0.0.1/view/*", "*://stage.paperpile.com/app", "*://stage.paperpile.com/view/*", "*://paperpile.com/app", "*://paperpile.com/view/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://apis.google.com https://www.google-analytics.com/ https://ssl.google-analytics.com https://*.firebaseio.com/; object-src 'self' filesystem:",
+   "description": "Collect and organize your research papers in Chrome",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCa+3EkDCjTwnYIpuuEOX64QbfubKQ/Y2Dkv5rFCZioII1XnPoIMEhxFA0n12K4osz/UzmmoIUdXrie0vLYxXMre275/p4uy2Ryl2TyG8C49cs6Vcojp4y0+s4QC7Jh2ZF9zxouDIouhJH4VfT+A0Wrdv1FTChBPIkUhBfv1jc59QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "27",
+   "name": "Paperpile Extension",
+   "permissions": [ "clipboardWrite", "contextMenus", "http://*/", "https://*/", "ftp://*/", "*://*.paperpile.com/", "storage", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.344",
+   "web_accessible_resources": [ "/*.png", "/*.gif", "/*.css", "/css/*.css", "/html/*.html", "dist/pp-cs.css" ]
+}

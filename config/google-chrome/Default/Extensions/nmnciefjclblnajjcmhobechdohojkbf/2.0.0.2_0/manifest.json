@@ -1,0 +1,19 @@
+{
+   "api_console_project_id": "300606332377",
+   "app": {
+      "launch": {
+         "web_url": "https://airtable.com/"
+      },
+      "urls": [ "https://airtable.com/" ]
+   },
+   "container": [ "GOOGLE_DRIVE" ],
+   "description": "Organize anything with Airtable, the world's friendliest database.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArsRkouQrIB4TPqAHRe5l26GGOBl9QJCXFUxOKueEc1GtJlmd1QcNnqtwxBmpY6+KWwgjg5Pj53o8RuNnpXSwP4930+STJZ/f1wtqBAMLfF+h7+TUVPRrDAQ0456xS4mNpQcVeydAz9hEOPy6MhtzjxsHldflea7PyTlBjx3hOm5rk/afgSYXujn5RhHpTxLWD5MKH3xU9JHolNXiQt/4DlDBcQ7/qIe1cpmG2K6/L0kRbNlo6JmR7sAFm82HdhNi7QMSXN6f85tqkrBJDBudW706cOzRdOwBFhDJQxVnkmwV97IH81DSiBpf51tiFSd7FNYKJMMbBG7qccLkLBGkVQIDAQAB",
+   "manifest_version": 2,
+   "name": "Airtable - Flexible database and organizer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.0.2"
+}

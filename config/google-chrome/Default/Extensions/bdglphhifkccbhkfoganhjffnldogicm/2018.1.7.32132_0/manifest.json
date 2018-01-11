@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#6DC1E6",
+      "launch": {
+         "web_url": "http://regexr.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Regular expression tester with syntax highlighting, contextual help, video tutorial, reference, and searchable community patterns.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "CbYscmwht1c4lM4l8RDXg3uQJz9+h3HBDW5k+CIKFTo=",
+   "name": "RegExr",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://regexr.com/*" ],
+         "title": "RegExr"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

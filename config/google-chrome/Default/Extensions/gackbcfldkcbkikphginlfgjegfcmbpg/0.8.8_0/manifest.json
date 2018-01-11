@@ -1,0 +1,47 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "action.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/images/desktop-logo-19.png",
+         "38": "assets/images/desktop-logo-38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Dissident"
+   },
+   "content_scripts": [ {
+      "js": [ "drive_content.js" ],
+      "matches": [ "*://*.desktop.pro/*", "*://*.dissident.ai/*", "*://*.thelibrary.io/*" ]
+   }, {
+      "js": [ "web_content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "A universal \"save as\" for your Chrome browser.",
+   "externally_connectable": {
+      "matches": [ "*://*.desktop.pro/*", "*://*.dissident.ai/*", "*://*.thelibrary.io/*" ]
+   },
+   "file_browser_handlers": [ {
+      "default_title": "Save to Desktop",
+      "file_filters": [ "filesystem:*.*" ],
+      "id": "upload"
+   } ],
+   "icons": {
+      "128": "assets/images/desktop-logo.png",
+      "16": "assets/images/desktop-logo.png",
+      "48": "assets/images/desktop-logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsZUUBxWCaKDsbS9USPB/FSJe4FmMj1B7YMXhuBn70HGRHg92B+QyBv4PRXF08osoPuIF0AgXI3BdjWSKvd2BG4ezyMZiDvNfOsnUsVFpdFzHph25GRE6y1HH65pmTtSa4fplhzjdgQuLxoywsTnyWOuS7MAyyolyK1MfpY524ut/bfkPROiNCUJwXoyoFUcGpDXo+tK9sSKq7i6TjOmfFBip6N3twctP3fLc3/9WAaALfnKxPiXt0PaC3g1JtQL4qc0WbgPmHqH+xvjDWZNVzBpeOY6w2K/3ssyjLqxOlTwyG6BueEV2SyNCzuINJjbQFogOHjd+vrWmNFc1y95BWQIDAQAB",
+   "manifest_version": 2,
+   "name": "Save the Internet",
+   "options_ui": {
+      "chrome_style": false,
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*", "storage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.8.8",
+   "web_accessible_resources": [ "assets/images/spinner.gif", "assets/images/button-x.png", "spinnerstyle.css" ]
+}

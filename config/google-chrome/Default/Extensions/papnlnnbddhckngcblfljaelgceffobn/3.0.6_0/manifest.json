@@ -1,0 +1,15 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Automatically moves new Windows and Popups as Tab to the Main-Window. So it is never more than a single Window open.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbeKtUowlh192dQvqqRm/s06dMTvFyx6QqDyP9zr9xtgdhGmk/LTVIjJZgb9XZJxXv/0yjcqqGSTIRQluNxPYV25qzHsXKAAADH7add2FxgYDzOTIzbfu+lpnLHkQA9nOINzbS55R372XPP2UNxuqLPtmwwNdgwChcLVoEAC5HZQIDAQAB",
+   "manifest_version": 2,
+   "name": "One Window",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.6"
+}

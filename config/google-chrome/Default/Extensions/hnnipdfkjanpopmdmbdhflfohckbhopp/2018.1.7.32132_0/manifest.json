@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#2FF55E",
+      "launch": {
+         "web_url": "https://dashboard.health.nokia.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "C0PZ6IMLXP4K8DTWN0X8GxlVYbefBtQTOC0yYyt6A/o=",
+   "name": "Health Dashboard",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://dashboard.health.nokia.com/*" ],
+         "title": "Health Dashboard"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

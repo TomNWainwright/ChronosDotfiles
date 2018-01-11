@@ -1,0 +1,29 @@
+{
+   "app": {
+      "background": {
+         "persistent": true,
+         "scripts": [ "lib/digest.js", "lib/base64.js", "src/socket.js", "src/bufferlist.js", "src/arrayeq.js", "src/benc.js", "src/mime.js", "src/rate.js", "src/shaper.js", "src/torrent.js", "src/tracker.js", "src/peer.js", "src/store-backend.js", "src/store.js", "src/http-server.js", "src/http-stream.js", "src/background.js" ]
+      }
+   },
+   "description": "BitTorrent client for Chrome that can stream videos while they're being downloaded",
+   "file_handlers": {
+      "any": {
+         "extensions": [ "torrent" ],
+         "title": "Start BitTorrent download",
+         "types": [ "application/x-bittorrent" ]
+      }
+   },
+   "icons": {
+      "128": "bitford-128.png",
+      "16": "bitford-16.png",
+      "48": "bitford-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6WepgjlhXKIAbeSQq9hsfqossTxoI7GXG5jlE6ce9TeL1aYF88Y+XV9pQVByiweYAgnhajc9YAZsw7T53M23TqlpbtNt08ix5A+Lo2L97rfnH/veA4tSbujpppybt1ReMZjYxJhO4gRP6uny1aVzCjlRRJKQxXod/GWIH8XNeSQIDAQAB",
+   "manifest_version": 2,
+   "name": "Bitford",
+   "permissions": [ {
+      "socket": [ "tcp-connect:*:*", "tcp-listen::*", "udp-send-to::*" ]
+   }, "storage", "unlimitedStorage", "fileSystem", "fileSystem.write", "http://*/*", "webview" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.5"
+}

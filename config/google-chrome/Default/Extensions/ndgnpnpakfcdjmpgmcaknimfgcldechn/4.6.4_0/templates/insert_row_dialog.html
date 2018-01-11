@@ -1,0 +1,47 @@
+<div id="insertRowDialog" class="modal fade" ng-controller="InsertRowDialogController" ng-init="initialize()">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Insert row</h4>
+      </div>
+      <div class="modal-body">
+        <div ng-show="isErrorMessageVisible()">
+          <div class="alert alert-danger">{{errorMessage}}</div>
+        </div>
+        <form class="form-horizontal" role="form">
+          <div class="form-group" ng-repeat="column in targetInputColumns(columnDefinitions)">
+            <label for="{{column.name}}" class="col-sm-3 control-label">
+              {{::column.name}}<br />
+              <small><p class="text-muted">{{::column.type}}</p></small>
+            </label>
+            <div class="col-sm-9">
+              <textarea class="form-control" id="{{column.name}}" rows="2" ng-model="values[column.name]" ng-trim="false" ng-disabled="isDisabledValueField(column.name)"></textarea>
+              <label class="radio-inline">
+                <input type="radio" ng-model="valueTypes[column.name]" value="value" ng-change="onChangeValueType(column.name)" /> Value<br />
+              </label>
+              <label class="radio-inline" ng-show="!column.isNotNull()">
+                <input type="radio" ng-model="valueTypes[column.name]" value="NULL" ng-change="onChangeValueType(column.name)" /> NULL<br />
+              </label>
+              <label class="radio-inline">
+                <input type="radio" ng-model="valueTypes[column.name]" value="expression" ng-change="onChangeValueType(column.name)" /> Expression
+              </label>
+              <label class="radio-inline">
+                <input type="radio" ng-model="valueTypes[column.name]" value="default" ng-change="onChangeValueType(column.name)" /> Default value
+              </label>
+            </div>
+          </div>
+        </form>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            {{getExecutingQuery()}}
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" ng-click="insertRow()">Insert</button>
+      </div>
+    </div>
+  </div>
+</div>

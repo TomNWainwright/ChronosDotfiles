@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#F44436",
+      "launch": {
+         "web_url": "https://play.pocketcasts.com/web/podcasts/index#/podcasts/show/fd517790-7f40-0132-e783-5f4c86fd3263"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Listen to your favorite podcasts in your browser.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "3wu+u4dPcfBOPucKv0iyQd+kv8XbKaUcexfEgelz8Vk=",
+   "name": "Pocket Casts",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://play.pocketcasts.com/web/podcasts/index*" ],
+         "title": "Pocket Casts"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

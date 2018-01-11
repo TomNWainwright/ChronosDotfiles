@@ -1,0 +1,72 @@
+@media (max-height: 500px) {
+		.hide-for-keyboard {
+				display: none;
+		}
+}
+
+@media (max-width: 800px) {
+		.hide-for-small-width {
+				display: none;
+		}
+}
+
+/* disable orange highlight frame on button*/
+/* http://stackoverflow.com/questions/5210481/disable-orange-outline-highlight-on-focus */
+*{
+	-webkit-tap-highlight-color: transparent; 
+	/* -webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
+	/* -webkit-tap-highlight-color: transparent;  /\* i.e. Nexus5/Chrome and Kindle Fire HD 7 *\/ */
+	/* -webkit-user-modify: read-only; */
+}
+
+*{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+}
+
+* input,* textarea{
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+ }
+
+#main-menu a {
+	font-size: 16px !important;
+}
+
+ul.dropdown-menu > li > a {
+	min-height: 50px;
+	padding-top: 15px;
+}
+
+#toggle-note-list:focus {
+	outline: none;
+}
+
+/* for: note-list-item-fixed::shadow .action-body */
+*::shadow *:focus {
+	outline: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+/* nexus9: 'font-weight: 500' looks too slim */
+paper-button {
+  font-weight: bold;
+}
+
+#hp-pad-view .item {
+	height: 48px;
+}
+
+#hp-write-view .write-panel {
+	width: 500px;
+}

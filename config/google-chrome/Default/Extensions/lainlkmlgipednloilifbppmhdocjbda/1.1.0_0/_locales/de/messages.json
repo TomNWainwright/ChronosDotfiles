@@ -1,0 +1,161 @@
+{
+   "about": {
+      "message": "Über"
+   },
+   "addADomain": {
+      "message": "URL hinzufügen"
+   },
+   "addANewMessenger": {
+      "message": "Messenger hinzufügen"
+   },
+   "addASubdomain": {
+      "message": "Subdomain hinzufügen"
+   },
+   "addMessenger": {
+      "message": "$messenger$ hinzufügen",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Verbessere All-in-One Messenger durch das Senden anonymer Nutzungsstatistiken."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Verwende Messenger wie z.B. WhatsApp, Telegramm, Messenger, Skype und viele mehr in einer App!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "appShortName": {
+      "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name.",
+      "message": "All-in-One"
+   },
+   "cancel": {
+      "message": "abbrechen"
+   },
+   "delete": {
+      "message": "löschen"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Gefällt dir All-in-One Messenger?"
+   },
+   "editEnabledMessengers": {
+      "message": "Messenger bearbeiten"
+   },
+   "editMessenger": {
+      "message": "$messenger$ bearbeiten",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "message": "Feedback zum All-in-One Messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "Vorsicht! Dieser Messenger verwendet keine sichere Verbindung!"
+   },
+   "later": {
+      "message": "später"
+   },
+   "loading": {
+      "message": "bitte warten..."
+   },
+   "messengerName": {
+      "message": "Name"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ benötigt eventuell zusätzliche Berechtigungen",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Könntest du uns ein wenig Feedback zu geben?"
+   },
+   "muteAllSounds": {
+      "message": "Stumm schalten"
+   },
+   "no": {
+      "message": "Nein"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "privacy": {
+      "message": "Privatsphäre"
+   },
+   "rateApp": {
+      "message": "Bewerte All-in-One Messenger"
+   },
+   "reportAnIssue": {
+      "message": "Ein Problem melden"
+   },
+   "resolve": {
+      "message": "anzeigen"
+   },
+   "save": {
+      "message": "sichern"
+   },
+   "sendFeedback": {
+      "message": "Feedback senden"
+   },
+   "shareMailText": {
+      "message": "Hey, ich habe gerade All-in-One Messenger entdeckt! \n\nhttp://allinone.im/"
+   },
+   "showNotifications": {
+      "message": "Benachrichtigungen erlauben"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Skype-Anrufe werden leider noch nicht unterstützt."
+   },
+   "support": {
+      "message": "Support"
+   },
+   "supportAppName": {
+      "message": "Unterstütze All-in-One Messenger"
+   },
+   "supportInto": {
+      "message": "All-in-One Messenger ist kostenlos!\u003Cbr /> Möchtest du uns deinen Freunden empfehlen?"
+   },
+   "supportOutro": {
+      "message": "Über 5 Sterne im \u003Ca href='$rateLink$' target='_blank'>Chrome Web Store\u003C/a> würden wir uns auch sehr freuen!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Unterstütze uns"
+   },
+   "updateNotice": {
+      "message": "Eine neue Version ist verfügbar. Bitte starte Google Chrome neu, um die Aktualisierung ab zu schließen"
+   },
+   "version": {
+      "message": "Version"
+   },
+   "website": {
+      "message": "Webseite"
+   },
+   "webstore": {
+      "message": "Webstore"
+   },
+   "yes": {
+      "message": "Ja"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Du bist derzeit offline."
+   }
+}

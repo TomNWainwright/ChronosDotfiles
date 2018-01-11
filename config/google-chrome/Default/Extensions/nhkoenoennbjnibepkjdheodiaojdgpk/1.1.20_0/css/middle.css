@@ -1,0 +1,19 @@
+*[name=edit-nav] > x-icon-button {
+	width: 50px;
+}
+
+/* #toolbar > * { */
+/* 	display: inline-block; */
+/* } */
+
+/* #toolbar > .x-btn-group-spliter { */
+/* 	vertical-align: middle; */
+/* } */
+
+/* #toolbar .btn { */
+/* 	font-size: 8px; */
+/* } */
+
+#toolbar x-icon-button {
+	min-width: 50px;
+}

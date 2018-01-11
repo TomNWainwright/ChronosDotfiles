@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "Acerca de"
+   },
+   "addADomain": {
+      "message": "Añadir un dominio"
+   },
+   "addANewMessenger": {
+      "message": "Añadir un messenger nuevo"
+   },
+   "addASubdomain": {
+      "message": "Añadir un subdominio"
+   },
+   "addMessenger": {
+      "message": "Añadir $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Ayude a mejorar All-in-One Messenger enviando estadísticas anónimas."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "¡Utilice plataformas de mensajería como WhatsApp, Telegram, Messenger, Skype y muchas más en una sola aplicación!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "cancel": {
+      "message": "cancelar"
+   },
+   "delete": {
+      "message": "borrar"
+   },
+   "doYouEnjoyAppName": {
+      "message": "¿Le gusta All-in-One Messenger?"
+   },
+   "editEnabledMessengers": {
+      "message": "Editar messengers activados"
+   },
+   "editMessenger": {
+      "message": "Editar $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Comentarios sobre All-in-One Messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "¡Tenga en cuenta que este messenger no utiliza una conexión segura!"
+   },
+   "later": {
+      "message": "después"
+   },
+   "loading": {
+      "message": "cargando..."
+   },
+   "messengerName": {
+      "message": "Nombre"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ puede requerir permisos adicionales",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "¿Le importaría darnos sus comentarios?"
+   },
+   "muteAllSounds": {
+      "message": "Silenciar todos los sonidos"
+   },
+   "no": {
+      "message": "no"
+   },
+   "ok": {
+      "message": "ok"
+   },
+   "privacy": {
+      "message": "Privacidad"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "¿Intentar de nuevo?"
+   },
+   "promoInstallFailText": {
+      "message": "Lo sentimos - falló la instalación"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "Intentar de nuevo en la Tienda Virtual"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Publicidad"
+   },
+   "promoPrimaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Añadir a Chrome"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "gratis"
+   },
+   "promoPrimaryIntroText": {
+      "message": "¡Ya está disponible para Google Chrome!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "¡Utilice plataformas de mensajería como WhatsApp, Telegram, Messenger, Skype\u003Cbr/> y muchas más en una sola aplicación!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "más información"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "no, gracias"
+   },
+   "promoSecondaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "Organice sus plataformas de mensajería favoritas en un solo lugar y esté al tanto de todas sus conversaciones. Añada nuevos messengers en cuestión de segundos y reciba una notificación cuando un amigo le envíe un mensaje. All-in-One Messenger es seguro, fácil de usar y gratuito."
+   },
+   "rateApp": {
+      "message": "Califique la aplicación"
+   },
+   "reportAnIssue": {
+      "message": "Reportar un problema"
+   },
+   "resolve": {
+      "message": "resolver"
+   },
+   "save": {
+      "message": "guardar"
+   },
+   "sendFeedback": {
+      "message": "Enviar comentarios"
+   },
+   "shareMailText": {
+      "message": "Eche un vistazo a All-in-One Messenger"
+   },
+   "showNotifications": {
+      "message": "Mostrar notificaciones"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Las llamadas no son compatibles aún."
+   },
+   "support": {
+      "message": "Apoyo"
+   },
+   "supportAppName": {
+      "message": "Apoyar a All-in-One Messenger"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "¡All-in-One Messenger es una aplicación gratuita, \u003Cbr /> por favor ayúdenos a mostrarlo a sus amigos!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "¡Estaremos contentos de recibir una \u003Ca href='$rateLink$' target='_blank'>calificación\u003C/a> de 5 estrellas en la Tienda Virtual de Chrome!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Apóyenos"
+   },
+   "updateNotice": {
+      "message": "Una nueva versión está disponible. Por favor, reinicie Google Chrome para actualizar."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Versión"
+   },
+   "webIndexDownloadButton": {
+      "message": "Descargar gratis"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003CStrong>Centre su atención\u003C/ strong> en una sola aplicación en lugar de cambiar entre diferentes aplicaciones de mensajería."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Utilice \u003Cstrong> tantas cuentas\u003C/ strong> de la misma plataforma de mensajería como desee."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Reciba \u003Cstrong>notificaciones\u003C/strong> de escritorio con respuesta de un solo clic. Silencie messengers específicos si considera que son molestos."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Una sola aplicación para todos sus messengers"
+   },
+   "webIndexIntroLead": {
+      "message": "Utilice las plataformas de mensajería como WhatsApp, Telegram, Messenger, Skype y muchas más en una sola aplicación"
+   },
+   "webIndexIntroTitle": {
+      "message": "All-in-One Messenger"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Messengers compatibles"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "¡Utilice plataformas de mensajería como WhatsApp, Telegram, Messenger, Skype y muchas más en una sola aplicación!"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Suscríbase a nuestro boletín de noticias y le notificaremos tan pronto como nos expandamos a otras plataformas."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "Su correo electrónico"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "All-in-One Messenger actualmente sólo está disponible para los usuarios del navegador Chrome."
+   },
+   "website": {
+      "message": "Sitio web"
+   },
+   "webstore": {
+      "message": "Tienda virtual"
+   },
+   "yes": {
+      "message": "sí"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Usted no está conectado en este momento."
+   }
+}

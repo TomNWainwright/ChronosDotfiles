@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "Sobre"
+   },
+   "addADomain": {
+      "message": "Adicionar um domínio"
+   },
+   "addANewMessenger": {
+      "message": "Adicionar um novo app de mensagem"
+   },
+   "addASubdomain": {
+      "message": "Adicionar um subdomínio"
+   },
+   "addMessenger": {
+      "message": "Adicionar $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Ajude a aprimorar o All-in-One Messenger enviando estatísticas anônimas de uso."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Utilize apps de mensagem como WhatsApp, Telegram, Messenger, Skype e muitos outros em apenas um app!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "cancel": {
+      "message": "cancelar"
+   },
+   "delete": {
+      "message": "excluir"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Você gostou do All-in-One Messenger?"
+   },
+   "editEnabledMessengers": {
+      "message": "Editar apps de mensagem habilitados"
+   },
+   "editMessenger": {
+      "message": "Editar $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Feedback sobre o All-in-One Messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "Obs.: este app de mensagens não utiliza uma conexão segura!"
+   },
+   "later": {
+      "message": "mais tarde"
+   },
+   "loading": {
+      "message": "Carregando..."
+   },
+   "messengerName": {
+      "message": "Nome"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ pode precisar de permissões adicionais",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Poderia nos dar seu feedback?"
+   },
+   "muteAllSounds": {
+      "message": "Silenciar todos os sons"
+   },
+   "no": {
+      "message": "NÃO"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "privacy": {
+      "message": "Privacidade"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "tentar novamente?"
+   },
+   "promoInstallFailText": {
+      "message": "Desculpe - a instalação falhou"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "tentar novamente na Webstore"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Anúncio"
+   },
+   "promoPrimaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Adicionar ao Chrome"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "gratuitamente"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Agora disponível para o Google Chrome!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "Utilize apps de mensagem como WhatsApp, Telegram, Messenger, Skype e muitos outros em apenas um app!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "mais informações"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "não, obrigado"
+   },
+   "promoSecondaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "Organize seus apps de mesagem favoritos em um único lugar e fique em dia com todas as suas conversas. Adicione novos apps em segundos e seja notificado quando um amigo enviar uma mensagem. O All-in-One Messenger é seguro, fácil de utilizar e gratuito."
+   },
+   "rateApp": {
+      "message": "Avaliar app"
+   },
+   "reportAnIssue": {
+      "message": "Relatar erro"
+   },
+   "resolve": {
+      "message": "solucionar"
+   },
+   "save": {
+      "message": "salvar"
+   },
+   "sendFeedback": {
+      "message": "Enviar feedback"
+   },
+   "shareMailText": {
+      "message": "Confira o All-in-One Messenger"
+   },
+   "showNotifications": {
+      "message": "Mostrar notificações"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Ainda não é possível fazer ligações"
+   },
+   "support": {
+      "message": "Suporte"
+   },
+   "supportAppName": {
+      "message": "Apoie o All-in-One Messenger"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "O All-in-One Messenger é um app gratuito, \u003Cbr /> ajude-nos mostrando-o aos seus amigos!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Ficaríamos felizes com uma \u003Ca href='$rateLink$' target='_blank'>avaliação\u003C/a> de 5 estrelas na Chrome Web Store!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Nos dê seu apoio"
+   },
+   "updateNotice": {
+      "message": "Uma nova versão está disponível. Reinicie o Google Chrome para atualizar."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Versão"
+   },
+   "webIndexDownloadButton": {
+      "message": "Baixar gratuitamente"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>Mantenha o foco\u003C/strong> com apenas um app ao invés de alternar entre diferentes apps de mensagem."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Utilize \u003Cstrong>quantas contas\u003C/strong> da mesma plataforma de mensagens desejar."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Obtenha \u003Cstrong>notificações\u003C/strong> na área de trabalho e responda com um clique. Silencie apps específicos se estiverem incomodando."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Um único app para todos os seus apps de mensagem"
+   },
+   "webIndexIntroLead": {
+      "message": "Utilize apps de mensagem como WhatsApp, Telegram, Messenger, Skype e muitos outros em apenas um app"
+   },
+   "webIndexIntroTitle": {
+      "message": "All-in-One Messenger"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Apps compatíveis"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "Utilize apps de mensagem como WhatsApp, Telegram, Messenger, Skype e muitos outros em apenas um app!"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Registre-se em nossa newsletter e iremos notificá-lo assim que lançarmos expansões para outras plataformas."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "Seu endereço de email"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "No momento, o All-in-One Messenger está disponível apenas para usuários do navegador Chrome."
+   },
+   "website": {
+      "message": "Site"
+   },
+   "webstore": {
+      "message": "Webstore"
+   },
+   "yes": {
+      "message": "SIM"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Você está offline no momento."
+   }
+}

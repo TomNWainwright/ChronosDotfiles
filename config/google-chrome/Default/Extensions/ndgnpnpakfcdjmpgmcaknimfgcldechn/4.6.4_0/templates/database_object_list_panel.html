@@ -1,0 +1,18 @@
+<div ng-controller="DatabaseObjectListController" ng-init="initialize()"  ng-show="isDatabaseObjectListVisible()">
+  <div class="sidebarHeader">
+    <input type="search" placeholder="Type to search" class="form-control input-sm" ng-model="filterValue" ng-trim="true" />
+  </div>
+
+  <div id="objectList">
+    <div class="list-group">
+      <a href="#" ng-repeat="table in tables | filter:filterValue" class="list-group-item tableLink" ng-click="selectTable(table)" ng-class="{active: isTableActive(table.name)}"><span class="glyphicon {{table.className}}"></span> {{table.name}}</a>
+    </div>
+  </div>
+
+  <div class="sidebarFooter">
+    <footer-button icon="refresh" title="Refresh the table list" click="refresh()" align="left"></footer-button>
+    <footer-button icon="plus" title="Create a new table" click="createTable()" enable="isDatabaseSelection()" align="left"></footer-button>
+    <footer-button icon="eraser" title="Truncate the selected table" click="confirmTruncateSelectedTable()" enable="isTableSelection() && canTruncate()" align="left"></footer-button>
+    <footer-button icon="trash-o" title="Drop the selected table" click="confirmDropSelectedTable()" enable="isTableSelection() && canDrop()" align="left"></footer-button>
+  </div>
+</div>

@@ -1,0 +1,121 @@
+<!-- polymer --> 
+<link href="./bower_components/polymer/polymer.html" rel="import" >
+<link href="./bower_components/iron-icon/iron-icon.html" rel="import" >
+<link href="./bower_components/iron-iconset/iron-iconset.html" rel="import" >
+<link href="./bower_components/iron-icons/iron-icons.html" rel="import" >
+<link href="./bower_components/iron-icons/social-icons.html" rel="import" >
+<link href="./bower_components/iron-pages/iron-pages.html" rel="import" >
+<link href="./bower_components/iron-flex-layout/iron-flex-layout-classes.html" rel="import" > 
+<link href="./bower_components/iron-a11y-keys/iron-a11y-keys.html" rel="import" >
+<link href="./bower_components/paper-styles/paper-styles.html" rel="import" >
+<link href="./bower_components/paper-styles/element-styles/paper-material-styles.html" rel="import" >
+<link href="./bower_components/paper-button/paper-button.html" rel="import" >
+<!-- <link href="./bower_components/paper-dropdown-menu/paper-dropdown-menu.html" rel="import" > -->
+<link href="./bower_components/paper-item/paper-item.html" rel="import" >
+<!-- <link href="./bower_components/paper-menu-button/paper-menu-button.html" rel="import" > -->
+<link href="./bower_components/paper-icon-button/paper-icon-button.html" rel="import" >
+<link href="./bower_components/paper-input/paper-input.html" rel="import" >
+<link href="./bower_components/paper-checkbox/paper-checkbox.html" rel="import" >
+<link href="./bower_components/paper-dialog/paper-dialog.html" rel="import" >
+<link href="./bower_components/paper-dialog-scrollable/paper-dialog-scrollable.html" rel="import" >
+<link href="./bower_components/neon-animation/neon-animation.html" rel="import" >
+<link href="./bower_components/neon-animation/web-animations.html" rel="import" >
+<link href="./bower_components/paper-checkbox/paper-checkbox.html" rel="import" >
+<link href="./bower_components/paper-toggle-button/paper-toggle-button.html" rel="import" >
+<link href="./bower_components/paper-slider/paper-slider.html" rel="import" >
+<link href="./bower_components/paper-input/paper-input.html" rel="import" >
+<link href="./bower_components/paper-input/paper-textarea.html" rel="import" >
+<link href="./bower_components/paper-progress/paper-progress.html" rel="import" >
+<link href="./bower_components/paper-header-panel/paper-header-panel.html" rel="import" >
+<link href="./bower_components/paper-toolbar/paper-toolbar.html" rel="import" >
+<link href="./bower_components/paper-spinner/paper-spinner.html" rel="import" >
+<link href="./bower_components/paper-radio-button/paper-radio-button.html" rel="import" >
+<link href="./bower_components/paper-radio-group/paper-radio-group.html" rel="import" >
+<!-- <link href="./bower_components/paper-tooltip/paper-tooltip.html" rel="import" > -->
+<!-- <link href="./bower_components/iron-dropdown-menu/iron-dropdown-menu.html" rel="import" > -->
+<link href="./bower_components/paper-fab/paper-fab.html" rel="import" >
+<link href="./bower_components/paper-drawer-panel/paper-drawer-panel.html" rel="import" >
+<link href="./bower_components/paper-header-panel/paper-header-panel.html" rel="import" >
+<link href="./bower_components/paper-listbox/paper-listbox.html" rel="import" >
+<link href="./bower_components/polymer/lib/elements/custom-style.html" rel="import">
+
+<!-- my polymer components -->
+<link href="./x_components/x-icon-button.html" rel="import" >
+<link href="./x_components/x-dropdown.html" rel="import" >
+<link href="./x_components/x-dropdown-button/x-dropdown-button.html" rel="import" >
+<link href="./x_components/note-list-item.html" rel="import" >
+<link href="./x_components/mn-icons.html" rel="import" >
+<link href="./x_components/x-popover/x-popover.html" rel="import" >
+<link href="./x_components/x-slider.html" rel="import" >
+<!-- <link href="./x_components/fake-paper-dropdown-menu.html" rel="import" > --> 
+<link href="./x_components/x-hero-page.html" rel="import" > 
+<link href="./x_components/x-menu-button.html" rel="import" > 
+<link href="./x_components/paper-tooltip.html" rel="import" >
+
+<link href="./css/custom.html" rel="import" >
+<link href="./css/theme-blue-grey.html" rel="import" >
+
+<dom-module id="my-app">
+  <template>
+    <link rel="stylesheet" href="./css/x-style.css" >
+    <link rel="stylesheet" href="./css/editor.css" >
+    <!-- style.css不能用dom-module的原因是因为polymer-webpack-loader处理url(..png)时有问题，为插件bug -->
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="stylesheet" href="./vendor/animate.css" >
+
+    <!--
+    等同于放在外面，如：custom.html
+    <link href="./css/theme-blue-grey.html" type="css" rel="import" >
+    -->
+
+    <style include="iron-flex iron-flex-alignment iron-flex-factors iron-positioning "></style>
+    <style include="theme-blue-grey"></style>
+
+    <!-- my global elements styles -->
+    <link rel="stylesheet" href="./x_components/x-dropdown-button/x-dropdown-button.css">
+    <link rel="stylesheet" href="./x_components/x-slider.css">
+
+    <style>
+      :host {
+        --app-primary-color: #4285f4;
+        --app-secondary-color: black;
+        display: block;
+
+        @apply --layout-fullbleed;
+      }
+    </style>
+    <slot></slot>
+  </template>
+  <script>
+    class MyApp extends Polymer.Element {
+        static get is() { return 'my-app'; }
+        static get properties() {
+            return {
+            };
+        }
+        constructor() {
+            super();
+
+            require("main");
+            //var html = require("text!./templates/settings.html");
+        }
+        //_attachDom(dom) {
+        //if (!this.shadowRoot) {
+        //this.attachShadow({
+        //mode: 'open',
+        //delegatesFocus: true
+        //});
+        //this.shadowRoot.appendChild(dom);
+        //}
+        //return this.shadowRoot;
+        //}
+        //ready() {
+        //this.shadowRoot.addEventListener("focus", () => {
+        //console.log("shadow root: foucs")
+        //}, true);
+        //}
+    }
+   
+   window.customElements.define(MyApp.is, MyApp);
+  </script>
+</dom-module>

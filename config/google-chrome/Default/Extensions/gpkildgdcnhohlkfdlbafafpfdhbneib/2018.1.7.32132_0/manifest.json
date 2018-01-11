@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#5A5959",
+      "launch": {
+         "web_url": "https://paperpile.com/app/folder/35c549c8-a569-0790-906a-d198313c1e41"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "WLZxl3rz9H8CMbYlAmu8KZhLEVHgPGrGUel44l+iYYA=",
+   "name": "Paperpile",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://paperpile.com/app/folder/35c549c8-a569-0790-906a-d198313c1e41*" ],
+         "title": "Paperpile"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

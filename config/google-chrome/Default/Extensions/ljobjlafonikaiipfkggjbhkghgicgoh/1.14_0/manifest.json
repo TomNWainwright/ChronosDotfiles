@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/emacs23-16x16.png"
+   },
+   "commands": {
+      "activate-emacs": {
+         "description": "Activate Emacs with contents of clipboard",
+         "suggested_key": {
+            "default": "Ctrl+Shift+E",
+            "linux": "Ctrl+Shift+E",
+            "mac": "Command+E"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/textareas.css" ],
+      "js": [ "javascript/textareas.js", "lib/jquery-1.7.min.js", "lib/jquery.color.min.js", "lib/mutation_summary.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Allow user to edit web-page textareas with Emacs (and other editors).",
+   "icons": {
+      "128": "icons/emacs.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdzulz2kXlkbk+I+F48K086PhgLZAohXf5CAZ4HobcNMmVwNZj26EFljJj4h+RGAYVjuMrCz0c7NoCLvqyz3RVEiXc4MG9gfDpWonV7TKsUe1eb7LpR3CZVjdDvgEPqV6NrizPnQVgO21mNeEkpO7Bt8o108nMDn8P2T84hKOisQIDAQAB",
+   "manifest_version": 2,
+   "name": "Edit with Emacs",
+   "options_page": "fancy-settings/source/index.html",
+   "permissions": [ "tabs", "contextMenus", "notifications", "http://127.0.0.1/edit/*", "clipboardRead" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.14",
+   "web_accessible_resources": [ "icons/gumdrop.png", "icons/emacs23-16x16-red.png" ]
+}

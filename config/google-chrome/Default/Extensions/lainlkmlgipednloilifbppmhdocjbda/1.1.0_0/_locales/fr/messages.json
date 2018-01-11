@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "À propos"
+   },
+   "addADomain": {
+      "message": "Ajouter un domaine"
+   },
+   "addANewMessenger": {
+      "message": "Ajouter une nouvelle messagerie"
+   },
+   "addASubdomain": {
+      "message": "Ajouter un sous-domaine"
+   },
+   "addMessenger": {
+      "message": "Ajouter $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Aidez à améliorer Messagerie Tout-en-un en envoyant des statistiques anonymes."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Utilisez des messageries comme WhatsApp, Telegram, Messenger, Skype et bien d’autres dans une seule appli !"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Messagerie Tout-en-un"
+   },
+   "cancel": {
+      "message": "annuler"
+   },
+   "delete": {
+      "message": "supprimer"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Aimez-vous Messagerie Tout-en-un ?"
+   },
+   "editEnabledMessengers": {
+      "message": "Modifier les messageries activées"
+   },
+   "editMessenger": {
+      "message": "Modifier $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Avis sur Messagerie Tout-en-un"
+   },
+   "insecureConnectionWarning": {
+      "message": "Veuillez noter que cette messagerie n’utilise pas une connexion sécurisée !"
+   },
+   "later": {
+      "message": "plus tard"
+   },
+   "loading": {
+      "message": "chargement..."
+   },
+   "messengerName": {
+      "message": "Nom"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ pourrait avoir besoin d'autorisations supplémentaires",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Souhaitez-vous nous donner votre avis ?"
+   },
+   "muteAllSounds": {
+      "message": "Couper tous les sons"
+   },
+   "no": {
+      "message": "non"
+   },
+   "ok": {
+      "message": "ok"
+   },
+   "privacy": {
+      "message": "Confidentialité"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "réessayer ?"
+   },
+   "promoInstallFailText": {
+      "message": "Désolés - l'installation a échoué"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "réessayez sur la Boutique Web"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Publicité"
+   },
+   "promoPrimaryHeading": {
+      "message": "Messagerie Tout-en-un"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Ajouter à Chrome"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "gratuitement"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Maintenant disponible pour Google Chrome !"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "Utilisez des messageries comme WhatsApp, Facebook Messenger, Skype\u003Cbr/> Telegram et bien d'autres sur une seule appli !"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "plus d'infos"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "non merci"
+   },
+   "promoSecondaryHeading": {
+      "message": "Messagerie Tout-en-un"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "Placez vos messageries préférées à un seul endroit et gardez la maîtrise de toutes vos conversations. Ajoutez de nouvelles messageries en quelques secondes et soyez averti quand un ami vous envoie un message. L’appli Messagerie Tout-en-un est sécurisée, facile à utiliser et gratuite."
+   },
+   "rateApp": {
+      "message": "Noter l'appli"
+   },
+   "reportAnIssue": {
+      "message": "Signaler un problème"
+   },
+   "resolve": {
+      "message": "résoudre"
+   },
+   "save": {
+      "message": "enregistrer"
+   },
+   "sendFeedback": {
+      "message": "Envoyer votre avis"
+   },
+   "shareMailText": {
+      "message": "Renseignez-vous sur Messagerie Tout-en-un"
+   },
+   "showNotifications": {
+      "message": "Afficher les notifications"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Les appels ne sont pas encore pris en charge."
+   },
+   "support": {
+      "message": "Assistance"
+   },
+   "supportAppName": {
+      "message": "Soutenez Messagerie Tout-en-un"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "Messagerie Tout-en-un est une appli gratuite, \u003Cbr/> veuillez nous aider en la partageant avec vos amis !"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Nous sommes heureux de toute \u003Ca href='$rateLink$' target='_blank'>note\u003C/a> de 5 étoiles sur la boutique en ligne Chrome !",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Soutenez-nous"
+   },
+   "updateNotice": {
+      "message": "Une nouvelle version est disponible. Veuillez redémarrer Google Chrome pour la mettre à jour."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Version"
+   },
+   "webIndexDownloadButton": {
+      "message": "Télécharger gratuitement"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>Restez concentré\u003C/strong> sur une seule appli au lieu de basculer entre les différentes applis de messagerie."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Utilisez autant \u003Cstrong>de comptes\u003C/strong> de la même plateforme de messagerie que vous voulez."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Recevez des \u003Cstrong>notifications\u003C/strong> sur votre bureau avec réponse un seul clic. Mettez en silencieux des messageries spécifiques si vous ne voulez pas être dérangé."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Une application unique pour toutes vos messageries"
+   },
+   "webIndexIntroLead": {
+      "message": "Utilisez des messageries comme WhatsApp, Telegram, Facebook Messenger, Skype et bien d’autres dans une seule appli"
+   },
+   "webIndexIntroTitle": {
+      "message": "Messagerie Tout-en-un"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Messageries prises en charge"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "Utilisez des messageries comme WhatsApp, Telegram, Messenger, Skype et bien d’autres dans une seule appli !"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Inscrivez-vous à notre newsletter et nous vous informerons dès que nous nous étendrons à d’autres plateformes."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "Votre adresse e-mail"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "Messagerie Tout-en-un est actuellement disponible uniquement pour les utilisateurs du navigateur Chrome."
+   },
+   "website": {
+      "message": "Site Internet"
+   },
+   "webstore": {
+      "message": "Boutique en ligne"
+   },
+   "yes": {
+      "message": "oui"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Vous êtes actuellement déconnecté."
+   }
+}

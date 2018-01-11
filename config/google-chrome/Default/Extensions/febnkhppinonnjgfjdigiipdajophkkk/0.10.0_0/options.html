@@ -1,0 +1,190 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Clipbrd</title>
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/dialog.css" />
+
+<main class="options">
+  <h1>Clipbrd — Options</h1>
+  <section class="scrn__signed_no" style="display: none">
+    <dl>
+      <dd><a class="btn" href="#signin">Sign in</a></dd>
+    </dl>
+  </section>
+  <section class="scrn__signed_yes" style="display: none">
+    <dl>
+      <dt>Signed in as <strong class="user__email"></strong></dt>
+      <dd><button class="btn-signout">Sign out</button></dd>
+    </dl>
+    <dl>
+      <dt>Status: <strong class="user__status">Online</strong></dt>
+      <dd><button class="btn-toggle">...</button></dd>
+    </dl>
+    <dl>
+      <dt>Account:</dt>
+      <dd><a href="#change">Change password</a></dd>
+    </dl>
+    <dl>
+      <dt>Notifications:</dt>
+      <dd>
+        <ul>
+          <li><input type="checkbox" id="notifyPopup" /><label for="notifyPopup">Display popup</label></li>
+          <li><input type="checkbox" id="notifySound" /><label for="notifySound">Play sound</label></li>
+        </ul>
+      </dd>
+    </dl>
+  </section>
+</main>
+
+<!-- -------- SIGN IN DIALOG -------- -->
+
+<div class="dialog signin">
+  <div class="dialog__view">
+  <div class="dialog__cont">
+    <button class="dialog__close dialog__x">×</button>
+    <h1>Sign In</h1>
+    <section class="scrn__signed_no">
+      <div>Don't have an account yet? <a href="#signup" class="dialog__close">Sign up!</a></div>
+      <form>
+        <fieldset>
+          <div class="error"></div>
+          <div><input type="email" name="email" placeholder="Email" required /></div>
+          <div><input type="password" name="password" placeholder="Password" required /></div>
+          <div><a href="#forgot" class="dialog__close">Forgot your password?</a></div>
+        </fieldset>
+        <button name="submit">Sign in</button>
+      </form>
+    </section>
+    <section class="scrn__signed_yes" style="display:none;">
+      <fieldset>You have successfully signed in!</fieldset>
+      <button class="dialog__close">Close</button>
+    </section>
+  </div>
+  </div>
+</div>
+
+<!-- -------- SIGN UP DIALOG -------- -->
+
+<div class="dialog signup">
+  <div class="dialog__view">
+  <div class="dialog__cont">
+    <button class="dialog__close dialog__x">×</button>
+    <h1>Sign Up</h1>
+    <section class="scrn__signed_no">
+      <div>Already have an account? <a class="dialog__close" href="#signin">Sign in!</a></div>
+      <form>
+        <div class="error"></div>
+        <div class="notice"></div>
+        <fieldset>
+          <div><input type="email" name="email" placeholder="Email" required /></div>
+          <div><input type="password" name="password" placeholder="Password" required /></div>
+          <div><input type="password" name="confirm" placeholder="Confirm password" required /></div>
+        </fieldset>
+        <button name="submit">Sign up</button>
+      </form>
+    </section>
+    <section class="scrn__signed_yes" style="display:none;">
+      <fieldset>You have successfully signed up!</fieldset>
+      <button class="dialog__close">Close</button>
+    </section>
+  </div>
+  </div>
+</div>
+
+<!-- -------- FORGOT PASSWORD DIALOG -------- -->
+
+<div class="dialog password-forgot">
+  <div class="dialog__view">
+  <div class="dialog__cont">
+    <button class="dialog__close dialog__x">×</button>
+    <h1>Password Reset</h1>
+    <section class="scrn__sent_no">
+      <div class="error"></div>
+      <form>
+        <fieldset>
+          <div>Enter your email address to reset your password.</div>
+          <div><input type="email" name="email" placeholder="Your email" required /></div>
+        </fieldset>
+        <button name="submit">Send instructions</button>
+        <span class="btn dialog__close">Cancel</span>
+      </form>
+    </section>
+    <section class="scrn__sent_yes" style="display:none;">
+      <fieldset>Please check your email for password reset instructions.</fieldset>
+      <button class="dialog__close">Cancel</button>
+    </section>
+  </div>
+  </div>
+</div>
+
+<!-- -------- CHANGE PASSWORD DIALOG -------- -->
+
+<div class="dialog password-change">
+  <div class="dialog__view">
+  <div class="dialog__cont">
+    <button class="dialog__close dialog__x">×</button>
+    <h1>Change Password</h1>
+    <section class="scrn__sent_no">
+      <form>
+        <div class="error"></div>
+        <fieldset>
+          <div><input type="password" name="password" placeholder="New password" required /></div>
+          <div><input type="password" name="confirm" placeholder="Confirm password" required /></div>
+        </fieldset>
+        <button name="submit">Change password</button>
+        <span class="btn dialog__close">Cancel</span>
+      </form>
+    </section>
+    <section class="scrn__sent_yes" style="display:none;">
+      <fieldset>You have successfully changed the password!</fieldset>
+      <button class="dialog__close">Cancel</button>
+    </section>
+  </div>
+  </div>
+</div>
+
+<!-- -------- RESET PASSWORD DIALOG -------- -->
+
+<div class="dialog password-reset">
+  <div class="dialog__view">
+  <div class="dialog__cont">
+    <button class="dialog__close dialog__x">×</button>
+    <h1>Password Reset</h1>
+    <section class="scrn__sent_no">
+      <div class="error"></div>
+      <form>
+        <fieldset>
+          <div><input type="password" name="password" placeholder="New password" required /></div>
+          <div><input type="password" name="confirm" placeholder="Confirm password" required /></div>
+        </fieldset>
+        <button name="submit">Reset</button>
+        <span class="btn dialog__close">Cancel</span>
+      </form>
+    </section>
+    <section class="scrn__sent_yes" style="display:none;">
+      <fieldset>You have successfully reseted pasword and signed in!</fieldset>
+      <button class="dialog__close">Cancel</button>
+    </section>
+  </div>
+  </div>
+</div>
+
+<script src="js/libs/sjcl.js"></script>
+<script src="js/libs/uuid.js"></script>
+<script src="js/libs/zepto.js"></script>
+<script src="js/libs/lodash.js"></script>
+<script src="js/libs/backbone.js"></script>
+<script src="js/crypto.js"></script>
+
+<script src="js/view.js"></script>
+<script src="js/dialog.js"></script>
+<script src="js/dialogs/signin.js"></script>
+<script src="js/dialogs/signup.js"></script>
+<script src="js/dialogs/password-forgot.js"></script>
+<script src="js/dialogs/password-change.js"></script>
+<script src="js/dialogs/password-reset.js"></script>
+<script src="js/views/options.js"></script>
+<script src="js/errors.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/app.js"></script>
+<script src="js/ga.js"></script>

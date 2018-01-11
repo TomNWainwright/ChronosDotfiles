@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/icon-inactive.png",
+         "38": "img/icon-inactive@2x.png"
+      },
+      "default_title": "Offline - Clipbrd"
+   },
+   "content_scripts": [ {
+      "js": [ "js/cs/reset-hash.js" ],
+      "matches": [ "http://www.clipbrd.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Synchronize clipboard between all your devices!",
+   "icons": {
+      "128": "img/icon-128x128.png",
+      "48": "img/icon-48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhbtVaJEQnwutWtXtJupnoaiQJI7xQJgotHrCJewNRDKM4eaHzK5+fLJeMMGGx91EClElex2/R0F4d0NC/hqnFbxuqQL9exDBXxHEGbRF0QhAvyO+764+Mh1oOBE4mOvqD+DQsbjzjuNJxOz9LMsA3PgN7pMYxt6BtaVaiEaJ6RwIDAQAB",
+   "manifest_version": 2,
+   "name": "Clipbrd Beta",
+   "options_page": "options.html",
+   "permissions": [ "background", "notifications", "clipboardRead", "clipboardWrite", "https://api.clipbrd.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.10.0",
+   "web_accessible_resources": [ "options.html", "img/icon-48x48.png", "img/icon-128x128.png" ]
+}

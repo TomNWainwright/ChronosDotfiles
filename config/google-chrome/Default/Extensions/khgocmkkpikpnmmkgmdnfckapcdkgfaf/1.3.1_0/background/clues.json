@@ -1,0 +1,2253 @@
+{
+	"avoid": {
+		"captcha": {
+			"id": "avoid_captcha",
+			"name": "captcha",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 5,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"captcha": 80
+			},
+			"Labels": {
+				"captcha": 50
+			},
+			"Placeholders": {},
+			"TabIndex": null,
+			"ValueWeights": null
+		},
+		"coupon": {
+			"id": "avoid_coupon",
+			"name": "coupon",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"coupon": 80
+			},
+			"Labels": {
+				"coupon": 50
+			},
+			"Placeholders": {},
+			"TabIndex": null,
+			"ValueWeights": null
+		},
+		"newsletter": {
+			"id": "avoid_newsletter",
+			"name": "newsletter",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": null,
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": {
+				"htmlAction": {
+					"newsletter": 1000,
+					"subscribe": 1000,
+					"subscription": 1000
+				},
+				"htmlName": {
+					"newsletter": 1000,
+					"subscribe": 1000,
+					"subscription": 1000
+				}
+			},
+			"HTMLName": null,
+			"Labels": null,
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": null
+		},
+		"quantity": {
+			"id": "avoid_quantity",
+			"name": "quantity",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"select-one",
+				"number"
+			],
+			"MinSelectLength": 10,
+			"MaxSelectLength": 0,
+			"MinTextLength": 2,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": {
+				"": 0,
+				"day": -1000,
+				"dec": -1000,
+				"feb": -1000,
+				"jan": -1000,
+				"month": -1000,
+				"year": -1000
+			},
+			"Form": null,
+			"HTMLName": {
+				"qty": 80,
+				"quantity": 80
+			},
+			"Labels": {
+				"": 0,
+				"expiration": -1000,
+				"expirationmonth": -1000,
+				"expirationyear": -1000,
+				"quantity": 50
+			},
+			"Placeholders": {},
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"1975": -1000
+			}
+		},
+		"registration": {
+			"id": "avoid_registration",
+			"name": "registration",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": null,
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": {
+				"htmlAction": {
+					"create%A?%w*%A?account": 1000,
+					"https://www.linkedin.com/nhome/join-create": 1000,
+					"https://www.linkedin.com/start/home": 1000,
+					"join": 1000,
+					"new%A?user": 1000,
+					"register": 1000,
+					"sign%A?up": 1000
+				},
+				"htmlName": {
+					"create%A?%w*%A?account": 1000,
+					"join": 1000,
+					"new%A?user": 1000,
+					"register": 1000,
+					"sign%A?up": 1000
+				}
+			},
+			"HTMLName": null,
+			"Labels": null,
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": null
+		},
+		"search": {
+			"id": "avoid_search",
+			"name": "search",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"search"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 20,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": {
+				"htmlAction": {
+					"/search": 1000
+				},
+				"htmlName": {
+					"search": 1000
+				},
+				"role": {
+					"search": 1000
+				}
+			},
+			"HTMLName": {
+				"": 0,
+				"^q$": 100,
+				"criteria": 30,
+				"find": 50,
+				"keywords": 80,
+				"query": 80,
+				"recherche": 80,
+				"search": 80,
+				"search%A?box": 1000,
+				"srch": 80,
+				"suchen": 80
+			},
+			"Labels": {
+				"search": 50,
+				"suchen": 50
+			},
+			"Placeholders": {
+				"search": 80,
+				"suchen": 80,
+				"найти": 50
+			},
+			"TabIndex": null,
+			"ValueWeights": {
+				"search": 80,
+				"suchen": 80
+			}
+		},
+		"shipping": {
+			"id": "avoid_shipping",
+			"name": "shipping",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"select-one"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {},
+			"Labels": {},
+			"Placeholders": {},
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"2businessdays": 80,
+				"3businessdays": 80,
+				"4businessdays": 80,
+				"5businessdays": 80,
+				"air": 10,
+				"fedex": 100,
+				"ground": 20,
+				"ups": 10,
+				"usps": 100
+			}
+		},
+		"username": {
+			"id": "avoid_username",
+			"name": "username",
+			"Designation": "username",
+			"FillType": "fillLogin",
+			"elementTypes": [
+				"text",
+				"email",
+				"tel",
+				"number",
+				"url",
+				"password"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"lastname": 100
+			},
+			"Labels": null,
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": null
+		}
+	},
+	"creditcard": {
+		"cvv": {
+			"id": "creditcard_cvv",
+			"name": "cvv",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"password",
+				"number",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 3,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"cc-csc": 100
+			},
+			"DataStripe": {
+				"cvc": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"card%A?secure%A?code": 50,
+				"cvc": 50,
+				"cvv": 50,
+				"security%A?code": 50,
+				"tbx%A?verification": 50
+			},
+			"Labels": {
+				"": 0,
+				"cardcode": 10,
+				"cardidentificationnumber": 50,
+				"cardidnumber": 60,
+				"cardsecuritynumber": 60,
+				"cardsecurityvalue": 50,
+				"cardvalidationnumber": 50,
+				"cardverification": 50,
+				"ccv": 40,
+				"checksumme": 50,
+				"cid": 40,
+				"cidnumber": 50,
+				"creditcardsecuritycode": 80,
+				"creditcardsecurityid": 80,
+				"cryptogrammedesecurite": 80,
+				"cryptogrammedesécurité": 80,
+				"csc": 40,
+				"cvc": 40,
+				"cvd": 40,
+				"cvdnumber": 50,
+				"cvn": 40,
+				"cvscode": 70,
+				"cvv": 50,
+				"cvvc": 50,
+				"cvvcardid": 50,
+				"cvvcode": 80,
+				"cvvcv": 50,
+				"cvvnumber": 80,
+				"kontrolciffer": 80,
+				"kontrolcifre": 80,
+				"securitycode": 50,
+				"securitydigits": 50,
+				"securitynumber": 50,
+				"sicherheitskode": 80,
+				"signaturepanelcode": 50,
+				"spc": 40,
+				"verificationcode": 50,
+				"verifikationskode": 80,
+				"versodevotrecartebancaire": 50
+			},
+			"Placeholders": {
+				"cvc": 50,
+				"cvcnumber": 50
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"expiry_mm": {
+			"id": "creditcard_expiry_mm",
+			"name": "expiry_mm",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"select-one",
+				"number",
+				"tel"
+			],
+			"MinSelectLength": 12,
+			"MaxSelectLength": 14,
+			"MinTextLength": 2,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"bday": -1000,
+				"bday-month": -1000,
+				"cc-exp-month": 100
+			},
+			"DataStripe": {
+				"exp-month": 1000,
+				"exp_month": 1000,
+				"expmonth": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": {
+				"": 0,
+				"00": -50,
+				"01": 10,
+				"02": 10,
+				"03": 10,
+				"04": 10,
+				"05": 10,
+				"06": 10,
+				"07": 10,
+				"08": 10,
+				"09": 10,
+				"10": 10,
+				"11": 10,
+				"12": 10,
+				"13": -1000,
+				"augustus": 50,
+				"december": 50,
+				"enero": 50,
+				"gennaio": 50,
+				"jan": 50,
+				"янв": 50
+			},
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"!expiry.?1": 50,
+				"cardexpmn": 50,
+				"dob.?month": -1000,
+				"month": 5,
+				"year": -1000,
+				"~exp.?month": 80,
+				"~exp?.?mnth": 80,
+				"~expdate.?month": 80,
+				"~expiry.?month": 80
+			},
+			"Labels": {
+				"": 0,
+				"ablaufmonat": 80,
+				"dataważności": 80,
+				"expirationmonth": 80,
+				"issued": -1000,
+				"startdate": -1000,
+				"udløbsdato": 10,
+				"validfrom": -1000,
+				"vervaldatum": 80,
+				"~expir%w+month": 50
+			},
+			"Placeholders": {
+				"": 0,
+				"expmonth": 80,
+				"~^mm$": 80
+			},
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"1": 10,
+				"12": 10,
+				"13": -1000
+			}
+		},
+		"expiry_mmyy": {
+			"id": "creditcard_expiry_mmyy",
+			"name": "expiry_mmyy",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"tel",
+				"number"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 4,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"cc-exp": 80
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"cc%A?exp": 30,
+				"cc%A?expiry": 30
+			},
+			"Labels": {
+				"": 0,
+				"creditcardexpirydate": 80,
+				"expdate": 80,
+				"expiration": 80,
+				"expirationdate": 80,
+				"expirefin": 80,
+				"expires": 80,
+				"expirydate": 80,
+				"issued": -1000,
+				"mmyy": 100,
+				"startdate": -1000,
+				"validfrom": -1000
+			},
+			"Placeholders": {
+				"": 0,
+				"^mm%A?yyy?y?$": 80,
+				"^yyy?y?%A?mm$": 80
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"expiry_yy": {
+			"id": "creditcard_expiry_yy",
+			"name": "expiry_yy",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"select-one",
+				"number",
+				"tel"
+			],
+			"MinSelectLength": 5,
+			"MaxSelectLength": 0,
+			"MinTextLength": 2,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"bday": -1000,
+				"bday-year": -1000,
+				"cc-exp-year": 100
+			},
+			"DataStripe": {
+				"exp-year": 1000,
+				"exp_year": 1000,
+				"expyear": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": {
+				"^2016$": 100,
+				"^2017$": 100,
+				"^2018$": 100,
+				"^2019$": 100,
+				"^2020$": 100
+			},
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"month": -1000,
+				"year": 5,
+				"~dob.?day": -1000,
+				"~ex.?yr": 80,
+				"~exp.?year": 80,
+				"~expdate.?year": 80,
+				"~expiration.?year": 80,
+				"~expiry.?2": 50,
+				"~expiry.?year": 80
+			},
+			"Labels": {
+				"": 0,
+				"country": -1000,
+				"expirationyear": 80,
+				"issued": -1000,
+				"startdate": -1000,
+				"udløbsdato": 10,
+				"validfrom": -1000
+			},
+			"Placeholders": {
+				"": 0,
+				"^yy$": 80,
+				"^yyyy$": 80
+			},
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				" 0 ": -1000,
+				"^1$": -20,
+				"^13$": -20,
+				"^14$": -20,
+				"^15$": -20,
+				"^16$": 10,
+				"^17$": 10,
+				"^18$": 10,
+				"^19$": 10,
+				"^1975$": -1000,
+				"^2$": -20,
+				"^2005$": -50,
+				"^2013$": -20,
+				"^2014$": -20,
+				"^2015$": -20,
+				"^2016$": 50,
+				"^2017$": 50,
+				"^2018$": 50,
+				"^2019$": 50,
+				"^2020$": 50,
+				"^3$": -20,
+				"^4$": -20,
+				"^5$": -20,
+				"year": 1000
+			}
+		},
+		"firstname": {
+			"id": "creditcard_firstname",
+			"name": "cc_firstname",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 15,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"cc-given-name": 80,
+				"cc-name": -1000
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"cc%A?first%A?name": 80,
+				"credit%A?card%A?first%A?name": 80,
+				"first%A?name%A?cc": 80,
+				"holder%A?first%A?name": 80
+			},
+			"Labels": {
+				"": 0
+			},
+			"Placeholders": {
+				"first%A?name": 10
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"holdername": {
+			"id": "creditcard_cardholder",
+			"name": "cardholder",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 15,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"cc-family-name": -1000,
+				"cc-given-name": -1000,
+				"cc-name": 100
+			},
+			"DataStripe": {
+				"name": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"card%A?holder%A?name": 80,
+				"card%A?name": 50,
+				"credit%A?card%A?name": 80,
+				"name%A?on%A?card": 80,
+				"payment%A?name": 70
+			},
+			"Labels": {
+				"": 0,
+				"cardholder": 80,
+				"cardholdername": 80,
+				"cardholdersname": 80,
+				"cardname": 30,
+				"creditcardowner": 80,
+				"karteninhaber": 50,
+				"kreditkarteninhaber": 80,
+				"nameasitappearsoncard": 80,
+				"nameasitappearsoncreditcard": 80,
+				"nameaufderkarte": 80,
+				"nameaufderkreditkarte": 80,
+				"nameofcardholder": 80,
+				"nameoncard": 80,
+				"nameoncreditcard": 80,
+				"nameonthecard": 80,
+				"nameprintedoncard": 80,
+				"navnp(a)?kortet": 80,
+				"nombre": 80,
+				"paymentamount": -100
+			},
+			"Placeholders": {
+				"": 0,
+				"card%A?holder%A?name": 80,
+				"nameoncard": 80
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"lastname": {
+			"id": "creditcard_lastname",
+			"name": "cc_lastname",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 15,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"cc-family-name": 80,
+				"cc-name": -1000
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"cc%A?last%A?name": 80,
+				"credit%A?card%A?last%A?name": 80,
+				"holder%A?last%A?name": 80,
+				"last%A?name%A?cc": 80
+			},
+			"Labels": {
+				"": 0
+			},
+			"Placeholders": {
+				"last%A?name": 10
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"number": {
+			"id": "creditcard_number",
+			"name": "ccnum",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"number",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 16,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"cc-number": 100
+			},
+			"DataStripe": {
+				"number": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"account%A?number": -999,
+				"address": -1000,
+				"card%A?identifier%A?number": 50,
+				"card%A?number": 50,
+				"cc%A?number": 50,
+				"credit%A?card%A?number": 50,
+				"creditcard%A?accountnumber": 1000
+			},
+			"Labels": {
+				"": 0,
+				"accountnumber": -1000,
+				"americanexpress#": 80,
+				"card#": 50,
+				"cardaccountnumber": 50,
+				"cardno": 50,
+				"cardnumber": 50,
+				"cardoraccountnumber": 50,
+				"cardverificationno": -1000,
+				"ccnumber": 50,
+				"creditcard#": 100,
+				"creditcardno": 80,
+				"creditcardnumber": 100,
+				"giftcardnumber": -1000,
+				"kaartnummer": 80,
+				"kartennummer": 50,
+				"kontokort": 80,
+				"kortnummer": 80,
+				"kreditkarte": 80,
+				"kreditkartennummer": 100,
+				"kreditkort": 80,
+				"mastercard#": 80,
+				"number": 30,
+				"numerkarty": 80,
+				"numero": 30,
+				"numro": 30,
+				"numérodecarte": 50,
+				"numérodelacarte": 50,
+				"n°decarte": 80,
+				"phone": -1000,
+				"ponumber": -1000,
+				"street": -1000,
+				"tarjeta": 50,
+				"vat": -1000,
+				"visa#": 80
+			},
+			"Placeholders": {
+				"": 0,
+				"#### #### #### ####": 50,
+				"accountnumber": -1000,
+				"credit%A?card%A?number": 50
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"type": {
+			"id": "creditcard_type",
+			"name": "type",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"radio",
+				"select-one"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": {
+				"": 0,
+				"americanexpress": 90,
+				"amex": 90,
+				"country": -1000,
+				"discover": 20,
+				"mastercard": 90,
+				"vicenza": -1000,
+				"virginislands": -1000,
+				"visa": 90
+			},
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"card%A?type": 80,
+				"cc%A?type": 80,
+				"credit%A?card%A?type": 80
+			},
+			"Labels": {
+				"": 0,
+				"cardtype": 25,
+				"country": -1000,
+				"creditcardtype": 80,
+				"estado": -1000,
+				"kaarttype": 80,
+				"kreditkartenfirma": 80,
+				"kreditkartentyp": 80,
+				"typeofcreditcard": 80
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"americanexpress": 90,
+				"amex": 90,
+				"ax": 50,
+				"canada": -1000,
+				"discover": 20,
+				"ds": 50,
+				"mastercard": 90,
+				"mc": 50,
+				"uk": -1000,
+				"unitedstates": -1000,
+				"usa": -1000,
+				"vi": 50,
+				"visa": 90
+			}
+		}
+	},
+	"designation": {
+		"email": {
+			"id": "designation_email",
+			"name": "designatedUsernameEmail",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"email"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"email": 80
+			},
+			"Labels": {
+				"email": 100
+			},
+			"Placeholders": {
+				"email": 100
+			},
+			"TabIndex": null,
+			"ValueWeights": {
+				"": -1000
+			}
+		},
+		"password": {
+			"id": "designation_password",
+			"name": "designatedPassword",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"password"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"contrasena": 100,
+				"password": 100
+			},
+			"Labels": {
+				"contrasena": 100,
+				"password": 100
+			},
+			"Placeholders": {
+				"contrasena": 100,
+				"password": 100
+			},
+			"TabIndex": {
+				"-1": -1000
+			},
+			"ValueWeights": {
+				"": -1000
+			}
+		},
+		"username": {
+			"id": "designation_username",
+			"name": "designatedUsername",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"email",
+				"tel",
+				"number"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"^username$": 1000,
+				"members%A?display%A?name": 80,
+				"passwordastext": -1000,
+				"user%A?id": 100,
+				"username": 50,
+				"username%A?": 100,
+				"usr%A?id": 80,
+				"usr%A?name": 80
+			},
+			"Labels": {
+				"^username$": 1000,
+				"loginid": 90,
+				"membernumber": 80,
+				"onlineid": 51,
+				"userid": 100,
+				"username": 50,
+				"username%A?": 100
+			},
+			"Placeholders": {
+				"username": 100
+			},
+			"TabIndex": null,
+			"ValueWeights": {
+				"": -1000
+			}
+		}
+	},
+	"identity": {
+		"city": {
+			"id": "identity_city",
+			"name": "city",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"city": 100,
+				"locality": 100
+			},
+			"DataStripe": {
+				"address%A?city": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"city": 100,
+				"flightcity": -1000,
+				"flightnumber": -1000,
+				"poblacion": 20,
+				"zip": -1000
+			},
+			"Labels": {
+				"": 0,
+				"^lieu$": 30,
+				"city": 30,
+				"email": -80,
+				"flightcity": -1000,
+				"ipaddress": -80,
+				"localité": 30,
+				"miasto": 30,
+				"ort": 20,
+				"población": 10,
+				"postort": 30,
+				"suburb": 30,
+				"town": 30,
+				"towncity": 30,
+				"ville": 30,
+				"город": 30
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"company": {
+			"id": "identity_company",
+			"name": "company",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"org": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"address": -1000,
+				"business%A?name": 100,
+				"city": -1000,
+				"company": 100,
+				"country": -1000,
+				"email": -1000,
+				"phone": -1000,
+				"state": -1000,
+				"zip": -1000
+			},
+			"Labels": {
+				"": 0,
+				"businessname": 50,
+				"company": 50,
+				"firma": 30,
+				"organisation": 50,
+				"organization": 50,
+				"orgname": 30,
+				"virksomhedsnavn": 50
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"country": {
+			"id": "identity_country",
+			"name": "country",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"select-one",
+				"radio"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"country-name": 100
+			},
+			"DataStripe": {
+				"address%A?country": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": {
+				"": 0,
+				"^can": 90,
+				"canada": 90,
+				"deutschland": 90,
+				"english": -1000,
+				"france": 80,
+				"kanada": 90,
+				"unitedkingdom": 90,
+				"unitedstates": 80,
+				"usa": 90,
+				"канада": 90,
+				"‪español": -1000,
+				"‪français": -1000
+			},
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"airline": -1000,
+				"country": 50
+			},
+			"Labels": {
+				"": 0,
+				"country": 50,
+				"kraj": 50,
+				"land": 20,
+				"pays": 20,
+				"страна": 50
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"can": 50,
+				"canada": 50,
+				"uk": 50,
+				"unitedstates": 50,
+				"us": 20,
+				"usa": 50
+			}
+		},
+		"email": {
+			"id": "identity_email",
+			"name": "email",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"email"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"email": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"available%A?emails": -1000,
+				"e%A?mail": 50,
+				"email%A?confirm": -1000,
+				"payment:email": -1000
+			},
+			"Labels": {
+				"": 0,
+				"confirmemail": -1000,
+				"confirmyouremail": -1000,
+				"courriel": 80,
+				"deineemail": 80,
+				"direccióndecorreoelectrónico": 80,
+				"email": 60,
+				"emailaddress": 85,
+				"reenteryouremail": -1000,
+				"retypeemail": -1000,
+				"saisissezànouveau": -40,
+				"verifyemail": -1000,
+				"verifyyouremail": -1000,
+				"votrecourriel": 80,
+				"youremail": 80,
+				"youremailaddress": 80,
+				"вашэлектронныйадрес": 80,
+				"почтыещераз": -1000,
+				"электронныйадрес": 60
+			},
+			"Placeholders": {
+				"date": -1000
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"email2": {
+			"id": "identity_email2",
+			"name": "email2",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"email"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"email": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"email%A?confirm": 100
+			},
+			"Labels": {
+				"": 0,
+				"bekræftemailadresse": 80,
+				"confirmemail": 30,
+				"confirmyouremailaddress": 80,
+				"emailaddressagain": 80,
+				"emailadressewiederholen": 80,
+				"emailnochmalseingeben": 80,
+				"nouveauvotrecourriel": 80,
+				"nuevoladireccióndecorreoelectrónico": 80,
+				"reenteremail": 30,
+				"reenteryouremail": 30,
+				"reenteryouremailaddress": 50,
+				"reinseriscilemail": 80,
+				"repeatemail": 30,
+				"repeatemailaddress": 50,
+				"retypeemail": 30,
+				"retypeemailaddress": 50,
+				"verifyemail": 30,
+				"verifyemailadress": 50,
+				"verifyyouremail": 80,
+				"адресэлектроннойпочтыещераз": 80
+			},
+			"Placeholders": {
+				"confirmemail": 100
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"firstname": {
+			"id": "identity_firstname",
+			"name": "firstname",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"given-name": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"f%A?name": 80,
+				"first%A?name": 100,
+				"given%A?name": 100,
+				"nombre": 100
+			},
+			"Labels": {
+				"": 0,
+				"cardholders?name": -1000,
+				"firstlast": -1000,
+				"firstname": 80,
+				"forename": 80,
+				"fornavn": 80,
+				"fullname": -1000,
+				"förnamn": 80,
+				"givenname": 80,
+				"nombre": 80,
+				"nome": 25,
+				"prénom": 80,
+				"tilltalsnamn": 80,
+				"vorname": 80,
+				"имя": 80
+			},
+			"Placeholders": {
+				"firstname": 80
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"initial": {
+			"id": "identity_initial",
+			"name": "initial",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 1,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"additional-name-initial": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"initial": 80,
+				"middle%A?name": 80
+			},
+			"Labels": {
+				"": 0,
+				"cardholders?name": -1000,
+				"fullname": -1000,
+				"initial": 80,
+				"middlename": 80,
+				"отчество": 80
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"lastname": {
+			"id": "identity_lastname",
+			"name": "lastname",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"family-name": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"apellido1": 30,
+				"apellido2": -30,
+				"family%A?name": 100,
+				"l%A?name": 80,
+				"last%A?name": 100
+			},
+			"Labels": {
+				"": 0,
+				"^name$": 5,
+				"^nom$": 30,
+				"achternaam": 80,
+				"apellidos": 80,
+				"cardholders?name": -1000,
+				"cognome": 80,
+				"efternamn": 80,
+				"efternavn": 80,
+				"familyname": 70,
+				"firstlast": -1000,
+				"fullname": -1000,
+				"lastname": 80,
+				"nachname": 80,
+				"nomdefamille": 80,
+				"nome": -30,
+				"surname": 70,
+				"фамилия": 80
+			},
+			"Placeholders": {
+				"lastname": 80
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"phone": {
+			"id": "identity_phone",
+			"name": "phone",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 5,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"tel": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"dayphone": 50,
+				"email": -1000,
+				"getaddressbyphone": -1000,
+				"phone": 50,
+				"telefono": 50
+			},
+			"Labels": {
+				"": 0,
+				"contacttel": 40,
+				"phone": 40,
+				"phonenumber": 40,
+				"telefon": 40,
+				"teléfono": 40,
+				"телефон": 40
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"phone_areacode": {
+			"id": "identity_phone_areacode",
+			"name": "phone_areacode",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"tel-area-code": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"area%A?code": 50,
+				"phone": 10,
+				"phone2": -20,
+				"phone3": -20
+			},
+			"Labels": {
+				"": 0,
+				"areacode": 40,
+				"daytime": -100,
+				"evening": -100,
+				"mobile": -100
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"phone_prefix": {
+			"id": "identity_phone_prefix",
+			"name": "phone_prefix",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"tel-local-prefix": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"biller%A?prefix": 50,
+				"phone": -10,
+				"phone%A?domestic%A?prefix": 50,
+				"phone%A?local%A?prefix": 50,
+				"phone%A?number%A?domestic%A?prefix": 50,
+				"phone%A?number%A?local%A?prefix": 50,
+				"phone%A?number%A?prefix": 50,
+				"phone%A?prefix": 50,
+				"phone2": 20,
+				"phone3": -10
+			},
+			"Labels": {
+				"": 0,
+				"daytime": -100,
+				"evening": -100,
+				"mobile": -100,
+				"phonedomesticprefix": 40,
+				"phonelocalprefix": 40,
+				"phonenumberdomesticprefix": 40,
+				"phonenumberlocalprefix": 40,
+				"phonenumberprefix": 40,
+				"phoneprefix": 40
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"phone_suffix": {
+			"id": "identity_phone_suffix",
+			"name": "phone_suffix",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"tel-local-suffix": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"biller%A?us%A?phone%A?line%A?number": 50,
+				"phone": 10,
+				"phone%A?domestic%A?suffix": 50,
+				"phone%A?extension": 50,
+				"phone%A?local%A?suffix": 50,
+				"phone%A?number%A?domestic%A?suffix": 50,
+				"phone%A?number%A?local%A?suffix": 50,
+				"phone%A?number%A?suffix": 50,
+				"phone%A?suffix": 50,
+				"phone2": -10,
+				"phone3": 30
+			},
+			"Labels": {
+				"": 0,
+				"daytime": -100,
+				"evening": -100,
+				"mobile": -100,
+				"phonedomesticsuffix": 40,
+				"phonelocalsuffix": 40,
+				"phonenumberdomesticsuffix": 40,
+				"phonenumberlocalsuffix": 40,
+				"phonenumbersuffix": 40,
+				"phonesuffix": 40
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"postalcode1": {
+			"id": "identity_postalcode1",
+			"name": "postalcode1",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 3,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"postal%A?code%A?1": 100,
+				"postal%A?code%A?left": 100
+			},
+			"Labels": {
+				"": 0,
+				"postalcode1": 80,
+				"postalcodeleft": 80
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"postalcode2": {
+			"id": "identity_postalcode2",
+			"name": "postalcode2",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 3,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"postal%A?code%A?2": 100,
+				"postal%A?code%A?right": 100
+			},
+			"Labels": {
+				"": 0,
+				"postalcode2": 80,
+				"postalcoderight": 80
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"sex": {
+			"id": "identity_sex",
+			"name": "sex",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"select-one",
+				"radio"
+			],
+			"MinSelectLength": 2,
+			"MaxSelectLength": 4,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"gender-identity": 100,
+				"sex": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"gender": 50,
+				"sex": 50
+			},
+			"Labels": {
+				"": 0,
+				"anrede": 70,
+				"femalemale": 70,
+				"gender": 70,
+				"ikbeneen": 50,
+				"køn": 70,
+				"malefemale": 70,
+				"sex": 70,
+				"вашпол": 70,
+				"мужжен": 70,
+				"пол": 20
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"f": 50,
+				"female": 50,
+				"feminino": 50,
+				"frau": 50,
+				"herr": 50,
+				"kvinde": 50,
+				"m": 50,
+				"male": 50,
+				"mand": 50,
+				"mascul": 50,
+				"mies": 50,
+				"mujer": 50,
+				"männl": 50,
+				"nainen": 50,
+				"uomo": 50,
+				"vrouw": 50,
+				"жен": 50,
+				"муж": 50
+			}
+		},
+		"state": {
+			"id": "identity_state",
+			"name": "state",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"select-one",
+				"radio"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 2,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"administrative-area": 100,
+				"province": 100,
+				"region": 100,
+				"state": 100
+			},
+			"DataStripe": {
+				"address%A?state": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": {
+				"": 0,
+				"california": 50,
+				"florida": 50,
+				"ontario": 50
+			},
+			"Form": null,
+			"HTMLName": {
+				"province": 100,
+				"state": 100
+			},
+			"Labels": {
+				"": 0,
+				"canada": -1000,
+				"county": 20,
+				"departurecity": -1000,
+				"province": 80,
+				"stadt": 40,
+				"state": 30,
+				"stateprovince": 80,
+				"unitedstates": -1000,
+				"регион": 20
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"bc": 20,
+				"california": 50,
+				"florida": 50,
+				"nh": 20,
+				"ny": 20,
+				"ontario": 50
+			}
+		},
+		"street": {
+			"id": "identity_street",
+			"name": "street",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"address-line1": 100,
+				"street-address": 30
+			},
+			"DataStripe": {
+				"address[_-]?line1": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"add?ress%A?1": 50,
+				"address%A?line%A?1": 50,
+				"calle": 50,
+				"email": -1000,
+				"hotmailaddress": -1000,
+				"ipaddress": -1000,
+				"street%A?1": 50
+			},
+			"Labels": {
+				"": 0,
+				"^rue$": 40,
+				"address": 5,
+				"address1": 30,
+				"adres": 20,
+				"adresse": 20,
+				"billingaddress": 10,
+				"billingstreetaddress": 10,
+				"calle": 10,
+				"gatuadress": 30,
+				"leveransadress": 30,
+				"line1": 30,
+				"strasse": 30,
+				"straße": 30,
+				"straßeundhausnummer": 60,
+				"street": 10,
+				"streetaddress": 10,
+				"streetaddressone": 10,
+				"streetname": 30
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {
+				"postcode": -1000
+			}
+		},
+		"username": {
+			"id": "identity_username",
+			"name": "username",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"account%A?number": -1000,
+				"first%A?name": -1000,
+				"full%A?name": -1000,
+				"last%A?name": -1000,
+				"screen%A?name": 80,
+				"user%A?name": 50,
+				"username": 80
+			},
+			"Labels": {
+				"": 0,
+				"^id$": 20,
+				"accountnumber": -1000,
+				"cardid": -1000,
+				"cardnumber": -1000,
+				"displayname": 80,
+				"flightnumber": -1000,
+				"hotmailaddress": 80,
+				"initial": -1000,
+				"middlename": -1000,
+				"screenname": 80,
+				"serial": -1000,
+				"state": -1000,
+				"travelerid": -1000,
+				"useralias": 70,
+				"username": 80,
+				"vatid": -1000
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {
+				"": 0,
+				"username": 100
+			}
+		},
+		"yourname": {
+			"id": "identity_yourname",
+			"name": "yourname",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"name": 100
+			},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"full[_-]?name": 50,
+				"username": -1000,
+				"your[_-]?name": 50
+			},
+			"Labels": {
+				"": 0,
+				"^name$": 20,
+				"card": -10,
+				"cardholder": -1000,
+				"companyname": -1000,
+				"displayname": -1000,
+				"email": -80,
+				"firstandlast": 80,
+				"firstlast": 80,
+				"firstname": -70,
+				"fullname": 80,
+				"förochefternamn": 50,
+				"imięinazwiskonakarcie": 80,
+				"lastname": -70,
+				"middlename": -1000,
+				"nameoncard": -1000,
+				"nameonthecard": -1000,
+				"navn": 50,
+				"nome": 20,
+				"ownername": 20,
+				"username": -1000,
+				"yourname": 80
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"zip": {
+			"id": "identity_zip",
+			"name": "zip",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 4,
+			"MaxTextLength": 0,
+			"autoCompleteType": {
+				"postal-code": 100
+			},
+			"DataStripe": {
+				"address%A?zip": 1000
+			},
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"codigo-postal": 50,
+				"codigo_postal": 50,
+				"codigopostal": 50,
+				"email": -1000,
+				"phone": -1000,
+				"postal-code": 50,
+				"postal_code": 50,
+				"postalcode": 50,
+				"zip": 50
+			},
+			"Labels": {
+				"": 0,
+				"codepostal": 50,
+				"código-postal": 80,
+				"código_postal": 80,
+				"códigopostal": 80,
+				"kodpocztowy": 80,
+				"plz": 80,
+				"postal": 10,
+				"postalcode": 50,
+				"postcode": 30,
+				"postleitzahl": 80,
+				"postnummer": 30,
+				"zip": 30,
+				"zipcode": 30,
+				"~^npa$": 80,
+				"индекс": 30
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		}
+	},
+	"login": {
+		"concealedUsername": {
+			"id": "login_concealed_username",
+			"name": "concealedUsername",
+			"Designation": "username",
+			"FillType": "",
+			"elementTypes": [
+				"password"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"userid": 30
+			},
+			"Labels": {
+				"": 0,
+				"email": 80,
+				"gebruikersnaam": 80,
+				"hotmailaddress": 80,
+				"id": 20,
+				"initial": -1000,
+				"middlename": -1000,
+				"search": -1000,
+				"serial": -1000,
+				"useralias": 70,
+				"username": 80,
+				"vatid": -1000
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"password": {
+			"id": "login_password",
+			"name": "password",
+			"Designation": "password",
+			"FillType": "",
+			"elementTypes": [
+				"password"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 0,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"contrasena": 100,
+				"join": -1000,
+				"password": 100,
+				"password1": 20,
+				"reg": -1000,
+				"userid1": -1000
+			},
+			"Labels": {
+				"contraseña": 80,
+				"password": 80,
+				"passwort": 80,
+				"pin": 50,
+				"wachtwoord": 80
+			},
+			"Placeholders": null,
+			"TabIndex": {
+				"-1": -1000
+			},
+			"ValueWeights": null
+		},
+		"totp": {
+			"id": "login_2fa",
+			"name": "2fa",
+			"Designation": "totp",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"number",
+				"tel",
+				"password"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 4,
+			"MaxTextLength": 6,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"2fa": 100,
+				"=onetimepassword": 1000,
+				"=otc": 100,
+				"=otp": 1000,
+				"=tfaGa": 1000,
+				"=user[otp_attempt]": 1000,
+				"approvals_code": 80,
+				"auth-mfa-otpcode": 1000,
+				"challenge": 50,
+				"code": 50,
+				"mfacode": 100,
+				"otp": 50,
+				"otpcode": 100,
+				"second_factor": 50,
+				"security-code": 100,
+				"token": 50,
+				"token-login": 80,
+				"totp": 100,
+				"twoFactorCode": 100,
+				"verification_code": 50
+			},
+			"Labels": {
+				"": 0,
+				"security code": 50
+			},
+			"Placeholders": {
+				"Authentication code": 100,
+				"Security Code": 100
+			},
+			"TabIndex": null,
+			"ValueWeights": {}
+		},
+		"username": {
+			"id": "login_username",
+			"name": "username",
+			"Designation": "username",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"email",
+				"tel",
+				"number"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 10,
+			"MaxTextLength": 0,
+			"autoCompleteType": {},
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"username": 100
+			},
+			"Labels": {
+				"": 0,
+				"email": 80,
+				"gebruikersnaam": 80,
+				"hotmailaddress": 80,
+				"id": 20,
+				"initial": -1000,
+				"middlename": -1000,
+				"search": -1000,
+				"serial": -1000,
+				"useralias": 70,
+				"username": 80,
+				"vatid": -1000
+			},
+			"Placeholders": null,
+			"TabIndex": null,
+			"ValueWeights": {}
+		}
+	},
+	"overlay": {
+		"password": {
+			"id": "overlay_password",
+			"name": "passwordOverlay",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"password"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"%A?fake%A?password": 80,
+				"fakepac": 80,
+				"password%A?placeholder": 80
+			},
+			"Labels": {},
+			"Placeholders": {},
+			"TabIndex": null,
+			"ValueWeights": {
+				"enter password": 100
+			}
+		},
+		"textPassword": {
+			"id": "overlay_text_password",
+			"name": "textPasswordOverlay",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"": 0,
+				"dummy%A?password": 80,
+				"fake%A?password": 80,
+				"password%A?dummy": 80,
+				"password%A?placeholder": 80,
+				"password%A?text": 80,
+				"passwordastext": 100,
+				"text%A?password": 80
+			},
+			"Labels": {},
+			"Placeholders": {
+				"password": 100
+			},
+			"TabIndex": null,
+			"ValueWeights": {
+				"enterpassword": 100,
+				"enteryourpassword": 100,
+				"lösenord": 100,
+				"password": 100,
+				"sensibleàlacasse": 100
+			}
+		},
+		"username": {
+			"id": "overlay_username",
+			"name": "usernameOverlay",
+			"Designation": "",
+			"FillType": "",
+			"elementTypes": [
+				"text",
+				"email",
+				"tel"
+			],
+			"MinSelectLength": 0,
+			"MaxSelectLength": 0,
+			"MinTextLength": 8,
+			"MaxTextLength": 0,
+			"autoCompleteType": null,
+			"DataStripe": null,
+			"DataBrainTree": null,
+			"displayValueWeights": null,
+			"Form": null,
+			"HTMLName": {
+				"faketext": 80,
+				"fakeusername": 80
+			},
+			"Labels": {},
+			"Placeholders": {
+				"enter username": -1000
+			},
+			"TabIndex": null,
+			"ValueWeights": null
+		}
+	}
+}

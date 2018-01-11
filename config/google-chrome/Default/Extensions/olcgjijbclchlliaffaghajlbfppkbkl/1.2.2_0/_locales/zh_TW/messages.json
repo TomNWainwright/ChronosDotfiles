@@ -1,0 +1,22 @@
+{
+   "Customize": {
+      "description": "自訂 Sci-Hub 伺服器網址",
+      "message": "自訂網址"
+   },
+   "SaveOption": {
+      "description": "設定已儲存",
+      "message": "儲存設定"
+   },
+   "Saves": {
+      "description": "儲存",
+      "message": "儲存"
+   },
+   "Sci_HubSearch": {
+      "description": "Sci-Hub 搜尋 右鍵選單",
+      "message": "Sci-Hub 搜尋"
+   },
+   "main_description": {
+      "description": "關於 Sci-Hub link 的說明",
+      "message": "轉換 DOI 和 Pubmed 位址為 sci-hub 連結"
+   }
+}

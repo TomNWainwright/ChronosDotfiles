@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#1DA0F2",
+      "launch": {
+         "web_url": "https://twitter.com/?utm_source=web_app_manifest"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "rmBAbKKW/M0waIUMD3wRNuYMoOJQzwPe1U/LQZCqf9A=",
+   "name": "Twitter Main",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://twitter.com/*" ],
+         "title": "Twitter Main"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

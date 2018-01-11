@@ -1,0 +1,499 @@
+.line-editor {
+	/* border: 2px solid rgb(204, 204, 204);	*/
+	/* box-sizing: border-box; */
+	/* -webkit-box-sizing: border-box; */
+	/* -ms-box-sizing: border-box; */
+	/* -moz-box-sizing: border-box; */
+	box-sizing: border-box;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Microsoft Yahei","Î¢ÈíÑÅºÚ";
+	/* font-size: 14px; */
+
+	/* padding-left: 52px; */
+	padding-top: 0px;
+/* height: 100%; */
+	/* overflow-y: scroll; */
+
+	/* /\* insert br instead of div on return *\/ */
+	/* /\* http://stackoverflow.com/questions/18552336/prevent-contenteditable-adding-div-on-enter-chrome *\/ */
+	/* display: inline-block; */
+
+	/* for moving caret to the line of mouse clicks the right margin of #editor */
+	width: 100%;
+	/* for drag and drop image, muse ensure the "reciver" under the mouse */
+	min-height: 100%;
+
+	background-position-x: 56px;
+	background-repeat: no-repeat;
+}
+
+/* for print/pdf, dont remove */
+.line-editor * {
+  box-sizing: border-box;
+}
+.line-editor *:focus {
+  outline: none;
+}
+
+.line-editor:focus{
+	outline: none;
+}
+
+.il-img-cont {
+	/* dont use margin, there is "margins collapsing" problem. */
+  padding: 0px 10px 0px 0px;
+}
+
+.il-img-cont img {
+  border: 5px solid white;
+  /* min-width:50px; */
+  /* max-width:600px; */
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;
+	vertical-align: bottom;
+	/* float: right; */
+	/* clear: right; */
+}
+
+.img-proxy {
+	position: absolute;
+	border: 2px solid #BBCAB2;
+	pointer-events:none;
+}
+
+.img-drag-circle {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 30px;
+	/* background: gray; */
+	z-index: 4;
+	/* border: 5px double #428bca; */
+	background: #BBCAB2;
+	border-radius: 50%;
+	/* background-position-y: 0px; */
+
+}
+
+.img-del {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 30px;
+	text-decoration: none !important;
+	z-index: 4;
+}
+
+.img-copy {
+	position: absolute;
+	left: 50%;
+	font-size: 30px;
+	text-decoration: none !important;
+	z-index: 4;
+}
+
+.img-line {
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background: red;
+	z-index: 4;
+}
+
+#editor-view {
+	position: relative;
+
+	height: 100%;
+
+	/* background: url(/img/notebkg.png) repeat-y; */
+	background-image:
+	/* linear-gradient(to right, #f4dede 4px, transparent 4px), */
+	linear-gradient(#e8e8e8 .1em, transparent .1em);
+	background-position-x: 50px;
+}
+
+/* default font size, useful for generating html/pdf */
+/* old: #editor-view[data-font-size=small] { */
+#editor-view {
+	line-height: 22px;
+	background-size: 100% 22px;
+	font-size: 14px; 	/* must match with C.LE_FONT_SIZES */
+}
+#editor-view[data-font-size=middle] {
+	line-height: 26px;
+	background-size: 100% 26px;
+	font-size: 16px;	/* must match with C.LE_FONT_SIZES */
+}
+#editor-view[data-font-size=large] {
+	line-height: 30px;
+	background-size: 100% 30px;
+	font-size: 18px; 	/* must match with CHILD_MARGIN */
+}
+
+/* #editor-view[data-font-size=small] .line[data-type=text] > .content { */
+#editor-view .line[data-type=text] > .content {
+	bottom: -4px;
+}
+#editor-view[data-font-size=middle] .line[data-type=text] > .content {
+	bottom: -6px;
+}
+#editor-view[data-font-size=large] .line[data-type=text] > .content {
+	bottom: -8px;
+}
+
+/* /\* #editor-view[data-font-size=large] .line[data-list=numbered] > .children > .line > .prefix { *\/ */
+/* #editor-view .line[data-list=numbered] > .children > .line > .prefix { */
+/* 	top: 4px; */
+/* } */
+#editor-view[data-font-size=middle] .line[data-list=numbered] > .children > .line > .prefix {
+	top: 6px;
+}
+#editor-view[data-font-size=large] .line[data-list=numbered] > .children > .line > .prefix {
+	top: 8px;
+}
+
+.line-editor {
+	padding-left: 4em;
+}
+#abm-list-col {
+	width: 4em;
+}
+.line-abm {
+	width: 4em;
+}
+
+#abm-list {
+	padding-left: 4px;
+}
+
+#abm-list-col {
+	position:absolute;
+	/* width: 52px; */
+	top: -3px;
+	bottom: 0px;
+	overflow-y:hidden;
+	border-right: 2px solid rgba(242,222,222,0.8);
+	margin-right: 2px;
+	margin-top: 4px; /* should equal to #editor:padding-top */
+}
+
+.line-abm {
+  position: absolute;
+  top: 0;
+	/* width: 50px; */
+  text-align: right;
+	padding-top: 2px;
+	padding-right: 10px;
+
+	color: #737373;
+	text-decoration: none !important;
+}
+
+a.inserting {
+	color: #3c763d !important;
+}
+
+.line[data-type='text'] > .content[contenteditable] {
+	cursor: auto;
+}
+	
+.line[data-type='text'] > .content a {
+	color: rgb(66, 139, 202);
+	text-decoration: none;
+}
+
+.line-editor .line {
+	position: relative;
+}
+
+.line-editor .content {
+	padding-left: 4px; /* for easy select first char */
+	word-wrap: break-word;
+}
+
+.line-editor .children {
+	padding-left: 2em;	
+	margin-left: 4px;
+	border-left: 2px solid transparent;
+}
+
+.line-editor > .children {
+	margin-left: 0px;
+}
+
+.line-editor .line:hover > .children,
+.line-editor .line.active > .children {
+	border-left: 2px solid lightgray;
+}
+
+.line-editor > .children {
+	padding-left: 0px !important;
+	border-left: none !important;
+}
+
+/* .line-editor .line[data-type=text] > .content:before { */
+/* 	height: 22px; */
+/* 	display: inline-block; */
+/* 	content: ""; */
+/* } */
+
+/* /\* fix: cant click below line on the overflows.(-4px) *\/ */
+/* .line-editor .line[data-type=text] { */
+/* 	overflow-y: hidden; */
+/* } */
+
+/* .line-editor .line[data-type=image].active:not(.selected) > .content > img { */
+.il-img-cont.il-active img {
+	border: 5px solid rgb(231, 232, 179) !important;
+	/* outline: 5px solid rgb(231, 232, 179); */
+}
+
+/* .line-editor .line[data-type=image]:not(.selected) > .content:focus > img { */
+.il-img-cont:focus img {
+	border: 5px solid rgb(143, 145, 48) !important;
+	/* outline: 5px solid rgb(143, 145, 48); */
+}
+
+
+/* .line-editor .children img { */
+/*   margin:0px 10px 5px 0px !important; */
+/* } */
+
+
+.line-editor .line[data-type=text]>.content {
+	position: relative; /* for focus frame */
+}
+
+/* .line-editor .line[data-type=text].active:not(.selected) > .content:before { */
+/* 	content: ""; */
+/*   position: absolute; */
+/* 	top: -4px; */
+/*   bottom: 2px; */
+/*   left: -4px; */
+/*   right: -2px; */
+/* 	box-shadow: inset 0px 0px 0px 1px rgba(110, 156, 179, .5); */
+/* 	pointer-events: none; */
+/* } */
+
+/* .line-editor .line[data-type=text]:not(.selected) > .content:focus:before { */
+/* 	content: ""; */
+/*   position: absolute; */
+/* 	top: -4px; */
+/*   bottom: 2px; */
+/*   left: -4px; */
+/*   right: -2px; */
+/* 	pointer-events: none; */
+/* } */
+
+/* .line-editor .line[data-type=text]:not(.selected) > .content:focus:before, */
+/* .line.active > .content .fly-arrow-cont { */
+/* 	box-shadow: inset 0px 0px 0px 1px rgb(110, 156, 179); */
+/* } */
+
+.line[data-list] > .children > .line > .content {
+	padding-left: calc(2em + 4px);
+}
+
+.line[data-list] > .children > .line > .prefix {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 2em;
+}
+
+.line[data-list=bullet][data-list-level="0"] > .children > .line > .prefix > div {
+	border: 2px solid black;
+  border-radius: 2px;
+  position: absolute;
+	left: 0;
+	right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.line[data-list=bullet][data-list-level="1"] > .children > .line > .prefix > div {
+	border: 1px solid black;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  color: white;
+  margin: auto;
+}
+
+.line[data-list=bullet][data-list-level="2"] > .children > .line > .prefix > div {
+	border: 2px solid black;
+  position: absolute;
+	left: 0;
+	right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  height: 2px;
+  margin: auto;
+}
+
+.line[data-list=bullet][data-list-level="3"] > .children > .line > .prefix > div {
+	border: 1px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  margin: auto;
+}
+
+.line[data-list=bullet][data-list-level="4"] > .children > .line > .prefix > div {
+	border-right: 0px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 4px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.line[data-list=bullet][data-list-level="5"] > .children > .line > .prefix > div {
+	border: 2px solid black;
+  position: absolute;
+	left: 0;
+	right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  height: 2px;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.line[data-list=bullet][data-list-level="6"] > .children > .line > .prefix > div {
+	border: 1px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  margin: auto;
+	transform: rotate(45deg);
+}
+
+.line[data-list=numbered] > .children > .line > .prefix {
+	/* top: 4px; */
+	text-align: right;
+}
+
+.line.selected {
+	background-color: rgba(168, 209, 255, 0.5);
+}
+body.blurred .line.selected {
+	background-color: rgba(200, 200, 200, 0.5);
+}
+
+.il-img-cont.fly.il-selected {
+	background-color: rgba(168, 209, 255, 1.0);
+	background-clip: content-box;
+}
+body.blurred .il-img-cont.fly.il-selected {
+	background-color: rgba(200, 200, 200, 1.0);
+}
+
+.il-img-cont.il-selected img {
+	opacity: .5;
+}
+
+.line-editor .fly-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	pointer-events: none;
+}
+
+.line-editor .fly {
+	position: relative;
+	float: right;
+	margin-left: 4px;
+}
+
+.line .fly-arrow-cont {
+	position: relative;
+}
+
+.line .fly-arrow-cont > div {
+	position: absolute;
+  left: 0px;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+}
+
+.line .fly-strick {
+	position: absolute;
+  top: 0;
+  height: 6px;
+  left: 6px;
+	right: 0px;
+  border-top: 2px dashed gray;
+  border-left: 2px dashed gray;
+  border-right: 2px dashed gray;
+	opacity: .5;
+}
+
+.line.playing-prev > .content {
+	background-color: aquamarine;
+}
+
+.line a {
+	cursor: pointer;
+}
+
+.line-editor .bottom-guard {
+	clear: right;
+	padding-top: 30px;
+	pointer-events: none;
+}
+
+#playing-pos-arrow-above {
+	position: absolute;
+	left: 8px;
+	top: 4px;
+
+	width: 30px;
+  height: 15px;
+  border-bottom: 15px solid rgb(32, 186, 134);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 0px solid transparent;
+	opacity: .8;
+}
+
+#playing-pos-arrow-below {
+	position: absolute;
+	left: 8px;
+	bottom: 4px;
+
+	width: 30px;
+  height: 15px;
+  border-top: 15px solid rgb(32, 186, 134);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 0px solid transparent;
+	opacity: .8;
+}

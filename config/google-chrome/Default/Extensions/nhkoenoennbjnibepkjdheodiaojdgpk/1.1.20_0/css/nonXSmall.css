@@ -1,0 +1,119 @@
+paper-fab.start-record {
+	width: 48px;
+	height: 48px;
+	padding: 12px;
+	top:-6px;
+	/* z-index:1 */
+}
+
+paper-fab.start-record[disabled]
+{
+	color: white;
+	background-color: #c9c9c9 !important;
+}
+
+#note-list-col {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 240px;
+	order: 1;
+}
+#home-main {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 240px;
+	right: 0;
+	order: 2;
+}
+
+.dialog-middle-width {
+	width: 450px;
+}
+
+paper-fab.start-record[data-state=stopped] {
+	background-color: #2196F3;
+}
+paper-icon-button.start-record[data-state=stopped] {
+	color: #2196F3 !important;
+}
+
+@-webkit-keyframes rec-blink {
+	0% { background-color: #73130A;  animation-timing-function: ease-in }
+	50% { background-color: #EF4737;  animation-timing-function: ease-out}
+	100% { background-color: #73130A; }
+}
+
+paper-fab.start-record[data-state=recording] {
+	background-color: #d23f31;
+
+	/* -webkit-animation-name: rec-blink; */
+  /* -webkit-animation-iteration-count: infinite; */
+  /* /\* -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0); *\/ */
+  /* -webkit-animation-duration: 2s; */
+
+}
+paper-icon-button.start-record[data-state=recording] {
+	color: #d23f31 !important;
+}
+
+paper-fab.start-record[data-state=paused] {
+	background-color: goldenrod;
+}
+paper-icon-button.start-record[data-state=paused] {
+	color: goldenrod !important;
+}
+
+paper-icon-button.start-record[disabled] {
+	color: #c9c9c9 !important;
+}
+
+#mini-wave-bar {
+	padding: 0px 0px 0 8px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: rgb(201, 213, 219);
+}
+
+#mini-wave-bar .start-record {
+	padding: 0 6px 0 6px;
+}
+
+#mini-wave-bar .start-record[disabled] {
+	color: #c9c9c9 !important;
+}
+
+#mini-wave-bar x-icon-button.start-record {
+	--icon-width: 14px;
+	--icon-height: 14px;
+}
+
+#mini-wave-bar .start-record[data-state=paused] {
+	color: rgb(223, 223, 4); /* dark yellow */
+}
+#mini-wave-bar .start-record[data-state=stopped] {
+	background-color: transparent;
+	color: #2196F3;
+}
+
+#mini-wave-bar .start-record[data-state=recording] {
+	background-color: transparent;
+	color: #d23f31
+}
+
+#in-note-search-bar x-icon-button {
+	--icon-width: 16px;
+	--icon-height: 16px;
+}
+
+#toggle-note-list {
+	border: 1px solid lightgray;
+	padding:6px 4px 6px 0px;
+	width: 35px;
+	/* border-top-left-radius: 0px; */
+	/* border-bottom-left-radius: 0px; */
+	/* border-left: transparent; */
+	border: none;
+}

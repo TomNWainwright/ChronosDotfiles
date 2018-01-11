@@ -1,0 +1,22 @@
+{
+   "Customize": {
+      "description": "自订 Sci-Hub 伺服器网址",
+      "message": "自订网址"
+   },
+   "SaveOption": {
+      "description": "设定已储存",
+      "message": "储存设定"
+   },
+   "Saves": {
+      "description": "储存",
+      "message": "储存"
+   },
+   "Sci_HubSearch": {
+      "description": "Sci-Hub 搜寻 右键选单",
+      "message": "Sci-Hub 搜寻"
+   },
+   "main_description": {
+      "description": "关于 Sci-Hub link 的说明",
+      "message": "转换 DOI 和 Pubmed 位址为 sci-hub 连结"
+   }
+}

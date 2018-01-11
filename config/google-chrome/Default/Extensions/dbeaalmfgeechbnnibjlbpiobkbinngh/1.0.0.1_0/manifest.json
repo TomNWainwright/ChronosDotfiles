@@ -1,0 +1,19 @@
+{
+   "api_console_project_id": "953348912797",
+   "app": {
+      "launch": {
+         "web_url": "http://www.appsheet.com/content/solution/build-mobile-apps-with-google-drive-and-appsheet"
+      }
+   },
+   "container": [ "DOMAIN_INSTALLABLE", "GOOGLE_DRIVE" ],
+   "description": "Build a custom mobile app from your Google or Excel spreadsheet. It is easy, takes only a few minutes, and no coding is involved.",
+   "icons": {
+      "128": "128x128-icon.png",
+      "16": "16x16-icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkFFI4wn6WM/G9mKtJrACpGMm88GA79+Yhas1P7MUQ58kPrsAg9CrpHcbXzT8Fo0h+kdVCPSPxzEcVTpWjW/qmrbp9qSgLWMP5UthENDSqTK5KNhwV5oJa7zR7TMEmhf6/C/6DC4yN939W67xRQ1t3qLj7Ck1vE40cWHUbdSacjQYl0hLz29cG6W4zsAg3d0BdaqVPILBEXit6UHuMV9/uE97x0c5/9N0Hc8X2JWh/8F5y+eBin6DzqKtBDVganJUE3aie/Ma87WvmMMGGDF/H6Erqsxqx9u+VwWkBcpeuS/4FHS78ju043RMihsjIce8+hYtZDi/AAo75rB0c0mOOQIDAQAB",
+   "manifest_version": 2,
+   "name": "AppSheet",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.1"
+}

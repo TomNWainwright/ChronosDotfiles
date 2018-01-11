@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#F9A600",
+      "launch": {
+         "web_url": "https://airtable.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "8xEYte3LQdTRHKfzA+/Y45BesXtnYJw6z+6Yzb3uPKw=",
+   "name": "Airtable",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://airtable.com/*" ],
+         "title": "Airtable"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

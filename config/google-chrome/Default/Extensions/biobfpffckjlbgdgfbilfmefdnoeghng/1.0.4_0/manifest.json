@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "19": "img/todo-logo.png",
+         "38": "img/todo-logo.png"
+      },
+      "default_popup": "main.html",
+      "default_title": "Click to show todos"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk9w4oKUEKSCopFqUHIasIHTALDstTXGLR0JY7Lhkmpjpd+BhPhW8RNC8OAwIEwEFa3fDBAXTEHY6XEwM9+DMoZrSGiVVhxcI/XgfBCgxDy+IMaOMJbYVrnP0Iytfv5tiqDZtwgWWfzNUWHXuVgZj1Z1HOB2B0ZUeJCJ+HG4HJKlaLFZ6fyttSKvcgJnpjeFYa+HoP4zmKrVJIJMfZxLSa3uf6sSmwcswjZkXwgUFfCBzkFdaUPLOjeWEb6i9Vr0xFBwUfg7FQtGnilYxk0PbATOuGqUdjNc06mZ7DxpZm9DJSKDUgn1NfYqdcCFBCcfN0sr/P7krZxwcgnKwO7+j+QIDAQAB",
+   "manifest_version": 2,
+   "name": "Todo List Backed with sheet",
+   "oauth2": {
+      "client_id": "986785693126-ejv0khu8a172tpdo8d9q7ueta30l8fcd.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/spreadsheets" ]
+   },
+   "permissions": [ "background", "identity", "notifications", "storage", "alarms", "https://www.googleapis.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}

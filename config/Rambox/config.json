@@ -17,10 +17,10 @@
 	"enable_hidpi_support": false,
 	"default_service": "last",
 	"x": 0,
-	"y": 60,
+	"y": 70,
 	"width": 1920,
-	"height": 971,
-	"maximized": false,
+	"height": 1010,
+	"maximized": true,
 	"master_password1": "",
 	"master_password2": ""
 }

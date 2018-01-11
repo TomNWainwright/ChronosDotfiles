@@ -6,7 +6,7 @@ alias purge='sudo apt-get purge'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias upgrate='sudo apt-get update && sudo apt-get upgrade'
-alias upstall='sudo apt-get upgrade && sudo apt-get install'
+alias upstall='sudo apt-get update && sudo apt-get install'
 
 #env
 alias path='echo $PATH'
@@ -26,4 +26,4 @@ alias rambox="/home/tom/apps/Rambox-0.5.13-x64.AppImage %U"
 alias pydir='cd ~/Projects/Code/Python'
 alias py='python'
 alias reloadrc='. ~/.bash_aliases && . ~/.bashrc && . ~/.profile'
-alias pycharm="/home/tom/apps/pycharm/pycharm-2017.3.1/bin/pycharm.sh &" 
+alias pycharm="/home/tom/apps/pycharm/pycharm-2017.3.1/bin/pycharm.sh &"

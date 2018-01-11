@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#3B3B3B",
+      "launch": {
+         "web_url": "https://my.1password.com/signin/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "jUFAshkAXAAdzvRjUd/rkpxtTit8m2FxiR31qs5Edfc=",
+   "name": "1Password",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://my.1password.com/signin/*" ],
+         "title": "1Password"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

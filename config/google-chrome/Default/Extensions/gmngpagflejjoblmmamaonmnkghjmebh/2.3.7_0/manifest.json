@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://twitter.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "Twitter Account Switcher",
+   "icons": {
+      "128": "img/flock128.png",
+      "16": "img/flock16.png",
+      "48": "img/flock48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJWGGb8dG6uVjDu2T5tLu00DGzDqRrx6kqafmb1iEuRGAXy+118zQxW64SNCmZCKk0GRAkxa0bgii7gsFUEwPdouNtezK5+8CQOR1iywahzS6VHKu9xjPYSsYmEVU2nZs9WlLcSN2Disrs785yFU2Se2Tf8obEH4tg7WxBHdwUswIDAQAB",
+   "manifest_version": 2,
+   "name": "Twitcher - Twitter Account Switcher",
+   "options_page": "options.html",
+   "permissions": [ "cookies", "storage", "tabs", "http://twitter.com/*", "https://twitter.com/*" ],
+   "short_name": "Twitcher",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.7"
+}

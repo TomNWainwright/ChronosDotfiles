@@ -1,0 +1,2 @@
+var lsWindowOption="windowOption";chrome.browserAction.onClicked.addListener(function(c){var a=parseInt(localStorage[lsWindowOption],10);a||(a=0);aa(c.windowId,a)});
+function aa(c,a){chrome.windows.getAll({populate:!0},function(g){for(var e=0,d;d=g[e];e++)if(1==a||d.id==c)for(var f=0,b;b=d.tabs[f];f++)"chrome://extensions"!==b.url.toLowerCase().substring(0,19)&&("chrome://chrome/extensions"!==b.url.toLowerCase().substring(0,26)&&"chrome-extension://"!==b.url.toLowerCase().substring(0,19))&&chrome.tabs.reload(b.id,{bypassCache:!0},function(){})})};

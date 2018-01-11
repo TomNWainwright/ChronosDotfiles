@@ -1,0 +1,21 @@
+{
+   "api_console_project_id": "310610938215",
+   "app": {
+      "launch": {
+         "web_url": "http://mem-tree.appspot.com/"
+      },
+      "urls": [ "http://mem-tree.appspot.com/" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "create index of code snippets, urls, notes and store on google drive",
+   "icons": {
+      "128": "Icon-128.png",
+      "16": "Icon-16.png",
+      "48": "Icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDg5uyO0pa40VyI1BDhIJkWdIUnx3JGZqk1n6sOiYnkByKyto4hAZesbwBNzXDel0D8ZvDz8YPSvJZQa2B/zMa+RVETU+P/o9Aky/sffMrddkUBdqjPloETG/bkbFoQyaxL3Jb2hQPybkIa1Osj/JgjQJHmBbd8EKltXV06zsF7RQIDAQAB",
+   "manifest_version": 2,
+   "name": "Mem-Tree",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.19"
+}

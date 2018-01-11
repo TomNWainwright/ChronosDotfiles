@@ -1,0 +1,40 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "/shared/js/lib/jquery.min.js", "/shared/js/lib/underscore.min.js", "/shared/js/config.js", "/shared/js/account.js", "background/install.js", "background/notifications.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "shared/img/icon16.png",
+         "48": "shared/img/icon48.png"
+      },
+      "default_popup": "browser_action/popup.html",
+      "default_title": "MailTracker"
+   },
+   "content_scripts": [ {
+      "css": [ "/shared/css/lib/font-awesome.min.css", "/shared/css/fonts.css", "/content_script/css/gmail.css" ],
+      "js": [ "/shared/js/lib/moment.min.js", "/shared/js/lib/jquery.min.js", "/shared/js/lib/mobile-detect.min.js", "/shared/js/lib/underscore.min.js", "/shared/js/lib/kefir.min.js", "/shared/js/lib/inboxsdk.min.js", "/shared/js/config.js", "/shared/js/utilities.js", "/shared/js/account.js", "/content_script/js/gmail-threads.js", "/content_script/js/gmail-compose.js", "/content_script/js/gmail-conversation.js", "/content_script/js/gmail.js" ],
+      "matches": [ "https://mail.google.com/*", "https://inbox.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "/shared/js/lib/underscore.min.js", "/shared/js/lib/jquery.min.js", "/shared/js/config.js", "/shared/js/utilities.js", "/shared/js/account.js", "/content_script/js/authentication.js" ],
+      "matches": [ "https://mailtracker.hunter.io/messages" ],
+      "run_at": "document_end"
+   } ],
+   "description": "The simple email tracking you need.",
+   "homepage_url": "https://mailtracker.hunter.io",
+   "icons": {
+      "128": "shared/img/icon128.png",
+      "16": "shared/img/icon16.png",
+      "48": "shared/img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr+v8sgzhUNg23p0ue5Epb7xb5HqFlWbJNln1eRxGLCBD5DBD5VzvNV+tSClxtf0C/QrNjhg89hw8HcHKdAFzITdFObhU5tB4G8/XAtm3hDiCbTk47+DichiDqtaCIyK17B2g9XzMOY11Jx7761IlL4KkCoQaqFLCLxOGQcZ1nZMRgmwqF6+Wq2SKwpItXutMsLrI/64CI/LZtzUtIOBEGE7NK9PhBwRtie3+NxC3iNdtIfMhOg8OTQfrkfP0JnmSUs53PPjyoAjaKeQJXfoXKcoTjV9E3Zgm95GDA5kNh50h2tKrQbLdiKMytpmlduMnMYsmf8TCUbB2f9EwGjaujQIDAQAB",
+   "manifest_version": 2,
+   "name": "MailTracker for Gmail",
+   "optional_permissions": [ "notifications" ],
+   "permissions": [ "*://mail.google.com/", "*://inbox.google.com/", "*://mailtracker.hunter.io/", "storage" ],
+   "short_name": "MailTracker",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.11",
+   "web_accessible_resources": [ "shared/img/*", "shared/fonts/*" ]
+}

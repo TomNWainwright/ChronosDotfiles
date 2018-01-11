@@ -1,0 +1,40 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/jquery/jquery.min.js", "js/config.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "18": "icons/tail/v1/gray_19.png"
+      },
+      "default_title": "Piggy - Coupons & Cashback!"
+   },
+   "content_scripts": [ {
+      "css": [ "css/modal.css" ],
+      "js": [ "js/jquery/jquery.min.js", "js/jquery/jquery-ui.min.js", "js/jquery/position-calculator.js", "js/jquery/jquery.mousewheel.js", "js/config.js", "js/inject.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "Never Overpay Again! Piggy adds the best Coupons & Cash Back when you shop online.",
+   "homepage_url": "https://www.joinpiggy.com",
+   "icons": {
+      "128": "icons/coin128.png",
+      "16": "icons/tail/v1/gray_19.png",
+      "256": "icons/coin256.png",
+      "48": "icons/coin48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhb/WZcf+vKWoza4xXwAjZ+C2SjcPx5ArWeNjqF1WJn8dIZhVRptLAAv/pq6kwE+vY3zy1ySt6fqG4RTvNoOp+K2d70ucmbvNJudwFQsJBp6BVyqavo0Olln2rqv8qjqLsg51FVqB+3oPwoeaKWjSZsq7ODZQn/wB9O7ch0zy461lv2c4/BGItwwq0qIan2USIOq0Q5ulfvlB4AzgPJzAG34LpgIB/GdCLEocvSEdRArNG3UUzQqlA9bqdkS9ua3k9TPkDhe6Ec2ver9QgGounKq6OVwM+NH1nXmysmrh1RTPts7XHl2SsiKwUhhmSni/uP4dPXrM3kK0z5lz9MUAiQIDAQAB",
+   "manifest_version": 2,
+   "name": "Piggy - Automatic Coupons & Cash Back",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "http://*/*", "https://*/*", "activeTab", "tabs", "webRequest", "storage" ],
+   "short_name": "Piggy",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.32",
+   "web_accessible_resources": [ "fonts/*", "img/*", "css/*" ]
+}

@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "關於"
+   },
+   "addADomain": {
+      "message": "添加域"
+   },
+   "addANewMessenger": {
+      "message": "添加一個新的即時通訊應用"
+   },
+   "addASubdomain": {
+      "message": "添加子域"
+   },
+   "addMessenger": {
+      "message": "添加$messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "發送匿名數據以幫助All-in-One Messenger(多合一即時通訊)進行提升改進。"
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "在一個即時通訊中使用WhatsApp, Telegram, Messenger, Skype和其他各種即時通訊工具！"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger(多合一即時通訊)"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "delete": {
+      "message": "刪除"
+   },
+   "doYouEnjoyAppName": {
+      "message": "您喜歡使用All-in-One Messenger(多合一即時通訊)嗎？"
+   },
+   "editEnabledMessengers": {
+      "message": "編輯啟用的即時通訊應用"
+   },
+   "editMessenger": {
+      "message": "編輯的$messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "反饋All-in-One Messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "請注意，本即時通訊應用不使用安全連接！"
+   },
+   "later": {
+      "message": "稍後"
+   },
+   "loading": {
+      "message": "載入中..."
+   },
+   "messengerName": {
+      "message": "名稱"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$可能需要額外的權限",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "介意給我們一些建議嗎？"
+   },
+   "muteAllSounds": {
+      "message": "全部靜音"
+   },
+   "no": {
+      "message": "否"
+   },
+   "ok": {
+      "message": "好"
+   },
+   "privacy": {
+      "message": "隱私"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "再試一次？"
+   },
+   "promoInstallFailText": {
+      "message": "抱歉 - 安裝失敗"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "在網路商店再試一次"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "廣告"
+   },
+   "promoPrimaryHeading": {
+      "message": "All-in-One Messenger(多合一即時通訊)"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "添加到Chrome瀏覽器"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "免費"
+   },
+   "promoPrimaryIntroText": {
+      "message": "現在適用於谷歌瀏覽器！"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "在一個即時通訊中使用WhatsApp, Telegram, Messenger, Skype和其他各種即時通訊工具！"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "更多信息"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "不用了，謝謝"
+   },
+   "promoSecondaryHeading": {
+      "message": "All-in-One Messenger(多合一即時通訊)"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "在一個地方集中管理您最喜歡的即時通訊應用，隨時關注您所有的對話。可以在幾秒鐘內迅速添加新的即時通訊工具，並在收到訊息時獲得提示。All-in-One Messenger(多合一即時通訊)安全，易於使用且免費。"
+   },
+   "rateApp": {
+      "message": "評價應用"
+   },
+   "reportAnIssue": {
+      "message": "報告問題"
+   },
+   "resolve": {
+      "message": "解決"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "sendFeedback": {
+      "message": "發送反饋"
+   },
+   "shareMailText": {
+      "message": "檢查All-in-One Messenger(多合一即時通訊)"
+   },
+   "showNotifications": {
+      "message": "顯示通知"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "呼叫尚不支持。"
+   },
+   "support": {
+      "message": "支持"
+   },
+   "supportAppName": {
+      "message": "支持所有All-in-One Messenger(多合一即時通訊)"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "All-in-One Messenger(多合一即時通訊)是一款免費的應用程式，\u003Cbr /> 請將其展示給您的朋友，幫助我們宣傳。"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "我們非常感謝任何五星評價 \u003Ca href='$rateLink$' target='_blank'>rating\u003C/a> 在Chrome的網絡商店中!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "支持我們"
+   },
+   "updateNotice": {
+      "message": "一個新的版本可用。請重新啟動谷歌瀏覽器以更新。"
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "版本"
+   },
+   "webIndexDownloadButton": {
+      "message": "免費下載"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>專注於\u003C/strong> 一個應用程式即可，不必再各種不同的即時通訊應用中反覆切換。"
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "在同一款即時通訊平台上您可以使用 \u003Cstrong>任意數量的帳號\u003C/strong> 。"
+   },
+   "webIndexFeatureNotifications": {
+      "message": "獲取帶一鍵回覆訊息功能的桌面\u003Cstrong>提示\u003C/strong> 。如果您不喜歡可以將指定的即時通訊進行靜音處理。"
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "所有即時通訊應用均可在這一個應用程式中使用"
+   },
+   "webIndexIntroLead": {
+      "message": "在一個即時通訊中使用WhatsApp, Telegram, Facebook Messenger, Skype 和其他各種即時通訊工具！"
+   },
+   "webIndexIntroTitle": {
+      "message": "All-in-One Messenger(多合一即時通訊)"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "支持的即時通訊應用"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "在一個即時通訊中使用WhatsApp, Telegram, Messenger, Skype和其他各種即時通訊工具！"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "訂閱我們新聞郵件，一旦我們拓展到其他平台我們會盡快通知您。"
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "您的電子郵件地址"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "All-in-One Messenger(多合一即時通訊)目前只適用於Chrome瀏覽器的用戶"
+   },
+   "website": {
+      "message": "網站"
+   },
+   "webstore": {
+      "message": "網上商店"
+   },
+   "yes": {
+      "message": "是"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "您目前處於脫機狀態。"
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#0AACF5",
+      "launch": {
+         "web_url": "https://tweetdeck.twitter.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "TweetDeck is your personal browser for staying in touch with what’s happening now.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "QqD9IWRd78nFTEtV/DmaJuMALHci4caVWugizKpaJsw=",
+   "name": "TweetDeck",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://tweetdeck.twitter.com/*" ],
+         "title": "TweetDeck"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

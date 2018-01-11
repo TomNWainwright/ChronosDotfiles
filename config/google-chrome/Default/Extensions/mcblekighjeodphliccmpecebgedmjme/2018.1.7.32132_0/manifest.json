@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#F9A600",
+      "launch": {
+         "web_url": "https://airtable.com/shrfy9v4qEiG6CEUK"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Fill out the \"Eaten Foods\" form quickly and securely on Airtable.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "1FATIBNs32AsqBb6Q7PdtKP87sJNiH6dy3oj0mnRREI=",
+   "name": "Food",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://airtable.com/shrfy9v4qEiG6CEUK*" ],
+         "title": "Food"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

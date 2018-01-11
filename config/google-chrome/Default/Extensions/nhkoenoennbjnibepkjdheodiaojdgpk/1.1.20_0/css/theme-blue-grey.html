@@ -1,0 +1,293 @@
+<dom-module id="theme-blue-grey">
+  <template>
+    <style include="paper-material-styles">
+     .text-primary {
+       color: #2196F3;
+     }
+
+     .text-success {
+       color: #3c763d;
+     }
+
+     .text-danger {
+       color: #a94442;
+     }
+
+     .text-warning {
+       color: #8a6d3b;
+     }
+
+     .text-info {
+       color: #31708f;
+     }
+
+     .text-help {
+       color: #737373;
+     }
+
+     .bg-warning {
+       background-color: #fcf8e3;
+     }
+     .bg-info {
+       background-color: #d9edf7;
+     }
+     .bg-success {
+       background-color: #dff0d8;
+     }
+     .bg-primary {
+       color: #fff;
+       background-color: #428bca;
+     }
+     .bg-danger {
+       background-color: #f2dede;
+     }
+
+     .alert-success {
+       color: #3c763d;
+       background-color: #dff0d8;
+       border-color: #d6e9c6;
+     }
+     .alert-info {
+       color: #31708f;
+       background-color: #d9edf7;
+       border-color: #bce8f1;
+     }
+     .alert-warning {
+       color: #8a6d3b;
+       background-color: #fcf8e3;
+       border-color: #faebcc;
+     }
+     .alert-danger {
+       color: #a94442;
+       background-color: #f2dede;
+       border-color: #ebccd1;
+     }
+
+     x-icon-button,
+     paper-icon-button:not([disabled]) {
+       color: #263238;
+     }
+
+     .app-nav {
+       background-color: #607d8b;
+     }
+
+     #note-list-footer {
+       background-color: #65818E;	
+     }
+
+     #note-list-footer paper-button[disabled]{
+       background-color: #8DA4AE !important;
+       color: lightgray !important;
+     }
+
+     .app-nav paper-icon-button,
+     .app-nav x-icon-button,
+     #note-list-header label,
+     .app-nav paper-button {
+       color: #eceff1;
+     }
+
+     .app-nav paper-icon-button,
+     .app-nav x-icon-button,
+     #note-list-header label,
+     .app-nav paper-button {
+       color: #eceff1;
+     }
+
+     .app-nav paper-icon-button:hover,
+     .app-nav paper-button:hover {
+       color: white;
+     }
+
+     .app-nav paper-icon-button[disabled],
+     .app-nav paper-button[disabled] {
+       color: #90a4ae;
+     }
+
+     .view-toolbar,
+     #in-note-search-bar {
+       background-color: #eceff1;
+     }
+
+     #note-bottom-bar {
+       background-color: #cfd8dc;
+     }
+
+
+     #wave-view,
+     #wave-bar,
+     #edit-wave-bar,
+     #info-bar-container {
+       background-color: #ECF4F7; /* #cfd8dc; */
+     }
+
+     #note-list-bar {
+       background-color: #cfd8dc;
+     }
+
+     #search-bar {
+       background-color: #eceff1;
+     }
+
+     #composer-view {
+       background-color: #F4F8FA;
+     }
+     
+     .note-item {
+       background-color: #eceff1;
+     }
+
+     #toggle-note-list .btn-icon-bar{
+       background-color: #90a4ae;
+     }
+
+     #note-list-footer .text-primary {
+       color: rgb(121, 221, 141);
+     }
+     #note-list-footer .text-primary:hover {
+       color: rgb(160, 234, 175);
+     }
+
+     .note-item[active],
+     .note-item[active]:hover,
+     .note-item[active]:focus {
+       background-color: #CDEBFF;
+     }
+
+     .note-item[disabled],
+     .note-item[disabled]:hover,
+     .note-item[disabled]:focus {
+       background-color: lightgray;
+     }
+
+     #edit-wave-bar paper-button[disabled] {
+       background-color: transparent !important;
+       color: gray;
+     }
+
+     /* for shadows */
+     /* nav-shaodw; nav-bottom-shadow; composer-shadow */
+
+     /* for composer-shadow */
+     /* .composer-shadow { */
+     /* 	display: none; */
+     /* } */
+     /* #toolbar { */
+     /* 	z-index: 1; */
+     /* } */
+     /* #wave-bar { */
+     /* 	z-index: 2; */
+     /* } */
+     /* #note-nav { */
+     /* 	z-index: 3; /\* for nav-shadow *\/ */
+     /* } */
+     /* #note-list-header { */
+     /* 	z-index: 3; /\* for nav-shadow *\/ */
+     /* }	 */
+
+     /* #toolbar { */
+     /* 	border-bottom: 1px solid #ddd; */
+     /* } */
+
+     #info-bar {
+       color: #37474f;
+     }
+
+     .tips {
+       background-color: forestgreen;
+       --x-popover-background-color: forestgreen; 
+       color: white;
+     }
+
+     paper-tooltip {
+       color: #2a6496;
+     }
+     paper-tooltip::shadow #tooltip {
+       font-size: 12px;
+     }
+
+     #photo-view .action-take-photo,
+     .photo-taker .action-take {
+       background-color: #d23f31;
+     }
+
+     .pic-viewer x-icon-button,
+     .pic-viewer .action-time {
+       color: white;
+     }
+
+     .pic-viewer x-icon-button:hover,
+     .pic-viewer .action-time:hover {
+       color: #2196F3;
+     }
+
+     .photo-taker {
+       background-color: #303030;
+     }
+
+     .photo-taker x-icon-button {
+       color: white;
+     }
+
+     /* dark */
+     /* .pv-item { */
+     /* 	background-color: rgb(115, 115, 115); */
+     /* } */
+     /* #photo-list-cont { */
+     /* 	background-color: #303030; */
+     /* } */
+     /* .pv-item.hint-item .hint{ */
+     /* 	color: rgb(71, 71, 71); */
+     /* 	text-shadow: 0px 1px 0px rgba(168, 168, 168, 0.5); */
+     /* } */
+     /* .pic-viewer { */
+     /* 	background-color: #303030; */
+     /* } */
+
+     /* gray */
+     /* .pv-item { */
+     /* 	background-color: rgb(166, 165, 165); */
+     /* } */
+
+     /* #photo-list-cont { */
+     /*   background-color: #6F6F6F; */
+     /* } */
+
+     .pv-item {
+       background-color: #DCE0E2;
+     }
+
+     #photo-list-cont {
+       background-color: #F5F7F9;
+     }
+     .pv-item.hint-item .hint {
+       color: rgb(171, 170, 170);
+       text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+     }
+     .pic-viewer {
+       background-color: #F5F7F9;
+     }
+
+     /* paper shadow */
+     .x-shadow[elevation="0"] {
+     }
+     .x-shadow, .x-shadow[elevation="1"] {
+       @apply --paper-material-elevation-1;
+     }
+     .x-shadow[elevation="2"] {
+       @apply --paper-material-elevation-2;
+     }
+     .x-shadow[elevation="3"] {
+       @apply --paper-material-elevation-3;
+     }
+     .x-shadow[elevation="4"] {
+       @apply --paper-material-elevation-4;
+     }
+     .x-shadow[elevation="5"] {
+       @apply --paper-material-elevation-5;
+     }
+
+    </style>
+  </template>
+</dom-module>

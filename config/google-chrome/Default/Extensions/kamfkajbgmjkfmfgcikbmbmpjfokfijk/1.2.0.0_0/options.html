@@ -1,0 +1,89 @@
+<html>
+<head><title>Awesome Refresh All Tabs Button Options</title>
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+<link id='styleLink' rel="stylesheet" type="text/css" href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/start/jquery-ui.css' />
+<script language="javascript" type="text/javascript" src="options.js"></script>
+<style>
+body {min-width:935px;overflow-x:hidden;}
+.header-font {font-family:calibri,arial;}
+.normal-font {font-family:calibri,arial;}
+.error {color:red;}
+.header-margin {margin-top:0px;margin-bottom:0px}
+.section-margin {margin-top:1px;margin-bottom:6px}
+.apply-padding {padding:4px}
+</style>
+</head>
+<body>
+<div class='ui-widget-content ui-corner-all normal-font section-margin apply-padding'>
+	<table cellpadding='3'>	
+		<tr>
+			<td rowspan='5'>
+				<a href='http://www.upway2late.com/projects/buttons-project' target='_help' title="Info and Help for the 'Refresh All Tabs' Chrome extension."><img src='refreshAllTabs_128.png'></a>
+			</td>
+			<td rowspan='5' class='normal-font'>
+				<a href='http://www.upway2late.com/projects/buttons-project' target='_help' title="Info and Help for the 'Refresh All Tabs' Chrome extension.">Help!</a>
+				<a href='http://www.upway2late.com/projects/buttons-project' target='_help' title="Info and Help for the 'Refresh All Tabs' Chrome extension."><img src='help.png'></a>
+				&nbsp;&nbsp;&nbsp;
+				<b>Too many buttons?</b> Try the <a target='new' href='http://chrome.google.com/webstore/detail/bcmfandagknmpnambbppcpgclkccgigb?hl=en-US'>Button Bar</a>!<br/>
+				<img src='bar.png' height='121' width='380'>
+			</td>
+			<td valign='top'>
+				<a href='http://www.upway2late.com/' target='_new'><img class='move-icon-down' src='happy.png'></a>
+				<a href='http://www.upway2late.com/' target='_new'>UpWay2Late.com Software</a>
+			</td>
+		</tr>
+		<tr>
+			<td valign='top'>
+				<a href='https://chrome.google.com/webstore/detail/nfjaddknccljfohoaekkibpcceeenkah?hl=en-US' target='_tab_manager'><img class='move-icon-down' src='wintab16.png'></a>
+				Chrome Extension - <a href='https://chrome.google.com/webstore/detail/nfjaddknccljfohoaekkibpcceeenkah?hl=en-US' target='_tab_manager'>Awesome Window and Tab Manager</a>
+			</td>
+		</tr>
+		<tr>
+			<td valign='top'>
+				<a href='https://chrome.google.com/webstore/detail/agabedjjbijfpccchcmpfpcdfnlpjkoj?hl=en-US' target='_delicious_sync'><img class='move-icon-down' src='del16.png'></a>
+				Chrome Extension - <a href='https://chrome.google.com/webstore/detail/agabedjjbijfpccchcmpfpcdfnlpjkoj?hl=en-US' target='_delicious_sync'>Delicious Bookmark Bar Sync</a>
+			</td>
+		</tr>
+		<tr>
+			<td valign='top'>
+				<a href='https://chrome.google.com/webstore/detail/ilbhogiegeofdbmkbbbanjdggcoonbpd?hl=en-US' target='_pinboard_sync'><img class='move-icon-down' src='pin16.png'></a>
+				Chrome Extension - <a href='https://chrome.google.com/webstore/detail/ilbhogiegeofdbmkbbbanjdggcoonbpd?hl=en-US' target='_pinboard_sync'>Pinboard Bookmark Bar Sync</a>
+			</td>
+		</tr>
+		<tr>
+			<td valign='top'>
+				<a href='https://chrome.google.com/webstore/detail/bojojkkfhcebglmfbmaplhfkjfhaefaj?hl=en-US'  target='_search_it'><img class='move-icon-down' src='search16.png'></a>
+				Chrome Extension - <a href='https://chrome.google.com/webstore/detail/bojojkkfhcebglmfbmaplhfkjfhaefaj?hl=en-US' target='_search_it'>Search It!</a>
+			</td>
+		</tr>	
+	</table>
+</div>	
+<h4 class='ui-widget-header ui-corner-all header-font header-margin'>&nbsp;Support Awesome Software Development</h4>	
+<div class='ui-widget-content ui-corner-all normal-font section-margin apply-padding'>
+	<table>
+		<tr>
+			<td>Support Awesome<br/>Software Development:</td>
+			<td>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="XKT6Z99HH8Z8S">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>					
+			</td>
+		</tr>	
+	</table>
+</div>	
+<h4 class='ui-widget-header ui-corner-all header-font header-margin'>&nbsp;Awesome Refresh All Tabs Button Options</h4>	
+<div class='ui-widget-content ui-corner-all normal-font section-margin apply-padding'>
+	Refresh all tabs in:
+	<select id="windowOption">
+	<option value="0">Current Window</option>
+	<option value="1">All Windows</option>	 
+	</select>&nbsp;&nbsp;&nbsp;<span id='statusSpan'></span>	
+	<br><br>
+	<input id='saveButton' type='button' value='Save'/>&nbsp;<input id='closeButton' type='button' value='Close'/>
+</div>
+</body>
+</html>

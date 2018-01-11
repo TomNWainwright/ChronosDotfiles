@@ -1,0 +1,46 @@
+
+x-slider.animate > .slide-panel.right-in.left {
+	display: block;
+	visibility: visible;
+	/* transition: visibility 15s cubic-bezier(0.4, 0, 0.2, 1), transform 15s cubic-bezier(0.4, 0, 0.2, 1); */
+	transition-property: transform;
+	transition-duration: .3s;
+	/* ease-in */
+	transition-timing-function: cubic-bezier(0.4, 0, .4, .2);
+	
+	transform: translateX(-20%);
+}
+
+x-slider.animate > .slide-panel.left-in.right {
+	display: block;
+	visibility: visible;
+	/* transition: visibility 15s cubic-bezier(0.4, 0, 0.2, 1), transform 15s cubic-bezier(0.4, 0, 0.2, 1); */
+	transition-property: transform;
+	transition-duration: .3s;
+	transition-timing-function: cubic-bezier(0.4, 0, .4, .2);
+	
+	transform: translateX(100%);
+	z-index: 1;
+}
+
+x-slider.ready-animate > .slide-panel.right-in.right {
+	visibility: visible;
+	transform: translateX(100%);
+	transition: none;
+}
+
+x-slider.ready-animate > .slide-panel.left-in.left {
+	visibility: visible;
+	transform: translateX(-20%);
+	transition: none;
+}
+
+x-slider.animate > .slide-panel.right-in.right.iron-selected,
+x-slider.animate > .slide-panel.left-in.left.iron-selected {
+	transform: translateX(0);
+
+	transition-property: transform;
+	transition-duration: .3s;
+	/* ease-out */
+	transition-timing-function: cubic-bezier(0.6, .8, .6, 1);
+}

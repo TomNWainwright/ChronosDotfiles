@@ -1,0 +1,30 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "scripts/background.js" ]
+      }
+   },
+   "author": "Yoichiro Tanaka",
+   "description": "This application provides you 'MySQL GUI Admin console' windows.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvXmgM2LMUSy+3IQRSA6t5o5AcHZUQZfpF9P1sXxEzewdo69EcLJ0bGqftYp7IXyqvtckRhmHNMa+ZzcrlGWiUAAwjPz6TtyMQUrM7sO4fJeYgFnSs6fDxKACXxjmip/fwtb7gbworLWm8T3p18zMI9Xn9BbXHxzpW0BNoTtioW3UoejaIdINyUlz6yzG+nSP2Pm1HWyf1DNKAZ9q8bM1V7TpwTXdkwWauzQx4qs26vGY7qFpw9Op5Au/OzNIYogEHJ7K8PHA69Q8dOTgysYTo57CczrpS1wXseIqx2+/Zt6o2M+gFrtoHVm8Umm0OXcZqQs5tSW/MLj7DPyVxG1i2QIDAQAB",
+   "manifest_version": 2,
+   "name": "Chrome MySQL Admin",
+   "offline_enabled": true,
+   "permissions": [ "storage", "alwaysOnTopWindows", {
+      "socket": [ "resolve-host", "tcp-connect:*:*", "tcp-listen::*" ]
+   }, {
+      "fileSystem": [ "write" ]
+   } ],
+   "short_name": "MyAdmin",
+   "sockets": {
+      "tcp": {
+         "connect": "*"
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.6.4"
+}

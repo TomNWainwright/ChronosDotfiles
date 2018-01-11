@@ -1,0 +1,54 @@
+<div class="mainFooter" ng-controller="MainFooterController" ng-init="initialize()">
+  <div class="mainStatusMessage pull-left">{{mainStatusMessage}}</div>
+  <!-- for Rows panel -->
+  <div class="pull-right" ng-show="isRowsButtonsVisible()">
+    <footer-button icon="plus" click="insertRow()" title="Insert a new row" enable="isTableSelection() && isTable()"></footer-button>
+    <footer-button icon="pencil" click="updateRow()" title="Edit the selected row" enable="isTable() && isRowSelection()"></footer-button>
+    <footer-button icon="trash-o" click="confirmDeleteSelectedRow()" title="Delete the selected row" enable="isTable() && isRowSelection()"></footer-button>
+    <footer-button icon="refresh" click="refreshRows()" title="Refresh the row list"></footer-button>
+    <footer-button icon="copy" click="copyRowsPanelRowToClipboard()" title="Copy the row values to Clipboard" enable="isRowSelection()"></footer-button>
+    <footer-button icon="magnet" click="findSameRows()" title="Find same rows" enable="isTable() && isRowSelection()"></footer-button>
+    <footer-button icon="binoculars" click="findRowsWithTheValue()" title="Find rows with the value" enable="isTable() && isRowSelection()"></footer-button>
+    <footer-button icon="arrow-left" click="goPreviousPage()" title="Go to the previous page" enable="hasPreviousPage()"></footer-button>
+    <div class="pull-left footerTextRight">{{getPagingInfo()}}</div>
+    <footer-button icon="arrow-right" click="goNextPage()" title="Go to the next page" enable="hasNextPage()"></footer-button>
+  </div>
+  <!-- for Structure panel -->
+  <div class="pull-right" ng-show="isStructureButtonsVisible()">
+    <footer-button icon="refresh" click="refreshStructure()" title="Refresh the column list and the index list"></footer-button>
+  </div>
+  <!-- for Database panel -->
+  <div class="pull-right" ng-show="isDatabaseButtonsVisible()">
+    <footer-button icon="plus" click="createDatabase()" title="Create a new database"></footer-button>
+    <footer-button icon="trash-o" click="confirmDeleteSelectedDatabase()" title="Delete the database" enable="isDatabaseSelection()"></footer-button>
+    <footer-button icon="download" click="exportAllDatabases()" title="Export all databases"></footer-button>
+  </div>
+  <!-- for Information panel -->
+  <div class="pull-right" ng-show="isInformationButtonsVisible()">
+    <footer-button icon="refresh" click="refreshInformation()" title="Refresh the information"></footer-button>
+  </div>
+  <!-- for Relation panel -->
+  <div class="pull-right" ng-show="isRelationButtonsVisible()">
+    <footer-button icon="plus" click="addRelation()" title="Add a new relation" enable="isTableSelection() && isTable()"></footer-button>
+    <footer-button icon="trash-o" click="confirmDeleteSelectedRelation()" title="Delete the relation" enable="isTable() && isRelationSelection()"></footer-button>
+    <footer-button icon="refresh" click="refreshRelation()" title="Refresh the foreign keys"></footer-button>
+  </div>
+  <!-- for Procedures and functions panel -->
+  <div class="pull-right" ng-show="isProceduresFunctionsButtonsVisible()">
+    <footer-button icon="play" click="executeProcedure()" title="Execute the selected procedure" enable="isProcedureSelection()"></footer-button>
+    <footer-button icon="plus" click="createRoutine()" title="Create a new routine" enable="isDatabaseSelection()"></footer-button>
+    <footer-button icon="trash-o" click="confirmDeleteSelectedRoutine()" title="Delete the procedure/function" enable="isRoutineSelection()"></footer-button>
+    <footer-button icon="refresh" click="refreshProceduresFunctions()" title="Refresh procedure/function"></footer-button>
+  </div>
+  <!-- for Query panel -->
+  <div class="pull-right" ng-show="isQueryButtonsVisible()">
+    <footer-button icon="copy" click="copyQueryResultRowToClipboard()" title="Copy the row values to Clipboard" enable="isQueryResultRowSelection()"></footer-button>
+    <footer-button icon="download" click="exportQueryResult()" title="Export this query result" enable="isQueryResultSelection()"></footer-button>
+  </div>
+  <!-- for ER Diagram panel -->
+  <div class="pull-right" ng-show="isErDiagramButtonsVisible()">
+    <footer-button icon="gear" click="openErDiagramConfiguration()" title="Open ER Diagram configuration"></footer-button>
+    <footer-button icon="download" click="saveErDiagramImage()" title="Save ER Diagram image" enable="isDatabaseSelection()"></footer-button>
+    <footer-button icon="refresh" click="refreshErDiagram()" title="Refresh ER Diagram" enable="isDatabaseSelection()"></footer-button>
+  </div>
+</div>

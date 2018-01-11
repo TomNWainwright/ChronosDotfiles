@@ -1,0 +1,109 @@
+op-button {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 5;
+}
+op-button.op-small{
+   width: 12px;
+   height: 12px;
+}
+op-button.op-large{
+   width: 24px;
+   height: 24px;
+}
+
+/* op-button[data-state='inactive'] {
+    content: url('$BASE_URL/images/inline/app_icon-mono.svg') !important;
+}
+op-button[data-state='inactive'].op-small, op-button[data-state='inactive'].op-large {
+    content: url('$BASE_URL/images/inline/app_icon-12-mono.svg') !important;
+} */
+
+op-button[data-state='locked'] {
+    content: url('$BASE_URL/images/inline/app_icon-16-locked.svg') !important;
+}
+op-button[data-state='locked'].op-small, op-button[data-state='locked'].op-large {
+    content: url('$BASE_URL/images/inline/app_icon-12-locked.svg') !important;
+}
+
+op-button[data-state='active'] {
+    content: url('$BASE_URL/images/inline/app_icon-16.svg') !important;
+}
+op-button[data-state='active'].op-small, op-button[data-state='active'].op-large {
+    content: url('$BASE_URL/images/inline/app_icon-12.svg') !important;
+}
+
+op-notch {
+    position: absolute;
+    width: 22px;
+    height: 11px;
+    content: url('$BASE_URL/images/inline/inline_notch.svg') !important;
+    opacity: 0;
+    transition: opacity 0.1s;    
+}
+
+op-notch.locked {
+    content: url('$BASE_URL/images/inline/inline_notch-locked.svg') !important;    
+}
+
+op-notch.ready {
+    opacity: 1;
+}
+
+iframe#op-popup {
+    border-style: none;
+	border-radius: 6px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.15), 0 2px 24px rgba(0,0,0,0.07);
+    background: #fff;
+    overflow: hidden;
+    width: 250px;
+    height: 0px;
+    transition: opacity 0.1s;
+    opacity: 0;
+}
+iframe#op-popup.ready {
+    opacity: 1;
+} 
+
+iframe#op-popup.locked {
+    height: 115px;
+}
+
+iframe#op-popup[data-rows='0'] {
+    height: 0px;
+    display: none;
+}
+iframe#op-popup[data-rows='1'] {
+    height: 53px;
+}
+iframe#op-popup[data-rows='2'] {
+    height: 106px;
+}
+iframe#op-popup[data-rows='3'] {
+    height: 159px;
+}
+iframe#op-popup.overflow {
+    height: 184px;    
+}
+
+iframe#op-save-login {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    z-index: 2147483647;
+}
+
+body[op-scroll-lock] {
+    overflow: hidden;
+}

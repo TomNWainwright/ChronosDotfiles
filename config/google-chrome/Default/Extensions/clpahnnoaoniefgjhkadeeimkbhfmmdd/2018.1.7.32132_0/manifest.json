@@ -1,0 +1,26 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://192.168.2.106:8082/teampostgresql/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "cDLkfo1pmCRjtz5645eutvc/dWLKXiRUgBdHD4qB13U=",
+   "name": "TeamPostgreSQL",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://192.168.2.106:8082/teampostgresql/*" ],
+         "title": "TeamPostgreSQL"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

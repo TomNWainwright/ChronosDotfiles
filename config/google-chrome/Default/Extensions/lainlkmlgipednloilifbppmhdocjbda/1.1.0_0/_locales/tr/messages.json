@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "Hakkında"
+   },
+   "addADomain": {
+      "message": "Bir alanadı ekleyin"
+   },
+   "addANewMessenger": {
+      "message": "Yeni bir mesajlaşma uygulaması ekleyin"
+   },
+   "addASubdomain": {
+      "message": "Bir alt alanadı ekleyin"
+   },
+   "addMessenger": {
+      "message": "$messenger$ Ekle",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "All-in-One Messenger'ı geliştirmemize yardım etmek için, anonim olarak istatistiklerinizi gönderin."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "WhatsApp, Telegram, Messenger, Skype ve diğer birçok mesajlaşma uygulamasını tek uygulama ile kullanın."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "cancel": {
+      "message": "iptal"
+   },
+   "delete": {
+      "message": "sil"
+   },
+   "doYouEnjoyAppName": {
+      "message": "All-in-One Messenger'dan memnun musunuz?"
+   },
+   "editEnabledMessengers": {
+      "message": "Aktif mesajlaşma uygulamalarını düzenle"
+   },
+   "editMessenger": {
+      "message": "Düzenleme $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "All-in-One Messenger İçin Görüş Bildirimi"
+   },
+   "insecureConnectionWarning": {
+      "message": "Unutmayın, bu mesajlaşma uygulaması güvenli bir bağlantı kullanmıyor!"
+   },
+   "later": {
+      "message": "sonra"
+   },
+   "loading": {
+      "message": "yükleniyor..."
+   },
+   "messengerName": {
+      "message": "İsim"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ için ek izinler gerekebilir",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Görüşlerinizi bildirmenizde sakınca var mı?"
+   },
+   "muteAllSounds": {
+      "message": "Tüm sesleri kapat"
+   },
+   "no": {
+      "message": "hayır"
+   },
+   "ok": {
+      "message": "tamam"
+   },
+   "privacy": {
+      "message": "Gizlilik"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "tekrar dene?"
+   },
+   "promoInstallFailText": {
+      "message": "Üzgünüz - yükleme başarısız"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "Webstore'da tekrar deneyin"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Reklam"
+   },
+   "promoPrimaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Chrome'a ekle"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "ücretsiz"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Artık Google Chrome ile kullanılabilir!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "WhatsApp, Facebook Messenger, Skype\u003Cbr/> Telegram gibi mesajlaşma uygulamalarını, tek bir uygulamada kullanın!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "daha fazla bilgi"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "hayır teşekkürler"
+   },
+   "promoSecondaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "En sevdiğiniz mesajlaşma uygulamalarını tek bir yerde toplayın ve tüm konuşmalarınızı görün. Saniyeler içinde yeni mesajlaşma uygulamaları ekleyin ve bir arkadaşınız mesaj yazdığında bildirim alın. All-in-One Messenger güvenli, kullanımı kolay ve ücretsiz bir uygulamadır."
+   },
+   "rateApp": {
+      "message": "Uygulamayı Değerlendir"
+   },
+   "reportAnIssue": {
+      "message": "Hata Bildir"
+   },
+   "resolve": {
+      "message": "çöz"
+   },
+   "save": {
+      "message": "kaydet"
+   },
+   "sendFeedback": {
+      "message": "Geribildirim Yolla"
+   },
+   "shareMailText": {
+      "message": "All-in-One Messenger'a göz atın"
+   },
+   "showNotifications": {
+      "message": "Bildirimleri Göster"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Aramalar henüz desteklenmemektedir."
+   },
+   "support": {
+      "message": "Destek"
+   },
+   "supportAppName": {
+      "message": "All-in-One Messenger'ı destekleyin"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "All-in-One Messenger ücretsiz bir uygulamadır, \u003Cbr /> lütfen arkadaşlarınıza bu uygulamayı göstererek bize destek olun!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Chrome İnternet Mağazasında 5 yıldızlı bir\u003Ca href='$rateLink$' target='_blank'>değerlendirme\u003C/a>, bizleri mutlu eder.",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Bizi destekleyin"
+   },
+   "updateNotice": {
+      "message": "Yeni bir sürüm mevcut. Güncellemek için lütfen Google Chrome'u yeniden başlatın."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Sürüm"
+   },
+   "webIndexDownloadButton": {
+      "message": "Ücretsiz indirin"
+   },
+   "webIndexFeatureFocus": {
+      "message": "Farklı mesajlaşma uygulamaları arasında gezinmek yerine, tek bir uygulamaya \u003Cstrong>odaklanın\u003C/strong>."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Aynı mesajlaşma platformunda \u003Cstrong>istediğiniz kadar\u003C/strong> hesap kullanın."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Tek tıklama ile masaüstü \u003Cstrong>bildirimleri\u003C/strong> alın. Bazı mesajlaşma uygulamalarının bildirimleri sizi rahatsız ediyorsa, onları sessize alın."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Tüm mesajlaşma uygulamalarınız için tek bir uygulama"
+   },
+   "webIndexIntroLead": {
+      "message": "WhatsApp, Telegram, Facebook Messenger, Skype ve diğer birçok mesajlaşma uygulamasını tek uygulama ile kullanın."
+   },
+   "webIndexIntroTitle": {
+      "message": "All-in-One Messenger"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Desteklenen Mesajlaşma Uygulaması"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "WhatsApp, Telegram, Messenger, Skype ve diğer birçok mesajlaşma uygulamasını tek uygulama ile kullanın."
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Haber bültenimize kayıt olun ve diğer platformlarda da var olduğumuzda sizi bilgilendirelim."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "E-posta adresiniz"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "All-in-One Messenger şu anda sadece Chrome kullanıcıları için mevcuttur."
+   },
+   "website": {
+      "message": "Web sitesi"
+   },
+   "webstore": {
+      "message": "İnternet mağazası"
+   },
+   "yes": {
+      "message": "evet"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Şu anda çevrimdışısınız."
+   }
+}

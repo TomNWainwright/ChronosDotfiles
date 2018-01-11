@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>trashCan</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="AMZN-desktop-PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PCAMZN-DESK-ebay.A-3" transform="translate(-968.000000, -326.000000)">
+            <g id="Group-13" transform="translate(316.000000, 214.000000)">
+                <g id="Group-18-+-Group-11-+-Group-17-Mask" transform="translate(26.000000, 75.000000)">
+                    <g id="Group-10" transform="translate(7.000000, 0.000000)">
+                        <g id="Group-18" transform="translate(3.000000, 0.000000)">
+                            <g id="trashCan" transform="translate(616.000000, 37.000000)">
+                                <rect id="Rectangle-3" fill="#D8D8D8" x="0" y="0" width="41" height="41" rx="5.36842127"></rect>
+                                <g id="Group-12" transform="translate(12.947368, 8.631579)" stroke="#FFFFFF" stroke-width="1.7178947" stroke-linecap="round">
+                                    <path d="M13.9821036,9.31319902 L13.9821036,22.3508871 C13.9821036,23.8821055 12.7538296,25.1234043 11.238678,25.1234043 L4.60118763,25.1234043 C3.08603604,25.1234043 1.85776202,23.8821055 1.85776202,22.3508871 L1.85776202,9.31319902" id="Stroke-1"></path>
+                                    <path d="M0,6.04210526 L15.8398656,6.04210526" id="Stroke-3"></path>
+                                    <path d="M11.7332338,3.95255131 L11.7332338,1.73793681 C11.7332338,0.778059725 10.9633381,0 10.0135328,0 L5.82633279,0 C4.87652752,0 4.10663183,0.778059725 4.10663183,1.73793681 L4.10663183,3.95255131" id="Stroke-5"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

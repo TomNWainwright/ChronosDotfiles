@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "Giới thiệu"
+   },
+   "addADomain": {
+      "message": "Thêm tên miền"
+   },
+   "addANewMessenger": {
+      "message": "Thêm trình nhắn tin mới"
+   },
+   "addASubdomain": {
+      "message": "Thêm một tên miền phụ"
+   },
+   "addMessenger": {
+      "message": "Thêm $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Hãy giúp cải thiện All-in-One Messenger bằng cách gửi thống kê ẩn danh."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Sử dụng các trình nhắn tin như WhatsApp, Telegram, Messenger, Skype và nhiều hơn nữa trong một ứng dụng!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "cancel": {
+      "message": "hủy"
+   },
+   "delete": {
+      "message": "xóa"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Bạn có thích All-in-One Messenger không?"
+   },
+   "editEnabledMessengers": {
+      "message": "Sửa các trình nhắn tin đã bật"
+   },
+   "editMessenger": {
+      "message": "Chỉnh sửa $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Phản hồi All-in-One messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "Xin lưu ý rằng trình nhắn tin này không sử dụng kết nối bảo mật!"
+   },
+   "later": {
+      "message": "để sau"
+   },
+   "loading": {
+      "message": "đang tải..."
+   },
+   "messengerName": {
+      "message": "Tên"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ có thể cần thêm quyền",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Bạn có thể cung cấp thông tin phản hồi cho chúng tôi không?"
+   },
+   "muteAllSounds": {
+      "message": "Tắt tất cả âm thanh"
+   },
+   "no": {
+      "message": "không"
+   },
+   "ok": {
+      "message": "ok"
+   },
+   "privacy": {
+      "message": "Quyền riêng tư"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "thử lại?"
+   },
+   "promoInstallFailText": {
+      "message": "Rất tiếc - cài đặt thất bại"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "thử lại trong Webstore"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Quảng cáo"
+   },
+   "promoPrimaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Thêm vào Chrome"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "miễn phí"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Hiện khả dụng với Google Chrome!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "Sử dụng các trình nhắn tin như WhatsApp, Facebook Messenger, Skype\u003Cbr/> và nhiều hơn nữa trong một ứng dụng!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "thêm thông tin"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "không, cám ơn"
+   },
+   "promoSecondaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "Sắp xếp các trình nhắn tin yêu thích của bạn vào một nơi và luôn theo dõi được tất cả các cuộc hội thoại của bạn. Thêm các trình nhắn tin mới trong vài giây và nhận thông báo khi bạn bè gửi tin nhắn cho bạn. All-in-One Messenger an toàn, dễ sử dụng và miễn phí."
+   },
+   "rateApp": {
+      "message": "Đánh giá Ứng dụng"
+   },
+   "reportAnIssue": {
+      "message": "Báo cáo Sự cố"
+   },
+   "resolve": {
+      "message": "xử lý"
+   },
+   "save": {
+      "message": "lưu"
+   },
+   "sendFeedback": {
+      "message": "Gửi Phản hồi"
+   },
+   "shareMailText": {
+      "message": "Dùng thử All-in-One Messenger"
+   },
+   "showNotifications": {
+      "message": "Hiển thị Thông báo"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Cuộc gọi chưa được hỗ trợ."
+   },
+   "support": {
+      "message": "Hỗ trợ"
+   },
+   "supportAppName": {
+      "message": "Hỗ trợ All-in-One Messenger"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "All-in-One Messenger là ứng dụng miễn phí, \u003Cbr />hãy trợ giúp chúng tôi bằng cách giới thiệu cho bạn bè của bạn!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Chúng tôi rất cảm kích với bất cứ \u003Ca href='$rateLink$' target='_blank'>đánh giá\u003C/a> 5 sao nào trong Chrome Web Store!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Hỗ trợ chúng tôi"
+   },
+   "updateNotice": {
+      "message": "Đã có phiên bản mới. Vui lòng khởi động lại Google Chrome để cập nhật."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Phiên bản"
+   },
+   "webIndexDownloadButton": {
+      "message": "Tải về miễn phí"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>Tập trung\u003C/strong> vào một ứng dụng duy nhất thay vì phải chuyển đổi qua lại giữa các ứng dụng nhắn tin khác nhau."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Sử dụng \u003Cstrong>bao nhiêu tài khoản\u003C/strong> cũng được theo ý mình muốn trên cùng nền tảng trình nhắn tin."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Nhận \u003Cstrong>thông báo\u003C/strong> trên màn hình nền bằng một lần bấm chuột. Tắt âm từng trình nhắn tin nếu bạn cảm thấy bị làm phiền."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Một ứng dụng duy nhất cho tất cả các trình nhắn tin của bạn"
+   },
+   "webIndexIntroLead": {
+      "message": "Sử dụng các trình nhắn tin như WhatsApp, Telegram, Facebook Messenger, Skype và nhiều hơn nữa trong một ứng dụng!"
+   },
+   "webIndexIntroTitle": {
+      "message": "All-in-One Messenger"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Trình nhắn tin được Hỗ trợ"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "Sử dụng các trình nhắn tin như WhatsApp, Telegram, Messenger, Skype và nhiều hơn nữa trong một ứng dụng!"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Đăng ký nhận bản tin và chúng tôi sẽ thông báo cho bạn ngay khi chúng tôi mở rộng ra các nền tảng khác."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "Địa chỉ email của bạn"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "All-in-One Messenger hiện chỉ khả dụng đối với người dùng của trình duyệt Chrome."
+   },
+   "website": {
+      "message": "Website"
+   },
+   "webstore": {
+      "message": "Webstore"
+   },
+   "yes": {
+      "message": "có"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Hiện tại bạn đang ngoại tuyến."
+   }
+}

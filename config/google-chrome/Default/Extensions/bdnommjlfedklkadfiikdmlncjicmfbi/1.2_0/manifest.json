@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "images/16-icon.png",
+         "19": "images/19-icon.png",
+         "38": "images/38-icon.png",
+         "48": "images/48-icon.png"
+      },
+      "default_title": "Document is not ready yet!"
+   },
+   "content_security_policy": "script-src https://*.google.com 'unsafe-eval'; object-src 'self'",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArwu0DnM9bu8gCfnGzUXhqM2+z+Pek+ifizZm+ehCg3C1Z39SNVMSl76Qlrb8YAkU72fljHKfjpgayqK5+0Mi4uyhzVwrw3CmKuliPQh3k5Rlr0n7y7CnbE+FdDN3OXPPkkG7UEgMr/So4B4Sjxc/1YNkL0WCZ1KvWyaWxAXhhfdnCJCYL+eTHcaRgE3jNkmdsciBHThoxuIJhMeOW05eU/h2sK0dhk4TD9BlWed90XIG886+djK55CwYV/F6JzphIYNubMLc3diaImQRGrb2cBDjytobLzwnn5t7g4sMO4ZpNKL1lY2hmiFTCbhdxUZp9sQqQlDnGJhSwX0p5Ed8kQIDAQAB",
+   "manifest_version": 2,
+   "name": "Recent Document",
+   "oauth2": {
+      "client_id": "601222181180-gpomc06vnr7e1u7hmn9itq03ej7rn243.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive" ]
+   },
+   "permissions": [ "identity", "*://*.google.com/*", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

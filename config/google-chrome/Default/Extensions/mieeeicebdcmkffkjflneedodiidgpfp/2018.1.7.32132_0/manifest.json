@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#447ABA",
+      "launch": {
+         "web_url": "https://regex101.com/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Online regex tester, debugger with highlighting for PHP, PCRE, Python, Golang and JavaScript.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "M3EZl0I6u7C/pT7/Lc5bMNPE65oIiSl7g+ZHcMClwRI=",
+   "name": "Online regex tester and debugger: PHP...",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://regex101.com/*" ],
+         "title": "Online regex tester and debugger: PHP..."
+      }
+   },
+   "version": "2018.1.7.32132"
+}

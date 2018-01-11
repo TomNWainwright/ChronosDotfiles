@@ -1,0 +1,39 @@
+/* /\* hacky, ios bug?: can't scroll modal dialog(fixed/absolute positioned div). *\/ */
+/* .modal { */
+/* 		/\* position:fixed; *\/ */
+/* 		left:10px; */
+/* 		right:10px; */
+/* 		top:10px; */
+/* 		bottom:10px; */
+/* 		overflow-y:scroll; */
+/* } */
+
+
+/* .mobile-only, */
+/* .android-only { */
+/* 		display: block; */
+/* } */
+
+/* .mobile-hide, */
+/* .android-hide { */
+/* 		display: none; */
+/* } */
+
+/* disable "hover" state, on mobile btn always "hover" after clicking */
+.btn.text-dark:hover {
+	/* color: #303030; */
+	color: #31708f !important;
+}
+
+/* fix: btn always "active" */
+#note-list-footer .btn:active {
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+	background-color: inherit;
+}
+
+#note-title:active {
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+}
+

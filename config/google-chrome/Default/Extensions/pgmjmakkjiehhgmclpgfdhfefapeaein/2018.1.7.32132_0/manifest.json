@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#F99C22",
+      "launch": {
+         "web_url": "https://www.lucidchart.com/documents/edit/720346c2-592e-4bae-b59e-a3dce5975a27#"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Check out my diagram at Lucidchart. Make your own diagram or flowchart and share it with your friends. - http://lucidchart.com",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "628o+u3yfjziyzoTkx+UMPL637OOamFOwE62zop+kHc=",
+   "name": "Dissertation: Lucidchart",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://www.lucidchart.com/documents/edit/720346c2-592e-4bae-b59e-a3dce5975a27*" ],
+         "title": "Dissertation: Lucidchart"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

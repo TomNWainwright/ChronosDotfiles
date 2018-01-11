@@ -1,0 +1,220 @@
+<!DOCTYPE html/>
+<html style="overflow-y: auto;" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, target-densitydpi=device-dpi" >
+    <style type="text/css">
+     {==rt_editor_css==}
+    </style>
+    <style>
+     .il-img {
+       cursor: pointer;
+     }
+     .fly.il-img-cont {
+       z-index: 1;
+     }
+    </style>
+    <script>
+     document.addEventListener("DOMContentLoaded", function() {
+         var s_sortedLns = null, s_nextPlayingLnIdx = 0;
+         var s_curHotLn = null;
+
+         var audio = document.querySelector("audio");
+         var editor = document.querySelector(".line-editor");
+         
+         document.addEventListener("click", function(e) {
+             if (e.target.classList.contains("il-img")) {
+                 var img = e.target;
+                 var link = img.dataset.link;
+                 if (link)
+                     window.open(link, "_blank");
+                 return;
+             }
+
+             if (audio) {
+                 var abmStr;
+                 if (e.target.classList.contains("line-abm"))
+                     abmStr = "["+(e.target.innerText || e.target.textContent)+"]";
+                 else if (e.target.href && e.target.href.indexOf("#home/a-abm") === e.target.href.length - 11)
+                     abmStr = e.target.innerText || e.target.textContent;
+                 
+                 if (abmStr) {
+                     var tms = parseAbm(abmStr);
+                     if (tms && tms[0]) {
+                         audio.currentTime = tms[0];
+                         audio.play();
+
+                         s_nextPlayingLnIdx = 0; // for safri, no following onplay event
+                     }
+                 }
+             }
+         });
+
+         function parseAbm(str) {
+             var bAB = str.indexOf("-") != -1;
+             var tmA, tmB;
+             if (bAB) {
+                 var strA, strB;
+                 strA = str.replace(new RegExp("\[(.*)-.*"), "$1");
+                 strB = str.replace(new RegExp("\[.*-(.*)\]"), "$1");
+                 tmA = parseBmTimeStr(strA);
+                 tmB = parseBmTimeStr(strB);
+             }
+             
+             else {
+                 var strA = str.replace(/\[(.*)\]/, "$1"); 
+                 tmA = parseBmTimeStr(strA);
+             }
+             var ret=[];
+             if (typeof tmA === "number" && !isNaN(tmA))
+                 ret.push(tmA);
+             if (typeof tmB === "number" && !isNaN(tmB))
+                 ret.push(tmB);
+             return ret;
+         }
+
+         function parseBmTimeStr(str) {
+             var minutes = parseInt(str.replace(/(.*):.*/, "$1")); 
+             var seconds = parseFloat(str.replace(/.*:(.*)/, "$1"));
+             var tm = minutes*60 + seconds;
+             return tm;
+         }
+
+         if (audio && editor) {
+             // seeking works on chrome and firefox.
+             //var bSeeking = false;
+             if (typeof audio.onseeking !== "undefined") {
+                 audio.onseeking = function() {
+                     s_nextPlayingLnIdx = 0;
+                 }
+                 //audio.onseeked = function() {
+                 //}
+             }
+             else {
+                 audio.addEventListener("mouseup", function() {
+                     s_nextPlayingLnIdx = 0;
+                 });
+             }
+                 
+             var bPlaying = false;
+	     var requestFrame = window.requestAnimationFrame ||
+			        window.webkitRequestAnimationFrame;
+	     var frame = function () {
+                 hotLineUpdate();
+                 requestFrame(frame);
+             }
+             frame();
+             
+             audio.onplay = function() {
+                 bPlaying = true;
+	         s_nextPlayingLnIdx = 0;
+             }
+             audio.onpause = function() {
+                 bPlaying = false;
+                 clearHotLines();
+             }
+
+             function findLineElem(nameOrLn) {
+                 var LN_ROOT_NAME = "root";
+	         var name = typeof nameOrLn === "string" ? nameOrLn : nameOrLn.name;
+	         if (name === LN_ROOT_NAME)
+		     return editor;
+	         else
+		     return editor.querySelector("*[data-name='"+name+"']");
+	     }
+
+             function clearHotLines(bIncludeArrow) {
+	         var ln = s_curHotLn && findLineElem(s_curHotLn.name);
+	         if (ln)
+		     ln.classList.remove("playing-prev");
+	         s_curHotLn = null;
+             }
+
+             function hotLineStart() { 
+	         var lns = editor.querySelectorAll(".line");
+                 var timedLns = [];
+                 for (var i = 0; i < lns.length; ++i) {
+                     var el = lns[i];
+                     var abm = el.querySelector(".line-abm");
+                     if (abm) {
+                         timedLns.push({
+                             el: el,
+                             name: el.dataset.name,
+                             time: parseInt(abm.dataset.time),
+                         });
+                     }
+                 }
+
+                 timedLns.sort(function(a, b) {
+                     return a.time - b.time;
+                 });
+                 
+	         s_sortedLns = timedLns;
+	         s_nextPlayingLnIdx = 0;
+	     }
+
+             // return: [prev, next]
+             function calcAroundLines(sortedLns, curTm, oldNextIdx) {
+                 var TIME_EPSILON = 0.01;
+	         var newNextIdx;
+	         if (!sortedLns.length)
+		     newNextIdx = null;
+	         else if (oldNextIdx >= sortedLns.length) {
+		     newNextIdx = oldNextIdx;
+	         }
+	         else {
+		     var len = sortedLns.length;
+		     newNextIdx = oldNextIdx;
+		     while (newNextIdx < len) {
+		         var nextLn = sortedLns[newNextIdx];
+		         var nextTm = nextLn.time;
+		         if (curTm + TIME_EPSILON < nextTm)
+			     break;
+		         newNextIdx ++;
+		     }
+	         }
+
+	         return newNextIdx;
+             }
+
+             function getCurAudioTime() {
+                 return typeof audio.currentTime === "number" ? audio.currentTime : 0;
+             }
+             
+             function hotLineUpdate() {
+	         if (s_sortedLns && s_sortedLns.length && s_nextPlayingLnIdx < s_sortedLns.length) {
+		     var curTm = getCurAudioTime();
+		     var newNextIdx = calcAroundLines(s_sortedLns, curTm, s_nextPlayingLnIdx);
+
+		     if (newNextIdx !== s_nextPlayingLnIdx) {
+		         clearHotLines();
+		         
+		         var prevIdx = newNextIdx-1;
+		         if (prevIdx >= 0) {
+			     var prevLn = s_sortedLns[prevIdx];
+			     var lnEl = findLineElem(prevLn.name);
+			     if (lnEl)
+			         lnEl.classList.add("playing-prev");
+
+			     s_curHotLn = prevLn;
+		         }
+
+		         s_nextPlayingLnIdx = newNextIdx;
+		     }
+	         }
+             }
+
+             audio.onloadedmetadata = function() {
+                 hotLineStart();
+             }
+         }
+     });
+    </script>
+    <title>{=rt_title=}</title>
+  </head>
+  <body style="text-align:center">
+    <div style="width: 700px; display:inline-block;max-width:100%;margin:0 auto;text-align:initial">
+      {==rt_body==}
+    </div>
+  </body>
+</html>

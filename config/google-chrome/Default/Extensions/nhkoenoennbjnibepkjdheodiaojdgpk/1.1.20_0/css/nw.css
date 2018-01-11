@@ -1,0 +1,8 @@
+/* patch: no click event on paper-menu>paper-item. */
+html {
+  paper-item {
+    --paper-menu-colored-focused-item-after: {
+      pointer-events: none;
+    };
+  }
+}

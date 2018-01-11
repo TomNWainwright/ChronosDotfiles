@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#0199DD",
+      "launch": {
+         "web_url": "https://www.moo.do/app/#"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Moo.do is the task manager for everything, bringing all of your data into one consistent interface to manage everything in your life. Moo.do is a full email client built into an organization system so that you can manage your emails with the full power of an advanced task manager.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "BCXt6ZHR94Z/uBse2uaMImRWhiZB8c/A1dn8Ct6Y7EE=",
+   "name": "Moo.do",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://www.moo.do/app/*" ],
+         "title": "Moo.do"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

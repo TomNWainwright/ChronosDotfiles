@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#F99C22",
+      "launch": {
+         "web_url": "https://www.lucidchart.com/documents#docs?folder_id=home&browser=icon&sort=saved-desc"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "sUU+kYSvMNWVjxWbFOIHo47S+9sLzNG1jmNEG2aZW9Y=",
+   "name": "Documents",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://www.lucidchart.com/documents*" ],
+         "title": "Documents"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

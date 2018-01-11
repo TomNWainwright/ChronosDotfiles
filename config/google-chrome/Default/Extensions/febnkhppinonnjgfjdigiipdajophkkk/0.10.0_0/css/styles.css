@@ -1,0 +1,205 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font: 10pt "Trebuchet MS", "Helvetica Neue", sans-serif;  
+  line-height: 150%;
+  color: #222;
+  
+  background: #fafafa;
+  background-image: -webkit-linear-gradient(top, #ddd 0%, #fafafa 100px);
+  background-image:         linear-gradient(top, #ddd 0%, #fafafa 100px);
+}
+
+input,
+button {
+  font: 10pt "Trebuchet MS", "Helvetica Neue", sans-serif;  
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  cursor: pointer;
+  color: #000;
+}
+
+sup {
+  position: absolute;
+  font-size: 18px;
+  right: -15px;
+  top: -5px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 28px;
+  
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h1, h2, fieldset, hr {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+main {
+  padding: 30px;
+}
+
+dl {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+dt {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+dd {
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+hr {
+  height: 0;
+  border: 1px solid #aaa;
+  border-width: 0 0 1px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn, button {
+  position: relative;
+  display: inline-block;
+  margin: -2px 5px 0 0;
+  padding: 2px 10px;
+  line-height: 150%;
+
+  border: 1px solid #aaa;
+  border-left-color: #ddd;
+  border-top-color: #ddd;
+  color: #333;
+
+  font-size: 10pt;
+  vertical-align: middle;
+  box-shadow: 0 0 1px #999;
+  cursor: pointer;
+
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+
+  background: -webkit-linear-gradient(top, #fafafa 0%, #ddd 100%);
+  background:    -moz-linear-gradient(top, #fafafa 0%, #ddd 100%);
+  background:     -ms-linear-gradient(top, #fafafa 0%, #ddd 100%);
+  background:      -o-linear-gradient(top, #fafafa 0%, #ddd 100%);
+  background:         linear-gradient(top, #fafafa 0%, #ddd 100%);
+}
+
+.btn:hover, 
+button:hover {
+  color: #000;
+  border-color: #888;
+  border-left-color: #ccc;
+  border-top-color: #ccc;
+}
+
+.btn:active,
+.btn:disabled,
+button:active,
+button:disabled {
+  box-shadow: none;
+  border-color: #ccc;
+
+  background: -webkit-linear-gradient(top, #f3f3f3 0%, #ddd 100%);
+  background:    -moz-linear-gradient(top, #f3f3f3 0%, #ddd 100%);
+  background:     -ms-linear-gradient(top, #f3f3f3 0%, #ddd 100%);
+  background:      -o-linear-gradient(top, #f3f3f3 0%, #ddd 100%);
+  background:         linear-gradient(top, #f3f3f3 0%, #ddd 100%);
+}
+
+button:disabled {
+  cursor: default;
+  color: #777;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 0;
+
+  border: 1px solid #aaa;
+  vertical-align: middle;
+  font-size: 10pt;
+
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.1) inset;  
+          box-shadow: 1px 1px 2px rgba(0,0,0,.1) inset;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 240px;
+}
+
+fieldset {
+  border: none;
+}
+
+input[type=number] {
+  padding: 3px;
+  width: 70px;
+}
+
+input[type=checkbox] {
+  margin-right: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  width: 330px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+div:last-child {
+  margin-bottom: 0;
+}
+
+.error,
+.notice {
+  display: none;
+  padding: 2px 5px;
+  width: 332px;
+  border-radius: 3px;
+  background: #ff4767;
+  color: #fff;
+}
+
+.error a,
+.notice a {
+  color: #fffcb0;
+}
+
+.notice {
+  background: #60b13a;
+}

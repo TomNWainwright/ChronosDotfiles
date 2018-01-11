@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #15C;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+table {
+  border-spacing: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.script_container, .script_editor {
+  width: 600px;
+}
+#select_panel {
+  float: left;
+  width: 100px;
+}
+#script_panel {
+  cursor: default;
+}
+.script_title_text {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80px;
+}
+:nth-child(odd).script_item {
+  background-color: #eef;
+}
+:nth-child(even).script_item {
+  background-color: #fff;
+}
+#script_panel .script_item_selected {
+  background-color: #ddd;
+}
+.remove_script_btn {
+  display: none;
+  float: right;
+  height: 12px;
+  margin: 2px;
+  width: 12px;
+}
+#script_panel :hover .remove_script_btn {
+  display: block;
+}
+.run_btn {
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  width: 80px;
+}
+.ui-tabs .ui-tabs-panel {
+  padding: 0;
+}

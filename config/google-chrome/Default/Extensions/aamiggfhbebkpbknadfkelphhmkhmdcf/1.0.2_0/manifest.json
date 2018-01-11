@@ -1,0 +1,27 @@
+{
+   "author": "Erfan Norozi",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon19.png",
+         "38": "icon38.png"
+      }
+   },
+   "description": "This extension reminds you to take a break from work.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApZ0SesdQtDMwSZYV9kC9okL/nTqbbiKVu3UdLsHkgVnI7rYw7jjcLkq/jRD41NZnFkngwgPSJMGzrt40B3WdGN9mfp9ZOa0VJJCCcNS4qEs9lBmzIiCKkXLQVKwFHhyL1DY/OIb4JK/Sahr9hajLpYB2T8T3hRJRgW5dNcH+1sRICSMggs84aLoayCmFVlHg+kmxoBjXg8ul9V26ZPLb1VPUy1VlrCgPno2KrSAyAJiRhFV44miHKLddTbvQ9/OIEM3i6NJV+PxtWSBGpC3OA0krOcSlb+hnfwIMKJw0LynWYRXl1BAQA+1bthadpP8vQyMM0QkzWAl7cd+4SeVcKQIDAQAB",
+   "manifest_version": 2,
+   "name": "Stand Up! Timer",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "notifications", "alarms", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2",
+   "web_accessible_resources": [ "notification.png" ]
+}

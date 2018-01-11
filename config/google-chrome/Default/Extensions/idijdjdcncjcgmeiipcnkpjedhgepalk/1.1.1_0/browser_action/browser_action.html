@@ -1,0 +1,160 @@
+<!doctype html>
+<link rel="stylesheet" href="../css/custom.css" type="text/css">
+<script src="../../js/jquery/jquery.min.js"></script>
+<script src="../../js/Sortable.min.js"></script>
+<script src="../../js/browser_action.js"></script>
+
+<div id="mainPopup">
+<h1><img src="../icons/icon48.png" alt="Icon">Fast Advanced Google Search</h1>
+<div class="help-section">
+	<a href="#" id="show-keyboard-shortcuts" tabindex="-1">Keyboard Shortcuts</a>
+	<div id="keyboard-shortcuts" style="display: none;">
+		<ul>
+			<li><strong>Alt + G</strong>: Pop open the extension.</li>
+			<li><strong>TAB</strong>: Focus next search parameter.</li>
+			<li><strong>Shift + TAB</strong>: Focus previous search parameter.</li>
+			<li><strong>Arrow Keys</strong>: Switch between radio buttons (once focused).</li>
+			<li><strong>Enter</strong>: Search (no need to complete entire form).</li>
+		</ul>
+	</div>
+</div>
+<form id="search-form" class="search-form">
+	<div class="form-item">
+		<label class="input-title" for="keywords">Keyword(s)</label>
+		<input type="text" name="keywords" id="keywords" placeholder="Search for..." autofocus tabindex="1">
+	</div>
+
+	<div id="sortable-items">
+		<div class="form-item sortable" data-id="search_for">
+			<div class="grab-handle"><span></span><span></span></div>
+			<p class="input-title">Search for</p>
+			<div class="three-col-radios cf">
+				<label for="search_for-web">
+					<input id="search_for-web" type="radio" name="search_for" value="web" checked>
+					<span>Websites</span>
+				</label>
+				<label for="search_for-images">
+					<input id="search_for-images" type="radio" name="search_for" value="isch">
+					<span>Images</span>
+				</label>
+				<label for="search_for-news">
+					<input id="search_for-news" type="radio" name="search_for" value="nws">
+					<span>News</span>
+				</label>
+				<label for="search_for-videos">
+					<input id="search_for-videos" type="radio" name="search_for" value="vid">
+					<span>Videos</span>
+				</label>
+				<label for="search_for-books">
+					<input id="search_for-books" type="radio" name="search_for" value="bks">
+					<span>Books</span>
+				</label>
+				<label for="search_for-apps">
+					<input id="search_for-apps" type="radio" name="search_for" value="app">
+					<span>Apps</span>
+				</label>
+				<label for="search_for-products">
+					<input id="search_for-products" type="radio" name="search_for" value="shop">
+					<span>Products</span>
+				</label>
+			</div>
+		</div>
+		<div class="form-item sortable" data-id="type">
+			<div class="grab-handle"><span></span><span></span></div>
+			<p class="input-title">Query Type</p>
+			<div class="vertical-radios">
+				<label for="type-as_q">
+					<input id="type-as_q" type="radio" name="type" value="as_q" checked>
+					<span>AND - all words required</span>
+				</label>
+				<label for="type-as_oq">
+					<input id="type-as_oq" type="radio" name="type" value="as_oq">
+					<span>OR - any of the words</span>
+				</label>
+				<label for="type-as_epq">
+					<input id="type-as_epq" type="radio" name="type" value="as_epq">
+					<span>PHRASE - all words in this order</span>
+				</label>
+			</div>
+		</div>
+		<div class="form-item sortable" data-id="customisation">
+			<div class="grab-handle"><span></span><span></span></div>
+			<p class="input-title">Customization</p>
+			<div class="vertical-radios">
+				<label for="unsafe">
+					<input id="unsafe" type="checkbox" name="unsafe" value="as_q">
+					<span>Turn off SafeSearch</span>
+				</label>
+				<label for="unpersonalise">
+					<input id="unpersonalise" type="checkbox" name="unpersonalise" value="as_oq">
+					<span>Turn off personalised search<br>
+						<small>(don't let Google customize results based on your history)</small></span>
+				</label>
+			</div>
+		</div>
+		<div class="form-item sortable" data-id="exclude">
+			<div class="grab-handle"><span></span><span></span></div>
+			<label class="input-title" for="exclude">WITHOUT these words</label>
+			<input type="text" name="exclude" id="exclude" placeholder="Exclude...">
+		</div>
+		<div class="form-item sortable" data-id="site">
+			<div class="grab-handle"><span></span><span></span></div>
+			<label class="input-title" for="site">From this site or domain extension</label>
+			<input type="text" name="site" id="site" placeholder="Site / domain extension...">
+			<label class="input-description" for="site">E.g. "harvard.edu" or ".org"</label>
+		</div>
+		<div class="form-item sortable" data-id="keyword_in">
+			<div class="grab-handle"><span></span><span></span></div>
+			<p class="input-title">Keyword must be in</p>
+			<label for="keyword_in-any">
+				<input id="keyword_in-any" type="radio" name="keyword_in" value="any" checked>
+				<span>Any</span>
+			</label>
+			<label for="keyword_in-title">
+				<input id="keyword_in-title" type="radio" name="keyword_in" value="title">
+				<span>Page Title</span>
+			</label>
+			<label for="keyword_in-body">
+				<input id="keyword_in-body" type="radio" name="keyword_in" value="body">
+				<span>Body</span>
+			</label>
+			<label for="keyword_in-url">
+				<input id="keyword_in-url" type="radio" name="keyword_in" value="url">
+				<span>URL</span>
+			</label>
+		</div>
+		<div class="form-item sortable" data-id="age">
+			<div class="grab-handle"><span></span><span></span></div>
+			<label class="input-title" for="age_number">Max age of results</label>
+			<input type="number" name="age_number" id="age_number" placeholder="Number of hours / days / months / years...">
+			
+			<label for="age_unit-h">
+				<input id="age_unit-h" type="radio" name="age_unit" value="h" checked>
+				<span>Hours</span>
+			</label>
+			<label for="age_unit-d">
+				<input id="age_unit-d" type="radio" name="age_unit" value="d">
+				<span>Days</span>
+			</label>
+			<label for="age_unit-m">
+				<input id="age_unit-m" type="radio" name="age_unit" value="m">
+				<span>Months</span>
+			</label>
+			<label for="age_unit-y">
+				<input id="age_unit-y" type="radio" name="age_unit" value="y">
+				<span>Years</span>
+			</label>
+		</div>
+		<div class="form-item sortable" data-id="filetype">
+			<div class="grab-handle"><span></span><span></span></div>
+			<label class="input-title" for="filetype">File type</label>
+			<input type="text" name="filetype" id="filetype" placeholder="File type...">
+			<label for="filteype" class="input-description">E.g. "pdf"</label>
+		</div>
+	</div>
+		
+	<div class="form-item form-footer">
+		<button class="btn btn-large waves-effect waves-light" type="submit" name="action">Search</button>
+	</div>
+</form>
+</div>

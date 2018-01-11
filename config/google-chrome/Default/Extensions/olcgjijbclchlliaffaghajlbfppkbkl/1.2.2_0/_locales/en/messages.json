@@ -1,0 +1,22 @@
+{
+   "Customize": {
+      "description": "Customize Sci-Hub Server",
+      "message": "Customize Server"
+   },
+   "SaveOption": {
+      "description": "Options saved",
+      "message": "Save Options"
+   },
+   "Saves": {
+      "description": "Save",
+      "message": "Save"
+   },
+   "Sci_HubSearch": {
+      "description": "Sci-Hub Search ContextMenu",
+      "message": "Sci-Hub Search"
+   },
+   "main_description": {
+      "description": "Description about Sci-Hub link.",
+      "message": "Turns DOI and Pubmed adress into sci-hub Links."
+   }
+}

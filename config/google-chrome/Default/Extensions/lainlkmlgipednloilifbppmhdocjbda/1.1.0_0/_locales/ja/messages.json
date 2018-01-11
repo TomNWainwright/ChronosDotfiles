@@ -1,0 +1,238 @@
+{
+   "about": {
+      "message": "詳細"
+   },
+   "addADomain": {
+      "message": "ドメインを追加する"
+   },
+   "addANewMessenger": {
+      "message": "新規メッセンジャーを追加する"
+   },
+   "addASubdomain": {
+      "message": "サブドメインを追加する"
+   },
+   "addMessenger": {
+      "message": "$messenger$を追加する",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "匿名で統計情報を送信していただくと、オール イン ワン メッセンジャーの改善にご協力していただけます"
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "WhatsApp、Telegram、メッセンジャー、Skypeなどをまとめて一つのアプリからご利用いただけます！"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "オール イン ワン メッセンジャー"
+   },
+   "cancel": {
+      "message": "キャンセルする"
+   },
+   "delete": {
+      "message": "削除する"
+   },
+   "doYouEnjoyAppName": {
+      "message": "オール イン ワン メッセンジャーは気に入っていただけましたか？"
+   },
+   "editEnabledMessengers": {
+      "message": "有効化されたメッセンジャーを編集する"
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "オール イン ワン メッセンジャーのフィードバック"
+   },
+   "insecureConnectionWarning": {
+      "message": "このメッセンジャーではセキュア接続を使用しておりません。あらかじめご了承ください！"
+   },
+   "later": {
+      "message": "後で"
+   },
+   "loading": {
+      "message": "読み込んでいます..."
+   },
+   "messengerName": {
+      "message": "名称"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ にアクセス権を付与する必要がある場合がございます。",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "宜しければ、フィードバックをいただけませんでしょうか？"
+   },
+   "muteAllSounds": {
+      "message": "すべての音をミュートする"
+   },
+   "no": {
+      "message": "いいえ"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "privacy": {
+      "message": "プライバシー"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "再試行しますか？"
+   },
+   "promoInstallFailText": {
+      "message": "申し訳ありません - インストールできませんでした"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "ウェブストアから再度お試しください"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "広告"
+   },
+   "promoPrimaryHeading": {
+      "message": "オール イン ワン メッセンジャー"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Chromeに追加する"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "無料でご利用いただけます"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Google Chromeで、ご利用可能になりました！"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "WhatsApp、Telegram、メッセンジャー、Skypeなどを\u003Cbr/> まとめて一つのアプリからご利用いただけます！"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "詳細"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "いいえ、結構です"
+   },
+   "promoSecondaryHeading": {
+      "message": "オール イン ワン メッセンジャー"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "複数のお気に入りのメッセンジャーを一つにまとめてご利用いただけます。アプリ間の切り替えが不要になります。メッセンジャーの追加は、とても簡単に行っていただけます。メッセージを受信すると通知を表示してお知らせいたします。オール イン ワン メッセンジャーは安全で簡単に、そして無料でご利用いただけます。"
+   },
+   "rateApp": {
+      "message": "アプリを評価する"
+   },
+   "reportAnIssue": {
+      "message": "問題を報告する"
+   },
+   "resolve": {
+      "message": "解決する"
+   },
+   "save": {
+      "message": "保存する"
+   },
+   "sendFeedback": {
+      "message": "フィードバックを送信する"
+   },
+   "shareMailText": {
+      "message": "オール イン ワン メッセンジャーを試す"
+   },
+   "showNotifications": {
+      "message": "通知を表示する"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "現在、通話はサポートされておりません。"
+   },
+   "support": {
+      "message": "サポート"
+   },
+   "supportAppName": {
+      "message": "オール イン ワン メッセンジャーをサポートする"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "オール イン ワン メッセンジャーは無料アプリです。\u003Cbr />友達に紹介する事で、ご支援お願いいたします。"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Chromeウェブストアで、5つ星\u003Ca href='$rateLink$' target='_blank'>評価\u003C/a>をいただけると幸いです。",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "サポートをお願いいたします"
+   },
+   "updateNotice": {
+      "message": "新しいバージョンが利用可能となっています。Google Chromeを再起動してからアップデートしていただけます。"
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "バージョン"
+   },
+   "webIndexDownloadButton": {
+      "message": "無料でダウンロードできます"
+   },
+   "webIndexFeatureFocus": {
+      "message": "メッセンジャーアプリを切り替える事なく、一つのアプリに\u003Cstrong>全てまとめて\u003C/strong>ご利用いただけます。"
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "同じメッセンジャー プラットフォームの\u003Cstrong>アカウントをいくつでも\u003C/strong>、お好きなだけご利用いただけます。"
+   },
+   "webIndexFeatureNotifications": {
+      "message": "ワンクリックで返信できるデスクトップ\u003Cstrong>通知\u003C/strong>を受け取ることができます。さらに、通知のミュート機能もご利用いただけます。"
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "全てのメッセンジャーを一つにまとめてご利用いただけます"
+   },
+   "webIndexIntroLead": {
+      "message": "WhatsApp、Telegram、メッセンジャー、Skypeなどをまとめて一つのアプリからご利用いただけます！"
+   },
+   "webIndexIntroTitle": {
+      "message": "オール イン ワン メッセンジャー"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "サポートされているメッセンジャー"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "WhatsApp、Telegram、メッセンジャー、Skypeなどをまとめて一つのアプリからご利用いただけます！"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "当社のニュースレターにサインアップすると、他のプラットフォームへ拡大した際にすぐに、その趣旨を伝える通知を送信させていただきます。"
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "メールアドレス"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "現在、オール イン ワン メッセンジャーは Chrome ブラウザのユーザーのみ、ご利用可能となっております。"
+   },
+   "website": {
+      "message": "ウェブサイト"
+   },
+   "webstore": {
+      "message": "ウェブストア"
+   },
+   "yes": {
+      "message": "はい"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "現在、オフライン状態です。"
+   }
+}

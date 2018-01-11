@@ -1,0 +1,27 @@
+{
+   "app": {
+      "icon_color": "#4184F4",
+      "launch": {
+         "web_url": "https://docs.google.com/document/d/1lU1ScRoIzyACQgjO5z7livQR3L6t3NSS7LptEP7s8h0/edit"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "DTeaFMN9LLWpwbjAsBNJEcDkALGTpO8bSSyUrooY7cc=",
+   "name": "Vasia's brilliant Dissertation Plan, ...",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://docs.google.com/document/d/1lU1ScRoIzyACQgjO5z7livQR3L6t3NSS7LptEP7s8h0/edit*" ],
+         "title": "Vasia's brilliant Dissertation Plan, ..."
+      }
+   },
+   "version": "2018.1.7.32132"
+}

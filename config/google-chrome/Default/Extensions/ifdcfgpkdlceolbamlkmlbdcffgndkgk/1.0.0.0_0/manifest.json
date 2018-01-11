@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://sha1md5checksum.bugaco.com/cryptocalc/index.html"
+      },
+      "urls": [ "http://sha1md5checksum.bugaco.com/cryptocalc/index.html" ]
+   },
+   "description": "Calculate file checksum",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArS6IgjLNxFR+Lykfgc6JuOWN/gnRsHg8Vhb1aZjpheCddYJyDBGYQkBnAKCQmU+pKhGqN8jEphJ/Ezqajk5prP1ZAX0gz1c5RWUPzA5tCEYn9643b/kGmr0WSb1SGMNRdYDeGchkCja0imyFU5iFgapKbSaMGFAC5JhG7wGz8vr0F3lerkeEMAJlpNl1+7ITbkiEpCxpwaygB5KgljL9BiwS1eMZ0a/Cl4wtnTH+eu1XtZogP5lNpXzgBJAbjlpAWSIHsWMDyWyAmTwfhp2IhfAfu0s4pH/bISTECGoRRixmSTfGAaRangDbm0tlfqr3yIQvM8VRr+/lNvl038gRJQIDAQAB",
+   "manifest_version": 2,
+   "name": "SHA1 and MD5 Checksum",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.0"
+}

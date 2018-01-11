@@ -1,0 +1,26 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://localhost/Dissertation/index.php"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "UfJIrmTsGD3a+nXOonW93+fmEoKC8w70wLvb3ft9gWU=",
+   "name": "Literature - Dataface Application",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://localhost/Dissertation/index.php*" ],
+         "title": "Literature - Dataface Application"
+      }
+   },
+   "version": "2018.1.7.32132"
+}

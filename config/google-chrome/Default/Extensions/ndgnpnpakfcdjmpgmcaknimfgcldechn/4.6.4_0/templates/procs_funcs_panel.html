@@ -1,0 +1,4 @@
+<div id="proceduresFunctionsPanel" ng-controller="ProceduresFunctionsPanelController" ng-init="initialize()" ng-show="isProceduresFunctionsPanelVisible()">
+  <div id="routinesGrid" class="gridStyle" ng-grid="routinesGrid"></div>
+  <div ui-ace="{mode: 'sql', theme: 'clouds', onLoad: aceLoaded}" ng-model="routineCode" class="routineCodeEditor"></div>
+</div>

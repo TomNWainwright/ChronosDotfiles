@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "Tentang"
+   },
+   "addADomain": {
+      "message": "Tambahkan domain"
+   },
+   "addANewMessenger": {
+      "message": "Tambahkan pengolah pesan baru"
+   },
+   "addASubdomain": {
+      "message": "Tambahkan subdomain"
+   },
+   "addMessenger": {
+      "message": "Tambahkan $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "Bantu untuk meningkatkan All-in-One Messenger dengan mengirimkan statistik anonim."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Gunakan pengolah pesan seperti WhatsApp, Telegram, Messenger, Skype, dan lain-lain dalam satu aplikasi!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "All-in-One Messenger"
+   },
+   "cancel": {
+      "message": "batal"
+   },
+   "delete": {
+      "message": "hapus"
+   },
+   "doYouEnjoyAppName": {
+      "message": "Apakah Anda suka menggunakan All-in-One Messenger?"
+   },
+   "editEnabledMessengers": {
+      "message": "Edit pengolah pesan yang diaktifkan"
+   },
+   "editMessenger": {
+      "message": "Mengedit $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "Beri masukan All-in-One Messenger"
+   },
+   "insecureConnectionWarning": {
+      "message": "Mohon diperhatikan bahwa pengolah pesan ini tidak menggunakan koneksi aman!"
+   },
+   "later": {
+      "message": "nanti"
+   },
+   "loading": {
+      "message": "memuat..."
+   },
+   "messengerName": {
+      "message": "Nama"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ mungkin memerlukan izin tambahan",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "Bersedia memberikan masukan untuk kami?"
+   },
+   "muteAllSounds": {
+      "message": "Bisukan semua suara"
+   },
+   "no": {
+      "message": "tidak"
+   },
+   "ok": {
+      "message": "oke"
+   },
+   "privacy": {
+      "message": "Privasi"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "coba lagi?"
+   },
+   "promoInstallFailText": {
+      "message": "Maaf - penginstalan gagal"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "coba lagi di Webstore"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "Iklan"
+   },
+   "promoPrimaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "Tambahkan ke Chrome"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "secara gratis"
+   },
+   "promoPrimaryIntroText": {
+      "message": "Sekarang tersedia untuk Google Chrome!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "Gunakan pengolah pesan seperti WhatsApp, Facebook Messenger, Skype,\u003Cbr/> Telegram, dan lain-lain dalam satu aplikasi!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "info lainnya"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "tidak, terima kasih"
+   },
+   "promoSecondaryHeading": {
+      "message": "All-in-One Messenger"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "Mengatur pengolah pesan favorit di satu tempat dan kelola semua percakapan Anda. Menambahkan pengolah pesan baru dengan cepat dan mendapatkan pemberitahuan ketika teman mengirimkan pesan. All-in-One Messenger aman, mudah digunakan, dan gratis."
+   },
+   "rateApp": {
+      "message": "Beri Nilai Aplikasi"
+   },
+   "reportAnIssue": {
+      "message": "Laporkan Masalah"
+   },
+   "resolve": {
+      "message": "selesaikan"
+   },
+   "save": {
+      "message": "simpan"
+   },
+   "sendFeedback": {
+      "message": "Kirim Masukan"
+   },
+   "shareMailText": {
+      "message": "Lihat All-in-One Messenger"
+   },
+   "showNotifications": {
+      "message": "Tampilkan Pemberitahuan"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "Panggilan belum didukung."
+   },
+   "support": {
+      "message": "Dukungan"
+   },
+   "supportAppName": {
+      "message": "Dukung All-in-One Messenger"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "All-in-One Messenger adalah aplikasi gratis, \u003Cbr /> mohon bantu kami dengan memberitahukannya kepada teman Anda!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "Kami senang mendapatkan \u003Ca href='$rateLink$' target='_blank'>nilai\u003C/a> 5 bintang di Chrome Web Store!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "Dukung kami"
+   },
+   "updateNotice": {
+      "message": "Versi baru tersedia. Mulai ulang Google Chrome untuk memperbarui."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "Versi"
+   },
+   "webIndexDownloadButton": {
+      "message": "Unduh secara gratis"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>Tetap fokus\u003C/strong> dengan satu aplikasi tunggal, alih-alih berganti-ganti aplikasi pengolah pesan yang berbeda."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "Gunakan \u003Cstrong>akun sebanyak mungkin\u003C/strong> pada platform pengolah pesan yang sama."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "Dapatkan \u003Cstrong>pemberitahuan\u003C/strong> desktop dengan balasan satu kali klik. Bisukan pengolah pesan tertentu jika Anda merasa terganggu."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "Satu aplikasi tunggal untuk semua pengolah pesan Anda"
+   },
+   "webIndexIntroLead": {
+      "message": "Gunakan pengolah pesan seperti WhatsApp, Telegram, Facebook Messenger, Skype, dan lain-lain dalam satu aplikasi tunggal!"
+   },
+   "webIndexIntroTitle": {
+      "message": "All-in-One Messenger"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "Pengolah Pesan yang Didukung"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "Gunakan pengolah pesan seperti WhatsApp, Telegram, Messenger, Skype, dan lain-lain dalam satu aplikasi!"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "Mendaftarlah untuk menerima buletin kami agar kami dapat memberi tahu Anda begitu kami mengembangkan ke platform lain."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "Alamat email Anda"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "All-in-One Messenger saat ini hanya tersedia untuk pengguna browser Chrome."
+   },
+   "website": {
+      "message": "Situs web"
+   },
+   "webstore": {
+      "message": "Toko web"
+   },
+   "yes": {
+      "message": "ya"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "Saat ini Anda sedang offline."
+   }
+}

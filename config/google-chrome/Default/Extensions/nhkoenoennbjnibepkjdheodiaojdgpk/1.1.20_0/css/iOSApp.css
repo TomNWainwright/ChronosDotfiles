@@ -1,0 +1,28 @@
+/* /\* hacky, ios bug?: can't scroll modal dialog(fixed/absolute positioned div). *\/ */
+/* .modal { */
+/* 		/\* position:fixed; *\/ */
+/* 		left:10px; */
+/* 		right:10px; */
+/* 		top:10px; */
+/* 		bottom:10px; */
+/* 		overflow-y:scroll; */
+/* } */
+
+/* button { */
+/* 		-webkit-tap-highlight-color:rgba(0,0,0,0); */
+/* } */
+
+/* .mobile-only, */
+/* .ios-only { */
+/* 		display: block; */
+/* } */
+
+/* .mobile-hide, */
+/* .ios-hide { */
+/* 		display: none; */
+/* } */
+
+/* disable hover on touchable device , in #home_view only?, don't care others, so far all buttons in home view are default styled*/
+.btn-default:hover {
+		background-color: #f0f0f0;
+}

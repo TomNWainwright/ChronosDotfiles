@@ -1,0 +1,15 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "js": [ "oncopy.js" ],
+      "matches": [ "https://*/*", "http://*/*" ]
+   } ],
+   "description": "Link between crouton clipboard and Chrome OS",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhdoXLkzD5FIWFYFk1g+SHuU24322HOK4rp7ac10+aJpyEsIP7YE4rDWAXfSBszvHfwsjEp38BUKjmyyJp24x8ytLSLQ6TaHTfdQFTCY2F2Fp8h4VfskBYJxtpd+JRqWo2PIO0fHuaUzsWpdYGXFebCosOLjh1anTOtCV7syBfZj7MxOw/A4+UkTDgHe7vsXN5r+NMFN8y/H94yOawMRNYl9G6M6uvqX9WNh5pVPd0oLoRiWRqVoGtTHrtguuc8iL7bo+H1ty2aZ5m69tzat2WbeTxnT94fxYECuddGpfCxYEiwpsZRQBMwgE2BWQwWjV1E9NV9nNaLvAyUqOShPJAQIDAQAB",
+   "manifest_version": 2,
+   "name": "Crouton Clipboard",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

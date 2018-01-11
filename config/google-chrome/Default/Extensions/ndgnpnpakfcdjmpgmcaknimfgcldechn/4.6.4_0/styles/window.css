@@ -1,0 +1,406 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-user-select: text;
+}
+
+.windowTitlePanel {
+    width: 100%;
+    height: 20px;
+}
+
+.windowTitlePanel div {
+    margin-top: 3px;
+}
+
+.windowTitlePanel div.titleText {
+    margin-top: 0;
+}
+
+.navbar-fixed-top {
+    top: 20px;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.sidebar {
+    position: fixed;
+    top: 71px;
+    background-color: #f5f5f5;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+
+.sidebarHeader {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    background: #f5f5f5;
+    height: 35px;
+}
+
+.sidebarFooter {
+    height: 25px;
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.footerButtonLeft {
+    width: 23px;
+    height: 23px;
+    margin: 1px;
+    padding-top: 1px;
+    padding-left: 4px;
+    border-right: 1px solid #eee;
+    cursor: pointer;
+}
+
+.footerButtonRight {
+    width: 23px;
+    height: 23px;
+    margin: 1px;
+    padding-top: 1px;
+    padding-left: 6px;
+    border-left: 1px solid #eee;
+    cursor: pointer;
+}
+
+.footerTextRight {
+    height: 23px;
+    margin: 1px;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-left: 1px solid #eee;
+    cursor: pointer;
+}
+
+.footerButtonDisable {
+    cursor: default;
+    color: lightgray;
+}
+
+#objectList {
+    position: relative;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+}
+
+#objectList .list-group {
+    margin-bottom: 0;
+}
+
+#favoriteList {
+    position: relative;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+}
+
+.loginPanel {
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.loginPanel .form-group {
+/*    margin-bottom: 15px; */
+}
+
+.loginPanel .form-group textarea {
+    resize: none;
+}
+
+.loginPanelAlertBlock {
+    margin-top: 15px;
+}
+
+#loginForm {
+    overflow-y: auto;
+}
+
+.tableLink {
+    word-break: break-all;
+}
+
+.main {
+    position: fixed;
+    top: 71px;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-right: 1px solid #eee;
+}
+
+.mainFooter {
+    height: 25px;
+    background-color: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-left: 5px;
+}
+
+.mainStatusMessage {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.gridStyle {
+/*    border: 1px solid rgb(212,212,212); */
+    height: 300px;
+    font-size: 12px;
+}
+
+#progressPanel {
+    position: fixed;
+    left: 0;
+    top: 21px;
+    width: 100%;
+    height: 100%;
+    background: rgba(45,45,45, 0.2);
+    z-index: 9999;
+    margin-bottom: 25px;
+}
+
+#progressPanel>div {
+    position: relative;
+    top: 200px;
+    width: 700px;
+}
+
+#progressPanel>div .executingTitle {
+    font-weight: bold;
+}
+
+#progressPanel>div .executingQuery {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#changeWindowPanel {
+    position: fixed;
+    left: 0;
+    top: 21px;
+    width: 100%;
+    height: 100%;
+    background: rgba(45,45,45, 0.2);
+    z-index: 9999;
+    margin-bottom: 25px;
+}
+
+#changeWindowPanel .windowList .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#changeWindowPanel .windowList .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#changeWindowPanel .windowList .list-group {
+    margin-bottom: 0;
+    width: 300px;
+    max-height: 300px;
+    right: 50px;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.rowsConditionPanel {
+    padding: 2px;
+    height: 35px;
+}
+
+.rowsConditionPanel select {
+    width: 35%;
+    height: 30px;
+}
+
+.rowsConditionPanel select.operators {
+    width: 15%;
+}
+
+.queryMiddlePanel {
+    background-color: #e7e7e7;
+    height: 22px;
+}
+
+.queryMiddlePanel .selectedQuery {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 1.8em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.queryMiddlePanel .dropdown-menu {
+    width: 570px;
+    height: 250px;
+    overflow: auto;
+}
+
+#queryPanel nav {
+    margin-bottom: 0;
+}
+
+.queryErrorMessage {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    height: 80px;
+    padding: 2px 2px 2px 4px;
+    border-top: 1px solid #ccc;
+    background-color: white;
+    overflow-y: auto;
+    font-size: 13px;
+}
+
+.queryEditor {
+    border-bottom: 1px solid #eee;
+}
+
+.insertPanel {
+    position: absolute;
+    bottom: 25px;
+    width: 99%;
+    height: 400px;
+    margin: 5px;
+}
+
+.insertForm {
+    height: 350px;
+    overflow-y: auto;
+}
+
+.aboutMe {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.statisticsPanel {
+    width: 100%;
+    height: 50px;
+    padding-top: 3px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.subTitle {
+    width: 100%;
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 2px;
+/*    border: 1px solid #eee; */
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.middleFooter {
+    background-color: white;
+    height: 25px;
+    border-top: 1px solid #eee;
+}
+
+label.control-label {
+    word-wrap: break-word;
+}
+
+div.form-group textarea {
+    resize: vertical;
+}
+
+div.configurationPanel {
+    margin-top: 3px;
+}
+
+div.configurationPanelQueryHistory {
+    height: 300px;
+    overflow-y: auto;
+}
+
+div.configurationPanel form {
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}
+
+div.configurationPanelSsh2Fingerprints {
+    height: 300px;
+    overflow-y: auto;
+}
+
+span.editQuery {
+    cursor: pointer;
+}
+
+.tableStatusPanel {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.tableStatusPanel .row {
+    margin-right: 0;
+}
+
+.dropdownList {
+    max-height: 400px;
+    max-width: 500px;
+    overflow: auto;
+}
+
+.databaseDropdownToggle {
+    max-width: 230px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.nullValueOnCell {
+    color: lightgray;
+}
+
+.routineCodeEditor {
+    border-top: 1px solid #eee;
+}
+
+.routineParameterButton {
+    margin-top: 5px;
+}
+
+.routineParameterTypeLength {
+    width: 70px;
+}
+
+.erDiagramContainer {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.erDiagramContainer canvas {
+    background-color: white;
+}

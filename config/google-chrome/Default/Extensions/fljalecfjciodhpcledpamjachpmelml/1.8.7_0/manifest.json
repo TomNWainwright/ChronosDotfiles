@@ -1,0 +1,27 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "Professional text editing for Chrome and Chrome OS",
+   "file_handlers": {
+      "text": {
+         "types": [ "application/javascript", "application/json", "application/x-shellscript", "application/xml", "text/*" ]
+      }
+   },
+   "icons": {
+      "128": "icon-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCh9A0p0K76KGXnEYMf4tVxhHUBXQTRh984XrkVSuzX6Tp4al9cj7NgXh3Sjx+0+KctLzpmvCw9bwgWueAE13LhjQ+dJONaR5xhte0KTAfaVRGV5EKCBx6KwzcaBGWBHv3V1b/8CbTENivW3/eVTg0/gmyB0tzfqzEoXy/lnRkZdQIDAQAB",
+   "kiosk_enabled": false,
+   "manifest_version": 2,
+   "name": "Caret",
+   "offline_enabled": true,
+   "permissions": [ "clipboardRead", "clipboardWrite", "contextMenus", "storage", "notifications", "syncFileSystem", "app.window.fullscreen.overrideEsc", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   } ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.7"
+}

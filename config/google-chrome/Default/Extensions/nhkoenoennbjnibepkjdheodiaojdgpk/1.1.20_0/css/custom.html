@@ -1,0 +1,53 @@
+<custom-style>
+  <style>
+   body {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Microsoft Yahei", STXihei;
+     font-size: 14px;
+   }
+
+   html {
+     --paper-dialog: {
+       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Microsoft Yahei", STXihei;
+       -webkit-font-smoothing: auto;
+       box-sizing: border-box;
+       
+       color: rgb(85, 85, 85);
+       line-height: initial; /* 20px by some one behavior */
+     }
+
+     --paper-button: {
+       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Microsoft Yahei", STXihei;
+       -webkit-font-smoothing: auto;
+     }
+
+     --paper-item: {
+       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Microsoft Yahei", STXihei;
+       -webkit-font-smoothing: auto;
+       box-sizing: border-box;
+       
+       font-size: 14px;
+       cursor: pointer;
+       white-space: nowrap;
+     }
+
+     /* removed, no way to mixin paper-input-container in shadow of paper-input */
+     /* #modal-settings .panel-bm .item-bm-strings paper-input {
+	--paper-input-container: {
+        padding: 0;
+        };
+        } 
+      */
+   }
+
+   /* avoid nav buttons width changing when focus */
+   #note-nav paper-button::shadow paper-material.keyboard-focus {
+     font-weight: 500 !important;
+   }
+
+   /* need 'important' for getting ride of 'paper-fab.keyboard-focus' color. */
+   paper-fab::shadow paper-material {
+     background: initial !important;
+   }
+
+  </style>
+</custom-style>

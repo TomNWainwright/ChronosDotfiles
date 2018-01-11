@@ -1,0 +1,1877 @@
+{
+	"cc": {
+		"amazon_buy": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"amazon.com/gp/buy",
+				"amazon.ca/gp/buy",
+				"amazon.de/gp/buy",
+				"amazon.es/gp/buy",
+				"amazon.cn/gp/buy",
+				"amazon.it/gp/buy",
+				"amazon.co.uk/gp/buy",
+				"amazon.co.jp/gp/buy",
+				"amazon.fr/gp/buy"
+			],
+			"Hints": {
+				"cardholder": {
+					"name": "name"
+				},
+				"ccnum": {
+					"name": "addCreditCardNumber"
+				},
+				"expiry_mm": {
+					"name": "month"
+				},
+				"expiry_yy": {
+					"name": "year"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"amazon_wallet": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"amazon.com/wallet",
+				"amazon.ca/wallet",
+				"amazon.de/wallet",
+				"amazon.es/wallet",
+				"amazon.cn/wallet",
+				"amazon.it/wallet",
+				"amazon.co.uk/wallet",
+				"amazon.co.jp/wallet",
+				"amazon.fr/wallet"
+			],
+			"Hints": {
+				"cardholder": {
+					"name": "accountHolderName"
+				},
+				"ccnum": {
+					"name": "addCreditCardNumber"
+				},
+				"expiry_mm": {
+					"name": "expirationMonth"
+				},
+				"expiry_yy": {
+					"name": "expirationYear"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"logmein": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"store.logmein.com/buy/#/payment"
+			],
+			"Hints": {
+				"cardholder": {
+					"sel": "input[tabindex='13']"
+				},
+				"ccnum": {
+					"sel": "input[tabindex='14']"
+				},
+				"cvv": {
+					"sel": "input[tabindex='17']"
+				},
+				"expiry_mm": {
+					"sel": "input[tabindex='15']"
+				},
+				"expiry_yy": {
+					"sel": "input[tabindex='16']"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"input[tabindex='13']"
+				],
+				[
+					"fill_by_query",
+					"input[tabindex='13']",
+					"${resolve designator cardholder}"
+				],
+				[
+					"click_on_query",
+					"input[tabindex='14']"
+				],
+				[
+					"fill_by_query",
+					"input[tabindex='14']",
+					"${resolve designator ccnum}"
+				],
+				[
+					"click_on_query",
+					"input[tabindex='15']"
+				],
+				[
+					"fill_by_query",
+					"input[tabindex='15']",
+					"${resolve designator expiry_mm}"
+				],
+				[
+					"click_on_query",
+					"input[tabindex='16']"
+				],
+				[
+					"fill_by_query",
+					"input[tabindex='16']",
+					"${resolve designator expiry_yy}"
+				],
+				[
+					"click_on_query",
+					"input[tabindex='17']"
+				],
+				[
+					"fill_by_query",
+					"input[tabindex='17']",
+					"${resolve designator cvv}"
+				]
+			],
+			"Properties": null
+		},
+		"papajohns": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"order.papajohns.com/secure/checkout.html"
+			],
+			"Hints": {
+				"cardholder": {
+					"name": "paymentSummary.creditCardPayment.nameOnCard"
+				},
+				"ccnum": {
+					"name": "paymentSummary.creditCardPayment.cardNumber"
+				},
+				"cvv": {
+					"name": "paymentSummary.creditCardPayment.cvv"
+				},
+				"expiry_mm": {
+					"name": "paymentSummary.creditCardPayment.expirationMonth"
+				},
+				"expiry_yy": {
+					"name": "paymentSummary.creditCardPayment.expirationYear"
+				},
+				"type": {
+					"name": "paymentSummary.creditCardPayment.paymentTypeId"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		}
+	},
+	"id": {
+		"americanbenchcraft": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"store.americanbenchcraft.com/checkout.php"
+			],
+			"Hints": {
+				"address1": {
+					"name": "FormField[2][8]"
+				},
+				"city": {
+					"name": "FormField[2][10]"
+				},
+				"company": {
+					"name": "FormField[2][6]"
+				},
+				"country": {
+					"name": "FormField[2][11]"
+				},
+				"defphone": {
+					"name": "FormField[2][7]"
+				},
+				"email": {
+					"name": "FormField[1][1]"
+				},
+				"firstname": {
+					"name": "FormField[2][4]"
+				},
+				"lastname": {
+					"name": "FormField[2][5]"
+				},
+				"state": {
+					"name": "FormField[2][12]"
+				},
+				"zip": {
+					"name": "FormField[2][13]"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"macys": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.macys.com/account/profile"
+			],
+			"Hints": {
+				"address1": {
+					"name": "profile.profileAddress.address.addressLine1"
+				},
+				"birthdate_dd": {
+					"name": "profile.date"
+				},
+				"birthdate_mm": {
+					"name": "profile.month"
+				},
+				"birthdate_yy": {
+					"name": "profile.year"
+				},
+				"city": {
+					"name": "profile.profileAddress.address.city"
+				},
+				"email": {
+					"name": "profile.email"
+				},
+				"email2": {
+					"name": "profile.confirmEmail"
+				},
+				"firstname": {
+					"name": "profile.profileAddress.firstName"
+				},
+				"lastname": {
+					"name": "profile.profileAddress.lastName"
+				},
+				"sex": {
+					"name": "profile.gender"
+				},
+				"state": {
+					"name": "profile.profileAddress.address.state"
+				},
+				"zip": {
+					"name": "profile.profileAddress.address.postalCode"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"paypal": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.paypal.com/ca/cgi-bin/webscr"
+			],
+			"Hints": {
+				"address1": {
+					"name": "address1"
+				},
+				"address2": {
+					"name": "address2"
+				},
+				"birthdate_dd": {
+					"name": "birthdate_b"
+				},
+				"birthdate_mm": {
+					"name": "birthdate_a"
+				},
+				"birthdate_yy": {
+					"name": "birthdate_c"
+				},
+				"city": {
+					"name": "city"
+				},
+				"defphone": {
+					"name": "H_PhoneNumber"
+				},
+				"email": {
+					"name": "email"
+				},
+				"firstname": {
+					"name": "first_name"
+				},
+				"initial": {
+					"name": "middle_initial"
+				},
+				"lastname": {
+					"name": "last_name"
+				},
+				"state": {
+					"name": "state"
+				},
+				"zip": {
+					"name": "zip"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"ticketmaster": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.ticketmaster.ca/checkout/order"
+			],
+			"Hints": {
+				"address1": {
+					"name": "address1"
+				},
+				"city": {
+					"name": "city"
+				},
+				"defphone": {
+					"name": "evening_phone"
+				},
+				"firstname": {
+					"name": "first_name"
+				},
+				"lastname": {
+					"name": "last_name"
+				},
+				"state": {
+					"name": "state_id"
+				},
+				"zip": {
+					"name": "postal_code"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"trybooking": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"secure.trybooking.com/Booking/BookingDetails.aspx"
+			],
+			"Hints": {
+				"address1": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingAddress1"
+				},
+				"city": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingCity"
+				},
+				"country": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$ddlBookingCountry"
+				},
+				"defphone": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingPhone"
+				},
+				"email": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtEmail"
+				},
+				"email2": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtConfirmEmail"
+				},
+				"firstname": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingFirstName"
+				},
+				"lastname": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingLastName"
+				},
+				"state": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingState"
+				},
+				"zip": {
+					"name": "ctl00$ContentPlaceHolder1$rpBooking$txtBookingPostCode"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		}
+	},
+	"login": {
+		"aa": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.aa.com"
+			],
+			"Hints": {
+				"password": {
+					"name": "password"
+				},
+				"username": {
+					"name": "loginId"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"adpworld": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"adpworld.de",
+				"www.adpworld.de"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": {
+				"delay_between_operations": 100
+			}
+		},
+		"aircanada": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"aircanada.com"
+			],
+			"Hints": {
+				"submit": {
+					"sel": "form[name=ACOLogonForm] a[href='javascript:document.ACOLogonForm.submit();']"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"amazon": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"amazon.com/ap/signin",
+				"amazon.ca/ap/signin",
+				"amazon.de/ap/signin",
+				"amazon.es/ap/signin",
+				"amazon.cn/ap/signin",
+				"amazon.it/ap/signin",
+				"amazon.co.uk/ap/signin",
+				"amazon.co.jp/ap/signin",
+				"amazon.fr/ap/signin"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"apoteket": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"www.apoteket.se/"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"att-dcp2": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"dcp2.att.com/OEPNDClient/pages/A-00T.jsp"
+			],
+			"Hints": {
+				"submit": {
+					"id": "loginFormSubmit"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"axure": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"share.axure.com"
+			],
+			"Hints": {
+				"password": {
+					"id": "u60_input"
+				},
+				"username": {
+					"id": "u57_input"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#u57"
+				],
+				[
+					"simple_set_value_by_query",
+					"#u57_input",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#u60"
+				],
+				[
+					"fill_by_query",
+					"#u60_input",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"banamex_boveda": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"boveda.banamex.com.mx/serban/index.htm"
+			],
+			"Hints": {
+				"password": {
+					"id": "PASSWORD1"
+				},
+				"username": {
+					"id": "USERID1"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"bhphotovideo": {
+			"Name": "",
+			"Prevent": [
+				"Clues",
+				"SoleUsername"
+			],
+			"URLs": [
+				"www.bhphotovideo.com"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"binck": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"login.binck.be/klanten/login",
+				"login.binck.nl/Klanten/login"
+			],
+			"Hints": {
+				"password": {
+					"sel": "input[data-bind='value: $root.password']"
+				},
+				"username": {
+					"sel": "input[data-bind='value: $root.username, setFocus:true']"
+				}
+			},
+			"Script": [
+				[
+					"fill_by_query",
+					"input[data-bind='value: $root.username, setFocus:true']",
+					"${resolve designator username}"
+				],
+				[
+					"fill_by_query",
+					"input[data-bind='value: $root.password']",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"bupa": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"login.bupa.com.au/"
+			],
+			"Hints": null,
+			"Script": [
+				[
+					"click_on_query",
+					"input[name=logon]"
+				],
+				[
+					"fill_by_query",
+					"input[name=logon]",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"input[name=password]"
+				],
+				[
+					"delay",
+					"100"
+				],
+				[
+					"fill_by_query",
+					"input[name=password]",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"citi": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreSavedFields",
+				"ItemFieldNames"
+			],
+			"URLs": [
+				"www.citi.com/credit-cards"
+			],
+			"Hints": {
+				"hidden_username": {
+					"id": "cA-cardsUseridUnmasked"
+				},
+				"password": {
+					"name": "PASSWORD"
+				},
+				"username": {
+					"id": "cA-cardsUseridMasked"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"citi-accountonline": {
+			"Name": "",
+			"Prevent": [
+				"RestoreFields",
+				"LegacyRestore",
+				"ItemFieldNames"
+			],
+			"URLs": [
+				"www.accountonline.com/cards/svc/LoginGet.do",
+				"www.accountonline.citibank.com/cards/svc/LoginIntNext.do",
+				"www.accountonline.citibank.com/cards/svc/LoginGet.do",
+				"accountonline.citi.com/cards/svc/LoginIntNext.do",
+				"accountonline.citi.com/cards/svc/LoginGet.do"
+			],
+			"Hints": {
+				"hidden_username": {
+					"id": "USERNAME"
+				},
+				"password": {
+					"id": "PASSWORD"
+				},
+				"username": {
+					"id": "USERNAME-citiTextBlur"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"citi_online": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreSavedFields",
+				"ItemFieldNames"
+			],
+			"URLs": [
+				"online.citibank.com/US/JPS/",
+				"online.citibank.com/JSO",
+				"online.citi.com/US/JPS/",
+				"online.citi.com/JSO"
+			],
+			"Hints": {
+				"hidden_username": {
+					"id": "username"
+				},
+				"password": {
+					"id": "pwd"
+				},
+				"username": {
+					"id": "usernameMasked"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"codeproject": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"www.codeproject.com/script/Membership/LogOn.aspx"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"credit_du_nord": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.credit-du-nord.fr/"
+			],
+			"Hints": {
+				"password": {
+					"id": "loginPassForm_password1"
+				},
+				"username": {
+					"id": "loginPassForm_username1"
+				}
+			},
+			"Script": [
+				[
+					"fill_by_query",
+					"#loginPassForm_username1",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#texte_clair"
+				],
+				[
+					"fill_by_query",
+					"#loginPassForm_password1",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"dei": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"dei.com.gr/EBill/Login.aspx",
+				"www.dei.com.gr/EBill/Login.aspx"
+			],
+			"Hints": {
+				"password": {
+					"id": "ctl00_ctl00_Site_Main_Main_txtPassword"
+				},
+				"username": {
+					"id": "ctl00_ctl00_Site_Main_Main_txtUserName"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"digifit": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"my.digifit.com/site/login"
+			],
+			"Hints": {
+				"password": {
+					"id": "txt_password"
+				},
+				"username": {
+					"id": "txt_login"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#txt_login_default"
+				],
+				[
+					"fill_by_query",
+					"#txt_login",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#txt_password_default"
+				],
+				[
+					"fill_by_query",
+					"#txt_password",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"discshop": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"discshop.se/",
+				"discshop.se"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"dropbox": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"dropbox.com"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"ebay": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"ebay.com",
+				"ebay.co.uk",
+				"ebay.de",
+				"ebay.ca",
+				"ebay.fr",
+				"ebay.com.au",
+				"ebay.es",
+				"ebay.at",
+				"ebay.be",
+				"ebay.com.cn",
+				"ebay.com.hk",
+				"ebay.in",
+				"ebay.ie",
+				"ebay.it",
+				"ebay.co.jp",
+				"ebay.com.my",
+				"ebay.nl",
+				"ebay.ph",
+				"ebay.pl",
+				"ebay.com.sg",
+				"ebay.ch",
+				"ebay.co.th",
+				"ebay.vn"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"fen": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"fen.pl/",
+				"www.fen.pl/"
+			],
+			"Hints": {
+				"password": {
+					"name": "password"
+				},
+				"username": {
+					"name": "login"
+				}
+			},
+			"Script": null,
+			"Properties": {
+				"delay_between_operations": 100
+			}
+		},
+		"fepblue": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"fepblue.org/",
+				"www.fepblue.org/"
+			],
+			"Hints": {
+				"password": {
+					"id": "_58_password"
+				},
+				"username": {
+					"id": "_58_login"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#fake_username"
+				],
+				[
+					"fill_by_query",
+					"#_58_login",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#fake_pass"
+				],
+				[
+					"fill_by_query",
+					"#_58_password",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"fideliti": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.fideliti.co.uk/Login.aspx"
+			],
+			"Hints": {
+				"submit": {
+					"id": "ctl00_ContentPlaceHolder1_PageLogin1_btnSubmit"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"fiverr": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"fiverr.com",
+				"www.fiverr.com"
+			],
+			"Hints": {
+				"password": {
+					"sel": ".js-form-password"
+				},
+				"username": {
+					"sel": ".js-form-login"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					".js-form-login"
+				],
+				[
+					"fill_by_query",
+					".js-form-login",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					".js-form-password"
+				],
+				[
+					"fill_by_query",
+					".js-form-password",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"freeccm_home": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"freeccm.com"
+			],
+			"Hints": {
+				"password": {
+					"sel": "#loginform1 #user_pass"
+				},
+				"username": {
+					"sel": "#loginform1 #user_login"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#loginform1 #user_login"
+				],
+				[
+					"fill_by_query",
+					"#loginform1 #user_login",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#loginform1 #pass_watermark"
+				],
+				[
+					"fill_by_query",
+					"#loginform1 #user_pass",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"freeccm_login": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"freeccm.com/login"
+			],
+			"Hints": {
+				"password": {
+					"sel": "#loginform #user_pass"
+				},
+				"username": {
+					"sel": "#loginform #user_login"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#loginform #user_login"
+				],
+				[
+					"fill_by_query",
+					"#loginform #user_login",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#loginform #user_pass"
+				],
+				[
+					"fill_by_query",
+					"#loginform #user_pass",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"icicidirect": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"secure.icicidirect.com/"
+			],
+			"Hints": {
+				"password": {
+					"id": "FML_USR_USR_PSSWRD"
+				},
+				"username": {
+					"id": "FML_USR_ID"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"ihg": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.ihg.com/rewardsclub/us/en/sign-in"
+			],
+			"Hints": {
+				"password": {
+					"id": "pin"
+				},
+				"username": {
+					"id": "emailOrPcrNumber"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"ing_mijn": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"mijn.ing.nl/internetbankieren/SesamLoginServlet"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"ingplans": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"ingretirement.ingplans.com/eportal/welcome.do"
+			],
+			"Hints": {
+				"password": {
+					"id": "loginUserPIN"
+				},
+				"username": {
+					"id": "loginUserId"
+				}
+			},
+			"Script": [
+				[
+					"fill_by_query",
+					"#userIdType",
+					"UNAME"
+				],
+				[
+					"delay",
+					"100"
+				],
+				[
+					"click_on_query",
+					"#loginUserId-pwCustomMask"
+				],
+				[
+					"fill_by_query",
+					"#loginUserId-pwCustomMask",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#loginUserPIN-pwCustomMask"
+				],
+				[
+					"fill_by_query",
+					"#loginUserPIN-pwCustomMask",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"intesasanpaolo": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"intesasanpaolo.com/script/Login2Servlet"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"investools_authentication": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"investools.com/authentication/auth.swim",
+				"www.investools.com/authentication/auth.swim"
+			],
+			"Hints": {
+				"password": {
+					"id": "password"
+				},
+				"username": {
+					"id": "loginFormMain"
+				}
+			},
+			"Script": null,
+			"Properties": {
+				"delay_between_operations": 100
+			}
+		},
+		"investools_landing": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"investools.com/landing.swim",
+				"www.investools.com/landing.swim"
+			],
+			"Hints": {
+				"password": {
+					"id": "password"
+				},
+				"username": {
+					"id": "userid"
+				}
+			},
+			"Script": null,
+			"Properties": {
+				"delay_between_operations": 100
+			}
+		},
+		"kelloggsfamilyrewards": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"www.kelloggsfamilyrewards.com/en_US/login.html"
+			],
+			"Hints": {
+				"password": {
+					"name": "password"
+				},
+				"username": {
+					"name": "username"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"librarieshawaii": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"ipac.librarieshawaii.org"
+			],
+			"Hints": {
+				"password": {
+					"name": "sec2"
+				},
+				"username": {
+					"name": "sec1"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"linkedin": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"www.linkedin.com"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"mega_home": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"mega.co.nz",
+				"mega.nz"
+			],
+			"Hints": {
+				"password": {
+					"id": "login-password"
+				},
+				"username": {
+					"id": "login-name"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"mega_login": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"mega.co.nz/#login",
+				"mega.nz/#login"
+			],
+			"Hints": {
+				"password": {
+					"id": "login-password2"
+				},
+				"username": {
+					"id": "login-name2"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#login-password2"
+				],
+				[
+					"click_on_query",
+					"#login-name2"
+				],
+				[
+					"fill_by_query",
+					"#login-name2",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#login-password2"
+				],
+				[
+					"fill_by_query",
+					"#login-password2",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"modahealth": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.modahealth.com/mymoda/pages/index.jsp"
+			],
+			"Hints": {
+				"password": {
+					"id": "passwd"
+				},
+				"username": {
+					"name": "userId"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"input[name='userId]"
+				],
+				[
+					"fill_by_query",
+					"input[name='userId']",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#passwordAsText"
+				],
+				[
+					"fill_by_query",
+					"#passwd",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"morganstanleyclientserv": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"morganstanleyclientserv.com"
+			],
+			"Hints": {
+				"password": {
+					"id": "txtPassword"
+				},
+				"username": {
+					"id": "txtUsername"
+				}
+			},
+			"Script": [
+				[
+					"fill_by_query",
+					"#txtUsername",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#txtPassword"
+				],
+				[
+					"delay",
+					"100"
+				],
+				[
+					"fill_by_query",
+					"#txtPassword",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"northerntrust": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.northerntrust.com/"
+			],
+			"Hints": {
+				"password": {
+					"id": "accountAccessPasswordField"
+				},
+				"username": {
+					"id": "accountAccessUsernameField"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#accountAccessUsernameField"
+				],
+				[
+					"fill_by_query",
+					"#accountAccessUsernameField",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#accountAccessPasswordFieldText"
+				],
+				[
+					"fill_by_query",
+					"#accountAccessPasswordField",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"patreon": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"www.patreon.com/login"
+			],
+			"Hints": {
+				"password": {
+					"id": "password"
+				},
+				"username": {
+					"id": "email"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"punchbuyingclub": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.punchbuyingclub.com/login"
+			],
+			"Hints": {
+				"password": {
+					"id": "password"
+				},
+				"username": {
+					"id": "email"
+				}
+			},
+			"Script": [
+				[
+					"fill_by_query",
+					"#email",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"input[name=password-temp]"
+				],
+				[
+					"fill_by_query",
+					"#password",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"rogers": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"rogers.com/web/link/signin"
+			],
+			"Hints": {
+				"password": {
+					"sel": "#txtPassWord"
+				},
+				"username": {
+					"sel": "#txtUserName"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#txtUserName"
+				],
+				[
+					"fill_by_query",
+					"#txtUserName",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#textPassWord1"
+				],
+				[
+					"fill_by_query",
+					"#txtPassWord",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"schwab_client": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"client.schwab.com/Login/SignOn/CustomerCenterLogin.aspx"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": {
+				"allow_clicky_autosubmit": false
+			}
+		},
+		"schwab_workplace": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"workplace.schwab.com/public/workplace/retirement-planning"
+			],
+			"Hints": {
+				"password": {
+					"id": "pin"
+				},
+				"username": {
+					"id": "ssn"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"schwabplan": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.schwabplan.com/Net2/Stateless/Login/Participant.aspx"
+			],
+			"Hints": {
+				"password": {
+					"id": "ctl00_contentMain_ForParticipantLogin_PasswordTextBox"
+				},
+				"username": {
+					"id": "ctl00_contentMain_ForParticipantLogin_LoginIDTextBox"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"sfmatch": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"sfmatch.org/",
+				"www.sfmatch.org"
+			],
+			"Hints": {
+				"password": {
+					"id": "ctl00_lLogin_Password"
+				},
+				"username": {
+					"id": "ctl00_lLogin_UserName"
+				}
+			},
+			"Script": [
+				[
+					"fill_by_query",
+					"#ctl00_lLogin_UserName",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#txtPlainUserName"
+				],
+				[
+					"fill_by_query",
+					"#ctl00_lLogin_Password",
+					"${resolve designator password}"
+				],
+				[
+					"click_on_query",
+					"#txtPlainPassword"
+				]
+			],
+			"Properties": null
+		},
+		"sportsbet": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"www.sportsbet.com.au/"
+			],
+			"Hints": {
+				"password": {
+					"id": "password"
+				},
+				"username": {
+					"id": "username"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#fakeusername"
+				],
+				[
+					"fill_by_query",
+					"#username",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#fakepassword"
+				],
+				[
+					"fill_by_query",
+					"#password",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": {
+				"delay_between_operations": 100
+			}
+		},
+		"ssa": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"secure.ssa.gov/RIL/"
+			],
+			"Hints": {
+				"submit": {
+					"id": "signin"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"td": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"td.com/",
+				"tdcanadatrust.com/"
+			],
+			"Hints": {
+				"password": {
+					"id": "login:Webpassword"
+				},
+				"username": {
+					"id": "login:AccessCard"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"tecmarket": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"ibbweb.tecmarket.it"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		},
+		"tinkoff": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"tinkoff.ru"
+			],
+			"Hints": {
+				"password": {
+					"sel": "[name=password]"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"input[name=login]"
+				],
+				[
+					"fill_by_query",
+					"input[name=login]",
+					"${resolve designator username}"
+				],
+				[
+					"delay",
+					"100"
+				],
+				[
+					"click_on_query",
+					"input[name=password]"
+				],
+				[
+					"fill_by_query",
+					"input[name=password]",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"ubs": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"onlineservices.ubs.com/olsauth/ex/pbl/ubso/dl#login"
+			],
+			"Hints": {
+				"password": {
+					"id": "passName-inputEl"
+				},
+				"username": {
+					"id": "userId-inputEl"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"umr": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"member.umr.com/tpa-ap-web",
+				"www.umr.com/tpa-ap-web"
+			],
+			"Hints": {
+				"password": {
+					"id": "passwordInputField"
+				},
+				"username": {
+					"id": "usernameInputField"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#fakeUsernameInputField"
+				],
+				[
+					"fill_by_query",
+					"#usernameInputField",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#fakePasswordInputField"
+				],
+				[
+					"fill_by_query",
+					"#passwordInputField",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"usairways": {
+			"Name": "",
+			"Prevent": null,
+			"URLs": [
+				"membership.usairways.com/Login.aspx"
+			],
+			"Hints": {
+				"password": {
+					"name": "ctl00$phMain$loginModule$ctl00$loginForm$Password"
+				},
+				"username": {
+					"name": "ctl00$phMain$loginModule$ctl00$loginForm$UserName"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"voyaplans": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"voyaretirement.voyaplans.com/eportal/welcome.do"
+			],
+			"Hints": {
+				"hidden_password": {
+					"id": "loginUserPIN"
+				},
+				"hidden_username": {
+					"id": "loginUserId"
+				},
+				"password": {
+					"id": "loginUserPIN-pwCustomMask"
+				},
+				"username": {
+					"id": "loginUserId-pwCustomMask"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#loginUserId-pwCustomMask"
+				],
+				[
+					"fill_by_query",
+					"#loginUserId-pwCustomMask",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#loginUserPIN-pwCustomMask"
+				],
+				[
+					"fill_by_query",
+					"#loginUserPIN-pwCustomMask",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"westjet": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"profile.westjet.com/guest/signIn.shtml"
+			],
+			"Hints": {
+				"password": {
+					"sel": "#password"
+				},
+				"username": {
+					"sel": "#username"
+				}
+			},
+			"Script": [
+				[
+					"click_on_query",
+					"#username"
+				],
+				[
+					"fill_by_query",
+					"#username",
+					"${resolve designator username}"
+				],
+				[
+					"click_on_query",
+					"#passwordHint"
+				],
+				[
+					"delay",
+					"100"
+				],
+				[
+					"fill_by_query",
+					"#password",
+					"${resolve designator password}"
+				]
+			],
+			"Properties": null
+		},
+		"workforcenow": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore"
+			],
+			"URLs": [
+				"workforcenow.adp.com/public/index.htm"
+			],
+			"Hints": {
+				"password": {
+					"id": "PASSWORD"
+				},
+				"username": {
+					"id": "login"
+				}
+			},
+			"Script": null,
+			"Properties": null
+		},
+		"zalando": {
+			"Name": "",
+			"Prevent": [
+				"LegacyRestore",
+				"RestoreFields"
+			],
+			"URLs": [
+				"www.zalando.de"
+			],
+			"Hints": null,
+			"Script": null,
+			"Properties": null
+		}
+	}
+}

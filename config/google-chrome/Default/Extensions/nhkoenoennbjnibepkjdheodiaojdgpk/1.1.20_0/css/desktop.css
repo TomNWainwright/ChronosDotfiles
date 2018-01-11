@@ -1,0 +1,18 @@
+paper-item {
+  /* desktop menu heigth */
+  min-height: 40px !important;
+}
+
+paper-button {
+  font-weight: 500;
+}
+
+#hp-write-view .write-panel {
+  min-width: 500px;
+}
+
+/* polymer v2 removed. */
+/* fix right align erro on Chrome 51 */
+/* #main-menu-options::shadow #dropdown { */
+/*   width: 200px; */
+/* } */

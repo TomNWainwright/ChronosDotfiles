@@ -1,0 +1,247 @@
+{
+   "about": {
+      "message": "حول"
+   },
+   "addADomain": {
+      "message": "إضافة نطاق"
+   },
+   "addANewMessenger": {
+      "message": "إضافة ماسنجر جديد"
+   },
+   "addASubdomain": {
+      "message": "إضافة نطاق فرعي"
+   },
+   "addMessenger": {
+      "message": "إضافة $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "analyticsConsent": {
+      "message": "ساعد في تحسين ماسنجر الكل في واحد عن طريق إرسال إحصائيات دون الكشف عن هويتك."
+   },
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "استخدم برامج الماسنجر مثل واتس آب وتيليجرام وماسنجر وسكايب وأكثر بكثير في تطبيق واحد!"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "ماسنجر الكل في واحد (All-in-One Messenger)"
+   },
+   "cancel": {
+      "message": "إلغاء"
+   },
+   "delete": {
+      "message": "حذف"
+   },
+   "doYouEnjoyAppName": {
+      "message": "هل تستمتع بماسنجر الكل في واحد؟"
+   },
+   "editEnabledMessengers": {
+      "message": "تعديل الماسنجرات المفعَّلة"
+   },
+   "editMessenger": {
+      "message": "تحرير ال $messenger$",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "feedbackAppName": {
+      "description": "Subject of the feedback mail",
+      "message": "أخبرنا برأك في ماسنجر الكل في واحد"
+   },
+   "insecureConnectionWarning": {
+      "message": "يرجى ملاحظة أن هذا الماسنجر لا يستخدم اتصال آمن!"
+   },
+   "later": {
+      "message": "لاحقا"
+   },
+   "loading": {
+      "message": "جار التحميل..."
+   },
+   "messengerName": {
+      "message": "الاسم"
+   },
+   "messengerNeedExtraPermissions": {
+      "message": "$messenger$ قد يحتاج إلى أذونات إضافية",
+      "placeholders": {
+         "messenger": {
+            "content": "$1",
+            "example": "WhatsApp"
+         }
+      }
+   },
+   "mindGivingUsSomeFeedback": {
+      "message": "هل تمانع في إبداء رأيك؟"
+   },
+   "muteAllSounds": {
+      "message": "كتم جميع الأصوات"
+   },
+   "no": {
+      "message": "لا"
+   },
+   "ok": {
+      "message": "موافق"
+   },
+   "privacy": {
+      "message": "الخصوصية"
+   },
+   "promoInstallFailAgainButton": {
+      "message": "حاول مرة أخرى؟"
+   },
+   "promoInstallFailText": {
+      "message": "عذرا - فشل التثبيت"
+   },
+   "promoInstallFailWebstoreButton": {
+      "message": "حاول مرة أخرى في متجر الويب"
+   },
+   "promoPrimaryAds": {
+      "description": "This is a small note that marks our advertisement.",
+      "message": "إعلان"
+   },
+   "promoPrimaryHeading": {
+      "message": "ماسنجر الكل في واحد"
+   },
+   "promoPrimaryInstallButton": {
+      "description": "A large button that triggers installation of our app. This is the first line of its caption.",
+      "message": "إضافة إلى كروم"
+   },
+   "promoPrimaryInstallButtonSmall": {
+      "description": "Inside of the primary install button, this text is shown on the second line.",
+      "message": "مجانا"
+   },
+   "promoPrimaryIntroText": {
+      "message": "متوفر حاليًا لجوجل كروم!"
+   },
+   "promoPrimaryLead": {
+      "description": "HTML is allowed here.",
+      "message": "استخدم ماسنجرات مثل واتس آب وفيسبوك ماسنجر وسكايب\u003Cbr/> وتيليجرام وأكثر من ذلك بكثير في تطبيق واحد!"
+   },
+   "promoPrimaryMoreButton": {
+      "message": "مزيد من المعلومات"
+   },
+   "promoSecondaryAbortButton": {
+      "message": "لا، شكرا"
+   },
+   "promoSecondaryHeading": {
+      "message": "ماسنجر الكل في واحد"
+   },
+   "promoSecondaryText": {
+      "description": "This text describes our product to users who want to know more before installing it.",
+      "message": "نظِّم رسائلك المفضلة في مكان واحد وابقَ مطّلعًا على كل محادثاتك. أضف ماسنجرات جديدة في ثوانٍ وتلقَ إخطارات عندما يرسل صديق رسالة إليك. ماسنجر الكل في واحد آمن وسهل الاستخدام ومجاني."
+   },
+   "rateApp": {
+      "message": "تقييم التطبيق"
+   },
+   "reportAnIssue": {
+      "message": "بلغ عن خطأ"
+   },
+   "resolve": {
+      "message": "حل"
+   },
+   "save": {
+      "message": "حفظ"
+   },
+   "sendFeedback": {
+      "message": "أرسل رأيك"
+   },
+   "shareMailText": {
+      "message": "تحقق من ماسنجر الكل في واحد"
+   },
+   "showNotifications": {
+      "message": "إظهار الإخطارات"
+   },
+   "skypeCallsAreNotSupportedYet": {
+      "message": "المكالمات غير مدعومة حتى الآن."
+   },
+   "support": {
+      "message": "الدعم"
+   },
+   "supportAppName": {
+      "message": "ادعم ماسنجر الكل في واحد"
+   },
+   "supportInto": {
+      "description": "Here is html allowed.",
+      "message": "ماسنجر الكل في واحد هو تطبيق مجاني، \u003Cbr /> يُرجى مساعدتنا عن طريق إظهاره لأصدقاءك!"
+   },
+   "supportOutro": {
+      "description": "Here is html allowed.",
+      "message": "نحن نسعد بأي \u003Ca href='$rateLink$' target='_blank'>تقييم\u003C/a> 5 نجوم في Chrome Web Store!",
+      "placeholders": {
+         "rateLink": {
+            "content": "$1",
+            "example": "https://chrome.google.com/webstore/detail/lainlkmlgipednloilifbppmhdocjbda/reviews"
+         }
+      }
+   },
+   "supportUs": {
+      "message": "ادعمنا"
+   },
+   "updateNotice": {
+      "message": "يتوفر إصدار جديد. الرجاء إعادة تشغيل جوجل كروم للتحديث."
+   },
+   "version": {
+      "description": "Version: 1.2.3",
+      "message": "الإصدار"
+   },
+   "webIndexDownloadButton": {
+      "message": "تنزيل مجاني"
+   },
+   "webIndexFeatureFocus": {
+      "message": "\u003Cstrong>حافظ على تركيزك\u003C/strong> في تطبيق واحد بدلاً من التبديل بين مختلف تطبيقات الماسنجر."
+   },
+   "webIndexFeatureManyAccounts": {
+      "message": "استخدم \u003Cstrong>حسابات متعددة\u003C/strong> لنفس برنامج الماسنجر كما تريد."
+   },
+   "webIndexFeatureNotifications": {
+      "message": "احصل على \u003Cstrong>إخطارات\u003C/strong> على سطح المكتب بالرد بنقرة واحدة. اكتم صوت ماسنجرات معينة إذا كانت تزعجك."
+   },
+   "webIndexFeaturesHeadline": {
+      "description": "Headline above a list of our features",
+      "message": "تطبيق واحد لجميع الماسنجرات التي تستخدمها"
+   },
+   "webIndexIntroLead": {
+      "message": "استخدم ماسنجرات مثل واتس آب وتيليجرام وفيسبوك ماسنجر وسكايب وأكثر من ذلك بكثير في تطبيق واحد"
+   },
+   "webIndexIntroTitle": {
+      "message": "ماسنجر الكل في واحد"
+   },
+   "webIndexMessengersHeadline": {
+      "description": "Headline for the list of messengers that we support",
+      "message": "ماسنجر مدعوم"
+   },
+   "webIndexMetaDescription": {
+      "description": "The content of the meta description tag in the source code.",
+      "message": "استخدم ماسنجرات مثل واتس آب وتيليجرام وماسنجر وسكايب وأكثر من ذلك بكثير في تطبيق واحد!"
+   },
+   "webNoChromeModalAction": {
+      "description": "This is the alternate action that we would like the user to take: subscribe to our newsletter.",
+      "message": "اشترك في نشرتنا الإخبارية وسوف نبلغك بمجرد توسعنا إلى متصفحات أخرى."
+   },
+   "webNoChromeModalEmailLabel": {
+      "description": "Label of the email address text input.",
+      "message": "عنوان بريدك  الإلكتروني"
+   },
+   "webNoChromeModalIntro": {
+      "description": "This modal is displayed when a user wants to install our app, but does not use the Chrome browser.",
+      "message": "ماسنجر الكل في واحد متاح حاليًا فقط لمستخدمي متصفح جوجل كروم."
+   },
+   "website": {
+      "message": "الموقع الإلكتروني"
+   },
+   "webstore": {
+      "message": "متجر الويب"
+   },
+   "yes": {
+      "message": "نعم"
+   },
+   "youAreCurrentlyOffline": {
+      "message": "أنت غير متصل حاليا."
+   }
+}

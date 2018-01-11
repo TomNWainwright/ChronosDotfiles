@@ -1,0 +1,19 @@
+{
+   "api_console_project_id": "1055037783803",
+   "app": {
+      "launch": {
+         "web_url": "https://forms.zoho.com"
+      },
+      "urls": [ "https://forms.zoho.com/" ]
+   },
+   "container": [ "DOMAIN_INSTALLABLE", "GOOGLE_DRIVE" ],
+   "description": "A simple yet powerful online form builder for Google Apps. Create customized forms and collect information effortlessly.",
+   "icons": {
+      "128": "forms_icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnflAZqlgRPMLGhlisJvtm7Z7lCVLIwNOvUAsvUWiR4u3EZFLea6PXn7GOn0oQEB8rn9ONmAaAHmm8AcLu7kXfH3+bz/S47WULoK9YwzjjNZlyIdwvbBuwvzqQjMH2ALZRPAVqmDypj5HOYXmnUHoeBwfX9sal+PPvmNsGWhhX/u9ELjAGtDXewC3AziIFr5hJvoL0jKuNA2hxt8SIoa8wN1YjDT7w1ESpwcCTLnW7QMO9gesP1EU5liU4JXpqfR2Yoq26vB1hWkVzdv/P1mR/dKaCslZyxGTEL1LKzyY48qCQxAgI318Uao+Yvyj9uCwWduUkm3MujDNJ+JUKkUPZwIDAQAB",
+   "manifest_version": 2,
+   "name": "Zoho Forms - Build efficient online forms",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.1"
+}

@@ -1,0 +1,29 @@
+{
+   "api_console_project_id": "662975024380",
+   "app": {
+      "launch": {
+         "web_url": "https://script.google.com/macros/s/AKfycbxfrl4W6lnNOuH_GzcUhJbZrWLUjlJwyQPxRKoHsL6ssUorqc4/exec"
+      },
+      "urls": [ "https://script.google.com/macros/s/AKfycbxfrl4W6lnNOuH_GzcUhJbZrWLUjlJwyQPxRKoHsL6ssUorqc4/exec" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "Search files within a specific Google Drive folder",
+   "gdrive_mime_types": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://script.google.com/macros/s/AKfycbxfrl4W6lnNOuH_GzcUhJbZrWLUjlJwyQPxRKoHsL6ssUorqc4/exec",
+         "title": "Open",
+         "type": [ "application/vnd.google-apps.folder" ]
+      } ]
+   },
+   "icons": {
+      "128": "img/128-icon-folder-search.png",
+      "32": "img/32-icon-folder-search.png",
+      "48": "img/48-icon-folder-search.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs3Eg0IjJA29UCVySKQ9PdYkDRryIhpC04H8T+wXS4kMTuKPkxumQnC5H36WIMFe1XUbYnkYAlMPqXngKxyh3cD8LOpzsTKJYrxsrsRBnHuo2Je6bvlor/Yf/SRREzviZ2RkGT186AeJaWzTxM3swmE9RZdk+ZUmyI+tey3TAOgWwHKzNrxIdeyM8+BqIxaNkSVpp2Uki8VmL/hgOoey6YNqoByaOd/M18J2N0yzvcAXJssaHx0HPqQon8O5se01FfMn6hGckN6b31q0xYx8iJL8RZ8GiucL7//Ek9ZhFhTlGeO39JUIIWv89x21jyREO+jBKFatt7Zn7TWBI1UUeqwIDAQAB",
+   "manifest_version": 2,
+   "name": "Search within folder for Google Drive™",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

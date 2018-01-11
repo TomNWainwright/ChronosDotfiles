@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://my.vertabelo.com/"
+      },
+      "urls": [ "*://my.vertabelo.com/" ]
+   },
+   "description": "Vertabelo is a visual database design tool available through a web browser.",
+   "icons": {
+      "128": "icon_128x128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs9NKkv209Y2MnW46jkLemLcmA9ysXAOD7MjnOU04gYlMSGCAzkLOfeDyrAkIy/HOT1wekB5Wu71xHjXsOFNDPB6xpHyAgg4TtX0RmNeXslzhsoAYSLU7aDNgPxZOQ6IzaoqDlP8gIO9ZtDknoq4euQpo7wWRfV/70PVzVvzLNEUE6TBDgNbHxMfuhVDr6Bu6LzGe+QFwqhcyDBKM4OTKLf/8If7JsJdRAPIFet0n/tdn+JiJJPqTO1VCpO4CwFjem1S5FV4XYZFtZ92mmp+lGM7ytIGkTvt96ZnrtD7wCt3b7rytD+9MtAW5awxcCRSPG6FxS+70YPGUipFnBSecpQIDAQAB",
+   "manifest_version": 2,
+   "name": "Vertabelo",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.12.0.0"
+}

@@ -1,0 +1,38 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "glueTabs.js", "splitTabs.js" ]
+   },
+   "browser_action": {
+      "default_icon": "glueIcon.png",
+      "default_title": "Glue tabs"
+   },
+   "commands": {
+      "tab_glue": {
+         "description": "Glue windows together",
+         "suggested_key": {
+            "default": "Alt+G"
+         }
+      },
+      "tab_glue_all": {
+         "description": "Glue windows together, including minimized windows",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      },
+      "tab_scissor_cut": {
+         "description": "Split at selected tab",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      }
+   },
+   "description": "This extension glues windows together.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp+uUWjHtNNnX0odg8DtLzEfckuv7/8/p95Mu+PSsFIFtN5hOJSyYmbaW/OC54VgjIUAUR0UPAJIn60oDZKdjk3G9Y6wcMv389PDO/XE8KbNorhVoZuTNU5KaOe5QoRNjmdtDwoYmfcePmtQAwE0tT6lw7ShA3+x8+C+GHJbdKIwIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Glue",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

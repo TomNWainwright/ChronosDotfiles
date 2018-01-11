@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" href="lib/codemirror.css">
+  <link rel="stylesheet" href="css/flick/jquery-ui-1.8.21.custom.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id='select_panel'>
+    <div id='script_panel'></div>
+    <hr />
+    <a id='new_script_btn'>New Script</a>
+  </div>
+  <div id='main_panel'>
+    <input type='submit' id='run_btn' value='Run!'>
+    <div>
+      <label for='script_title'><strong>Title</strong></label>
+      <input id='script_title' type='text' size='30'>
+    </div>
+    
+    <div id='script_container'></div>
+  </div>
+
+  <script src='jquery-1.7.2.min.js'></script>
+  <script src='jquery-ui-1.8.21.custom.min.js'></script>
+  <script src="lib/codemirror.js"></script>
+  <script src="mode/javascript/javascript.js"></script>
+  <script src='script_editor.js'></script>
+  <script src='script_item.js'></script>
+  <script src='popup.js'></script>
+</body>

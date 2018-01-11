@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icons/app_icon_16.png",
+      "default_title": "Open the current Tab as a Popup-Window"
+   },
+   "description": "Opens the current Tab as a Popup-Window",
+   "icons": {
+      "128": "img/icons/app_icon_128.png",
+      "16": "img/icons/app_icon_16.png",
+      "48": "img/icons/app_icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbGZi8JiUSAp1gv1LaROK1YkCe3lZt4CYtAquDEhWukrMfoZVFdNYShMU6y4WhnDRbCRHnq04P2w8cNfoSV15XnJ5ALAfoLLNtZDz5P03oJQN5xasRvUtqND66l9s+DvpaaWx6q/DTQePGFC5BY2c5KbHz8yZHtLwYHEKWJd1YtQIDAQAB",
+   "manifest_version": 2,
+   "name": "Open-as-Popup",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.1"
+}

@@ -1,0 +1,37 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "scripts/main.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "19": "images/icon-19.png",
+      "256": "images/icon-256.png",
+      "32": "images/icon-32.png",
+      "512": "images/icon-512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0Az11pQlbsZ5Jj0b+9g77nt2TykNcCD1nPWanV1/wBv1UQefLTl7ds/Ud0ev8Y7TvHHikes2Y9xq2qu67gzQvQlyT5vOqukAUe9Jqrm16Pca8rp6faM7hAcFomFAOfcCdWMyzdWGgFsn3JW9v+/dJ7Bon9OQ+7Y9qxuevs6aRxAewzR+1MYzbP/WTmkaaLOvx9gxZfowj/q5MuEv7YIxe8E5WhHCPj5KOEpkpHUKS+UkCBvMp/c3es91hmeqHouvfJcAxcXZnNT3lXsFCyD6lBFDT2HJtw6rLBTVH01gs0AcWDN2vc5L4SxctFJEQTyrV/8K30Ml85nJetjgIwOsYwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "optional_permissions": [ "audioCapture", "videoCapture" ],
+   "permissions": [ "webview", "storage", "unlimitedStorage", "notifications", "\u003Call_urls>" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "url_handlers": {
+      "launch": {
+         "matches": [ "http://allinone.im/chrome/launch*", "https://allinone.im/chrome/launch*" ],
+         "title": "__MSG_appName__"
+      }
+   },
+   "version": "1.1.0",
+   "webview": {
+      "partitions": [ {
+         "accessible_resources": [ "scripts/page.muteAudio.js", "scripts/page.notificationBridge.js", "scripts/pagescript.js" ],
+         "name": "trusted*"
+      } ]
+   }
+}
